@@ -1,0 +1,242 @@
+<!DOCTYPE html><html lang="en" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"><title>ZhangYuhanのblog - ZhangYuhanのblog</title><meta name="author" content="ZhangYuhan"><meta name="copyright" content="ZhangYuhan"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="Record the growth and learning process">
+<meta property="og:type" content="website">
+<meta property="og:title" content="ZhangYuhanのblog">
+<meta property="og:url" content="https://zhangyuhan.netlify.app/page/17/index.html">
+<meta property="og:site_name" content="ZhangYuhanのblog">
+<meta property="og:description" content="Record the growth and learning process">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://zhangyuhan.netlify.app/img/theme/avatar.jpg">
+<meta property="article:author" content="ZhangYuhan">
+<meta property="article:tag" content="blog,java,js,日本语">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://zhangyuhan.netlify.app/img/theme/avatar.jpg"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="https://zhangyuhan.netlify.app/page/17/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: {"defaultEncoding":2,"translateDelay":0,"msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"簡"},
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: 'Copy successfully',
+    error: 'Copy error',
+    noSupport: 'The browser does not support'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  date_suffix: {
+    just: 'Just',
+    min: 'minutes ago',
+    hour: 'hours ago',
+    day: 'days ago',
+    month: 'months ago'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: true,
+  }
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'ZhangYuhanのblog',
+  isPost: false,
+  isHome: true,
+  isHighlightShrink: false,
+  isToc: false,
+  postUpdate: '2023-03-06 15:52:04'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+    win.getCSS = (url,id = false) => new Promise((resolve, reject) => {
+      const link = document.createElement('link')
+      link.rel = 'stylesheet'
+      link.href = url
+      if (id) link.id = id
+      link.onerror = reject
+      link.onload = link.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        link.onload = link.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(link)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const detectApple = () => {
+      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><meta name="generator" content="Hexo 6.3.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/img/theme/avatar.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">164</div></a><a href="/tags/"><div class="headline">Tags</div><div class="length-num">217</div></a><a href="/categories/"><div class="headline">Categories</div><div class="length-num">56</div></a></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> Archives</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> Categories</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> List</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> Music</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> Movie</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> Link</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> About</span></a></div></div></div></div><div class="page" id="body-wrap"><header class="full_page" id="page-header" style="background-image: url('/img/theme/banner.jpg')"><nav id="nav"><span id="blog-info"><a href="/" title="ZhangYuhanのblog"><span class="site-name">ZhangYuhanのblog</span></a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> Archives</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> Categories</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> List</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> Music</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> Movie</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> Link</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> About</span></a></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="site-info"><h1 id="site-title">ZhangYuhanのblog</h1><div id="site-subtitle"><span id="subtitle"></span></div><div id="site_social_icons"><a class="social-icon" href="tencent://message/?Menu=yes&amp;uin={1355166049}" target="_blank" title="QQ"><i class="fa-brands fa-qq"></i></a><a class="social-icon" href="https://github.com/zhangyuhannerv" target="_blank" title="Github"><i class="fab fa-github"></i></a><a class="social-icon" href="mailto:zhangyuhannerv@gmail.com" target="_blank" title="Email"><i class="fas fa-envelope"></i></a></div></div><div id="scroll-down"><i class="fas fa-angle-down scroll-down-effects"></i></div></header><main class="layout" id="content-inner"><div class="recent-posts" id="recent-posts"><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2023/03/06/Ops/1_linux/3_ubuntu/%E5%AE%89%E8%A3%85nginx/" title="安装nginx">安装nginx</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2023-03-06T07:47:44.000Z" title="Created 2023-03-06 15:47:44">2023-03-06</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Ops/">Ops</a><i class="fas fa-angle-right article-meta-link"></i><a class="article-meta__categories" href="/categories/Ops/linux/">linux</a><i class="fas fa-angle-right article-meta-link"></i><a class="article-meta__categories" href="/categories/Ops/linux/ubuntu/">ubuntu</a></span></div><div class="content"># 切换至root用户sudo su rootapt-get install nginx
+查看nginx是否安装成功
+nginx -v
+启动nginx
+service nginx start #方式1/usr/sbin/nginx #方式2
+结束nginx
+service nginx stop #方式1/usr/sbin/nginx -s stop #方式2
+重启nginx
+service nginx reload #方式1/usr/sbin/nginx -s reload #方式2
+注意：nginx方式1和方式2不能互相调用
+nginx文件安装完成之后的文件位置：
+
+&#x2F;usr&#x2F;sbin&#x2F;nginx：主程序
+
+&#x2F;etc&#x2F;nginx：存放配置文件
+
+&#x2F;usr&#x2F;share&#x2F;nginx：存放静态文件
+
+&#x2F;var&#x2F;log&#x2F;nginx：存放日志
+
+
+</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2023/03/06/Ops/1_linux/3_ubuntu/%E6%B2%A1%E6%9C%89firewall-cmd%E5%91%BD%E4%BB%A4/" title="没有firewall-cmd命令">没有firewall-cmd命令</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2023-03-06T07:47:44.000Z" title="Created 2023-03-06 15:47:44">2023-03-06</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Ops/">Ops</a><i class="fas fa-angle-right article-meta-link"></i><a class="article-meta__categories" href="/categories/Ops/linux/">linux</a><i class="fas fa-angle-right article-meta-link"></i><a class="article-meta__categories" href="/categories/Ops/linux/ubuntu/">ubuntu</a></span></div><div class="content">apt-get updateapt-get install firewalld
+</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2023/03/06/Ops/1_linux/3_ubuntu/%E8%AE%BE%E7%BD%AE%E9%9D%99%E6%80%81ip/" title="设置静态ip">设置静态ip</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2023-03-06T07:47:44.000Z" title="Created 2023-03-06 15:47:44">2023-03-06</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Ops/">Ops</a><i class="fas fa-angle-right article-meta-link"></i><a class="article-meta__categories" href="/categories/Ops/linux/">linux</a><i class="fas fa-angle-right article-meta-link"></i><a class="article-meta__categories" href="/categories/Ops/linux/ubuntu/">ubuntu</a></span></div><div class="content">ubuntu_server18vim /etc/netplan/50-cloud-init.yaml
+配置如下,注意格式 冒号后边有个空格
+network:    ethernets:        ens33:            dhcp4: false            addresses: [192.168.37.188/24]            gateway4: 192.168.37.2            nameservers:                    addresses: [114.114.114.114,8.8.8.8]    version: 2
+编辑好 最后保存配置文件，执行命令重启网络服务生效
+sudo netplan applys
+</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2023/03/03/FirstBlog/" title="hello world">hello world</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2023-03-03T08:46:38.000Z" title="Created 2023-03-03 16:46:38">2023-03-03</time></span></div><div class="content">值此博客建站成功之际，难以抑制内心的激动心情只好写一行 hello world 了 😄😄😄
+public static void main(String[] args)&#123;  System.out.println(&quot;hello world&quot;);&#125;
+
+
+写完了 hello world，然后就是测试主题 butterfly 的各种功能
+测试 toc 功能一级标题111
+二级标题222
+三级标题333
+
+还要整合的模块
+
+ 评论系统
+ 搜索系统
+ 网站验证
+ 广告
+
+</div></div></div><nav id="pagination"><div class="pagination"><a class="extend prev" rel="prev" href="/page/16/#content-inner"><i class="fas fa-chevron-left fa-fw"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/16/#content-inner">16</a><span class="page-number current">17</span></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="/img/theme/avatar.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">ZhangYuhan</div><div class="author-info__description">(o゜▽゜)o☆[BINGO!]</div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">164</div></a><a href="/tags/"><div class="headline">Tags</div><div class="length-num">217</div></a><a href="/categories/"><div class="headline">Categories</div><div class="length-num">56</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://twitter.com/EuReKaNeRv"><i class="fa-brands fa-twitter"></i><span>Follow Me</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="tencent://message/?Menu=yes&amp;uin={1355166049}" target="_blank" title="QQ"><i class="fa-brands fa-qq"></i></a><a class="social-icon" href="https://github.com/zhangyuhannerv" target="_blank" title="Github"><i class="fab fa-github"></i></a><a class="social-icon" href="mailto:zhangyuhannerv@gmail.com" target="_blank" title="Email"><i class="fas fa-envelope"></i></a></div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>Recent Post</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2023/03/06/Life/1_v2ray/%E5%BF%AB%E9%80%9F%E6%90%AD%E5%BB%BAv2ray/" title="快速搭建v2ray">快速搭建v2ray</a><time datetime="2023-03-06T07:47:44.000Z" title="Created 2023-03-06 15:47:44">2023-03-06</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2023/03/06/Dev/0_essays/%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF/" title="学习路线">学习路线</a><time datetime="2023-03-06T07:47:44.000Z" title="Created 2023-03-06 15:47:44">2023-03-06</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2023/03/06/Dev/0_essays/%E5%BE%85%E5%AD%A6%E4%B9%A0/" title="待学习">待学习</a><time datetime="2023-03-06T07:47:44.000Z" title="Created 2023-03-06 15:47:44">2023-03-06</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2023/03/06/Dev/0_essays/%E8%BF%9C%E7%A8%8B%E8%AF%B7%E6%B1%82http%E7%9A%84%E4%B8%89%E7%A7%8D%E6%96%B9%E5%BC%8F/" title="远程请求http的三种方式">远程请求http的三种方式</a><time datetime="2023-03-06T07:47:44.000Z" title="Created 2023-03-06 15:47:44">2023-03-06</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2023/03/06/Life/2_todo/toCost/" title="toCost">toCost</a><time datetime="2023-03-06T07:47:44.000Z" title="Created 2023-03-06 15:47:44">2023-03-06</time></div></div></div></div><div class="card-widget card-categories"><div class="item-headline">
+            <i class="fas fa-folder-open"></i>
+            <span>Categories</span>
+            <a class="card-more-btn" href="/categories/" title="More">
+    <i class="fas fa-angle-right"></i></a>
+            </div>
+            <ul class="card-category-list" id="aside-cat-list">
+            <li class="card-category-list-item "><a class="card-category-list-link" href="/categories/Arc/"><span class="card-category-list-name">Arc</span><span class="card-category-list-count">3</span></a><ul class="card-category-list child"><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/Arc/git/"><span class="card-category-list-name">git</span><span class="card-category-list-count">3</span></a><ul class="card-category-list child"><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/Arc/git/general/"><span class="card-category-list-name">general</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/Arc/git/github/"><span class="card-category-list-name">github</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/Arc/git/gitlab/"><span class="card-category-list-name">gitlab</span><span class="card-category-list-count">1</span></a></li></ul></li></ul></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/Dev/"><span class="card-category-list-name">Dev</span><span class="card-category-list-count">123</span></a><ul class="card-category-list child"><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/Dev/FastJSON/"><span class="card-category-list-name">FastJSON</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/Dev/Java/"><span class="card-category-list-name">Java</span><span class="card-category-list-count">24</span></a></li></ul></li>
+            </ul></div><div class="card-widget card-tags"><div class="item-headline"><i class="fas fa-tags"></i><span>Tags</span></div><div class="card-tag-cloud"><a href="/tags/%E8%87%AA%E5%B8%A6%E7%9A%84%E5%88%86%E9%A1%B5%E6%8F%92%E4%BB%B6%E7%9A%84%E4%BD%BF%E7%94%A8/" style="font-size: 1.1em; color: #999">自带的分页插件的使用</a> <a href="/tags/%E5%B8%B8%E7%94%A8%E7%9A%84%E5%B7%A5%E5%85%B7%E5%8C%85/" style="font-size: 1.1em; color: #999">常用的工具包</a> <a href="/tags/%E8%A7%A3%E5%86%B3centos8%E4%B8%8Bpython%E5%91%BD%E4%BB%A4%E5%A4%B1%E6%95%88%E7%9A%84%E9%97%AE%E9%A2%98/" style="font-size: 1.1em; color: #999">解决centos8下python命令失效的问题</a> <a href="/tags/FORMAT-%E5%92%8CSTR-TO-DATE/" style="font-size: 1.1em; color: #999">FORMAT()和STR_TO_DATE()</a> <a href="/tags/SpringCloud/" style="font-size: 1.1em; color: #999">SpringCloud</a> <a href="/tags/ajax%E5%AF%BC%E5%85%A5%E9%9D%99%E6%80%81%E6%96%87%E4%BB%B6/" style="font-size: 1.1em; color: #999">ajax导入静态文件</a> <a href="/tags/%E4%B8%8Espringboot%E7%9A%84%E6%95%B4%E5%90%88/" style="font-size: 1.2em; color: #999da3">与springboot的整合</a> <a href="/tags/%E7%94%A8windowd%E7%9A%84cmd%E5%90%91linux%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%B8%8A%E4%BC%A0%E6%96%87%E4%BB%B6/" style="font-size: 1.1em; color: #999">用windowd的cmd向linux服务器上传文件</a> <a href="/tags/Gitlab%E5%9C%A8%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%B8%8A%E7%9A%84%E5%AE%89%E8%A3%85/" style="font-size: 1.1em; color: #999">Gitlab在服务器上的安装</a> <a href="/tags/%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%E4%B8%8B%E8%BD%BD%EF%BC%8C%E5%BC%80%E5%90%AF%E6%96%87%E4%BB%B6%E6%B5%8F%E8%A7%88%E5%88%97%E8%A1%A8/" style="font-size: 1.1em; color: #999">配置文件下载，开启文件浏览列表</a> <a href="/tags/%E4%B8%BB%E4%BB%8E%E5%A4%8D%E5%88%B6%E7%9A%84%E6%90%AD%E5%BB%BA/" style="font-size: 1.1em; color: #999">主从复制的搭建</a> <a href="/tags/toSee/" style="font-size: 1.1em; color: #999">toSee</a> <a href="/tags/%E4%BB%A5%E7%89%B9%E5%AE%9A%E7%9A%84%E7%BC%96%E7%A0%81%E8%AF%BB%E5%8F%96%E6%96%87%E4%BB%B6%EF%BC%8C%E4%BB%A5%E7%89%B9%E5%AE%9A%E7%9A%84%E7%BC%96%E7%A0%81%E5%86%99%E5%85%A5%E6%96%87%E4%BB%B6/" style="font-size: 1.1em; color: #999">以特定的编码读取文件，以特定的编码写入文件</a> <a href="/tags/Life/" style="font-size: 1.4em; color: #99a5b6">Life</a> <a href="/tags/%E5%9C%A8maven%E5%BA%93%E4%B8%8A%E6%B7%BB%E5%8A%A0%E6%89%8B%E5%8A%A8%E6%B7%BB%E5%8A%A0%E7%AC%AC%E4%B8%89%E6%96%B9jar%E5%8C%85/" style="font-size: 1.1em; color: #999">在maven库上添加手动添加第三方jar包</a> <a href="/tags/algorithmCollection/" style="font-size: 1.3em; color: #99a1ac">algorithmCollection</a> <a href="/tags/element-ui/" style="font-size: 1.1em; color: #999">element-ui</a> <a href="/tags/%E5%B8%B8%E8%A7%81%E7%9A%84%E5%89%8D%E7%AB%AF%E6%89%8B%E5%86%99%E5%8A%9F%E8%83%BD/" style="font-size: 1.1em; color: #999">常见的前端手写功能</a> <a href="/tags/Async%E5%92%8C-EnableAsync%E6%B3%A8%E8%A7%A3/" style="font-size: 1.1em; color: #999">@Async和@EnableAsync注解</a> <a href="/tags/layer%E5%BC%B9%E5%87%BA%E5%B8%A6%E9%81%AE%E7%BD%A9%E5%BE%97%E5%8A%A0%E8%BD%BD%E5%8A%A8%E7%94%BB/" style="font-size: 1.1em; color: #999">layer弹出带遮罩得加载动画</a> <a href="/tags/%E6%89%A7%E8%A1%8C%E7%AE%80%E5%8D%95%E7%9A%84%E5%AE%9A%E6%97%B6%E4%BB%BB%E5%8A%A1%E4%B9%8BScheduledExecutorService/" style="font-size: 1.1em; color: #999">执行简单的定时任务之ScheduledExecutorService</a> <a href="/tags/lambda%E7%94%A8%E6%B3%95%E6%95%B4%E7%90%86/" style="font-size: 1.1em; color: #999">lambda用法整理</a> <a href="/tags/%E6%9F%A5%E7%9C%8B%E7%BD%91%E5%9D%80/" style="font-size: 1.1em; color: #999">查看网址</a> <a href="/tags/%E5%8F%8D%E5%90%91%E4%BB%A3%E7%90%86%E5%90%8E%E7%AB%AF%E9%A1%B9%E7%9B%AE%E5%B9%B6%E9%85%8D%E7%BD%AE%E8%B7%A8%E5%9F%9F/" style="font-size: 1.1em; color: #999">反向代理后端项目并配置跨域</a> <a href="/tags/time%E5%92%8Cupdate-time%E7%9A%84%E7%AD%96%E7%95%A5/" style="font-size: 1.1em; color: #999">time和update_time的策略</a> <a href="/tags/kafka/" style="font-size: 1.2em; color: #999da3">kafka</a> <a href="/tags/%E4%BD%BF%E7%94%A8%E6%B3%A8%E8%A7%A3%E5%92%8C%E6%8B%A6%E6%88%AA%E5%99%A8%E5%AE%9E%E7%8E%B0%E7%99%BB%E5%BD%95%E9%AA%8C%E8%AF%81/" style="font-size: 1.1em; color: #999">使用注解和拦截器实现登录验证</a> <a href="/tags/%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86%E9%95%9C%E5%83%8F%E6%BA%90/" style="font-size: 1.1em; color: #999">中国大陆镜像源</a> <a href="/tags/%E5%B8%B8%E7%94%A8%E7%9A%84%E5%8C%BA%E6%AE%B5%E6%9F%A5%E8%AF%A2%E8%A1%A8%E5%8D%95%E9%AA%8C%E8%AF%81/" style="font-size: 1.1em; color: #999">常用的区段查询表单验证</a> <a href="/tags/%E6%89%B9%E9%87%8F%E6%8F%92%E5%85%A5%E5%A4%A7%E6%95%B0%E6%8D%AE/" style="font-size: 1.1em; color: #999">批量插入大数据</a> <a href="/tags/node/" style="font-size: 1.2em; color: #999da3">node</a> <a href="/tags/%E5%8C%BA%E6%AE%B5%E8%BF%87%E6%BB%A4%E7%AE%97%E6%B3%95/" style="font-size: 1.1em; color: #999">区段过滤算法</a> <a href="/tags/%E5%88%A4%E6%96%AD%E8%AE%BF%E9%97%AE%E8%AE%BE%E5%A4%87%E7%9A%84%E6%96%B9%E6%B3%95/" style="font-size: 1.1em; color: #999">判断访问设备的方法</a> <a href="/tags/Kafka%E7%94%9F%E4%BA%A7%E8%80%85%E3%80%81%E6%B6%88%E8%B4%B9%E8%80%85%E7%9A%84%E6%B6%88%E6%81%AF%E5%8F%AF%E9%9D%A0%E6%80%A7%E6%96%B9%E6%A1%88%E5%AE%9E%E7%8E%B0/" style="font-size: 1.1em; color: #999">Kafka生产者、消费者的消息可靠性方案实现</a> <a href="/tags/gitlab/" style="font-size: 1.1em; color: #999">gitlab</a> <a href="/tags/%E4%BC%A0%E5%85%A5%E9%9B%86%E5%90%88%E5%BE%AA%E7%8E%AF%E6%9F%A5%E8%AF%A2%E5%B9%B6%E7%94%A8union%E7%BB%84%E5%90%88/" style="font-size: 1.1em; color: #999">传入集合循环查询并用union组合</a> <a href="/tags/layui/" style="font-size: 1.5em; color: #99a9bf">layui</a> <a href="/tags/node%E7%9A%84%E7%8E%AF%E5%A2%83%E5%AE%89%E8%A3%85/" style="font-size: 1.1em; color: #999">node的环境安装</a> <a href="/tags/%E5%88%87%E6%8D%A2%E4%B8%BAroot%E8%B4%A6%E5%8F%B7/" style="font-size: 1.1em; color: #999">切换为root账号</a> <a href="/tags/table%E7%82%B9%E5%87%BB%E8%A1%8C%E8%A7%A6%E5%8F%91%E8%A1%A8%E6%A0%BC%E7%9A%84checkbox%E9%80%89%E4%B8%AD/" style="font-size: 1.1em; color: #999">table点击行触发表格的checkbox选中</a></div></div><div class="card-widget card-archives"><div class="item-headline"><i class="fas fa-archive"></i><span>Archives</span></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/03/"><span class="card-archive-list-date">March 2023</span><span class="card-archive-list-count">164</span></a></li></ul></div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>Info</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">Article :</div><div class="item-count">164</div></div><div class="webinfo-item"><div class="item-name">UV :</div><div class="item-count" id="busuanzi_value_site_uv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">PV :</div><div class="item-count" id="busuanzi_value_site_pv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">Last Push :</div><div class="item-count" id="last-push-date" data-lastPushDate="2023-03-06T07:52:03.630Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div></div></div></div></div></main><footer id="footer" style="background-image: url('/img/theme/footer.jpg')"><div id="footer-wrap"><div class="copyright">&copy;2023 By ZhangYuhan</div><div class="footer_custom_text">Hi, welcome to my blog</a>!</div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="translateLink" type="button" title="Switch Between Traditional Chinese And Simplified Chinese">繁</button><button id="darkmode" type="button" title="Switch Between Light And Dark Mode"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="Toggle between single-column and double-column"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="Setting"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="Back To Top"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/tw_cn.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.min.js"></script><div class="js-pjax"><script>window.typedJSFn = {
+  init: (str) => {
+    window.typed = new Typed('#subtitle', Object.assign({
+      strings: str,
+      startDelay: 300,
+      typeSpeed: 150,
+      loop: true,
+      backSpeed: 50,
+    }, null))
+  },
+  run: (subtitleType) => {
+    if (true) {
+      if (typeof Typed === 'function') {
+        subtitleType()
+      } else {
+        getScript('https://cdn.jsdelivr.net/npm/typed.js/lib/typed.min.js').then(subtitleType)
+      }
+    } else {
+      subtitleType()
+    }
+  }
+}
+</script><script>function subtitleType () {
+  if (true) {
+    typedJSFn.init(["涩涩是人类进步的阶梯  ——沃兹基硕德"])
+  } else {
+    document.getElementById("subtitle").innerHTML = '涩涩是人类进步的阶梯  ——沃兹基硕德'
+  }
+}
+typedJSFn.run(subtitleType)</script></div><script defer="defer" id="fluttering_ribbon" mobile="false" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/canvas-fluttering-ribbon.min.js"></script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
