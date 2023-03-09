@@ -28,8 +28,7 @@
       
         
         
-    <summary type="html">&lt;h2 id=&quot;v2ray-一键脚本安装&quot;&gt;&lt;a href=&quot;#v2ray-一键脚本安装&quot; class=&quot;headerlink&quot; title=&quot;v2ray 一键脚本安装&quot;&gt;&lt;/a&gt;v2ray 一键脚本安装&lt;/h2&gt;&lt;p&gt;从下面脚本选择一个能用的&lt;/p&gt;
-&lt;p&gt;脚本</summary>
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
         
       
     
@@ -60,8 +59,7 @@
       
         
         
-    <summary type="html">&lt;h2 id=&quot;20221114&quot;&gt;&lt;a href=&quot;#20221114&quot; class=&quot;headerlink&quot; title=&quot;20221114&quot;&gt;&lt;/a&gt;20221114&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&gt; 整理</summary>
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
         
       
     
@@ -92,8 +90,7 @@
       
         
         
-    <summary type="html">&lt;h2 id=&quot;20221114&quot;&gt;&lt;a href=&quot;#20221114&quot; class=&quot;headerlink&quot; title=&quot;20221114&quot;&gt;&lt;/a&gt;20221114&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&gt;</summary>
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
         
       
     
@@ -124,10 +121,7 @@
       
         
         
-    <summary type="html">&lt;p&gt;以 8088 端口为例：&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;netstat  -aon|findstr &amp;quot;8088&amp;quot;&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;最后一列是 pid。假设为 5544&lt;/p&gt;
-&lt;p&gt;然后根据 pid</summary>
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
         
       
     
@@ -158,10 +152,7 @@
       
         
         
-    <summary type="html">&lt;p&gt;以 8088 端口为例：&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;netstat  -aon|findstr &amp;quot;8088&amp;quot;&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;最后一列是 pid。假设为 5544&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;taskkill /pid 5544 -t</summary>
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
         
       
     
@@ -181,229 +172,6 @@
   </entry>
   
   <entry>
-    <title>反向代理后端项目并配置跨域</title>
-    <link href="https://zhangyuhan.netlify.app/posts/60598.html"/>
-    <id>https://zhangyuhan.netlify.app/posts/60598.html</id>
-    <published>2023-03-06T07:47:44.000Z</published>
-    <updated>2023-03-08T06:14:49.406Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;后台服务占用端口为 9003，用本地的 9004 代理 9003 并且配置跨域&lt;/p&gt;
-&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span</summary>
-        
-      
-    
-    
-    
-    <category term="Ops" scheme="https://zhangyuhan.netlify.app/categories/Ops/"/>
-    
-    <category term="nginx" scheme="https://zhangyuhan.netlify.app/categories/Ops/nginx/"/>
-    
-    
-    <category term="Ops" scheme="https://zhangyuhan.netlify.app/tags/Ops/"/>
-    
-    <category term="nginx" scheme="https://zhangyuhan.netlify.app/tags/nginx/"/>
-    
-    <category term="反向代理后端项目并配置跨域" scheme="https://zhangyuhan.netlify.app/tags/%E5%8F%8D%E5%90%91%E4%BB%A3%E7%90%86%E5%90%8E%E7%AB%AF%E9%A1%B9%E7%9B%AE%E5%B9%B6%E9%85%8D%E7%BD%AE%E8%B7%A8%E5%9F%9F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>开启gzip配置</title>
-    <link href="https://zhangyuhan.netlify.app/posts/2714.html"/>
-    <id>https://zhangyuhan.netlify.app/posts/2714.html</id>
-    <published>2023-03-06T07:47:44.000Z</published>
-    <updated>2023-03-08T06:14:49.407Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;配置示例&lt;/p&gt;
-&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;server&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span</summary>
-        
-      
-    
-    
-    
-    <category term="Ops" scheme="https://zhangyuhan.netlify.app/categories/Ops/"/>
-    
-    <category term="nginx" scheme="https://zhangyuhan.netlify.app/categories/Ops/nginx/"/>
-    
-    
-    <category term="Ops" scheme="https://zhangyuhan.netlify.app/tags/Ops/"/>
-    
-    <category term="nginx" scheme="https://zhangyuhan.netlify.app/tags/nginx/"/>
-    
-    <category term="开启gzip配置" scheme="https://zhangyuhan.netlify.app/tags/%E5%BC%80%E5%90%AFgzip%E9%85%8D%E7%BD%AE/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>收藏</title>
-    <link href="https://zhangyuhan.netlify.app/posts/13230.html"/>
-    <id>https://zhangyuhan.netlify.app/posts/13230.html</id>
-    <published>2023-03-06T07:47:44.000Z</published>
-    <updated>2023-03-08T06:14:49.407Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;Nginx 一网打尽：动静分离、压缩、缓存、黑白名单、跨域、高可用、性能优化…&lt;br&gt;&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="Ops" scheme="https://zhangyuhan.netlify.app/categories/Ops/"/>
-    
-    <category term="nginx" scheme="https://zhangyuhan.netlify.app/categories/Ops/nginx/"/>
-    
-    
-    <category term="Ops" scheme="https://zhangyuhan.netlify.app/tags/Ops/"/>
-    
-    <category term="nginx" scheme="https://zhangyuhan.netlify.app/tags/nginx/"/>
-    
-    <category term="收藏" scheme="https://zhangyuhan.netlify.app/tags/%E6%94%B6%E8%97%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>解决单页面应用，刷新后出现404或者404的错误</title>
-    <link href="https://zhangyuhan.netlify.app/posts/12146.html"/>
-    <id>https://zhangyuhan.netlify.app/posts/12146.html</id>
-    <published>2023-03-06T07:47:44.000Z</published>
-    <updated>2023-03-08T06:14:49.407Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;在 location 里加上 try_files $uri $uri&amp;#x2F; &amp;#x2F;index.html;&lt;/p&gt;
-&lt;p&gt;具体配置如下：&lt;/p&gt;
-&lt;figure class=&quot;highlight shell&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td</summary>
-        
-      
-    
-    
-    
-    <category term="Ops" scheme="https://zhangyuhan.netlify.app/categories/Ops/"/>
-    
-    <category term="nginx" scheme="https://zhangyuhan.netlify.app/categories/Ops/nginx/"/>
-    
-    
-    <category term="Ops" scheme="https://zhangyuhan.netlify.app/tags/Ops/"/>
-    
-    <category term="nginx" scheme="https://zhangyuhan.netlify.app/tags/nginx/"/>
-    
-    <category term="解决单页面应用，刷新后出现404或者404的错误" scheme="https://zhangyuhan.netlify.app/tags/%E8%A7%A3%E5%86%B3%E5%8D%95%E9%A1%B5%E9%9D%A2%E5%BA%94%E7%94%A8%EF%BC%8C%E5%88%B7%E6%96%B0%E5%90%8E%E5%87%BA%E7%8E%B0404%E6%88%96%E8%80%85404%E7%9A%84%E9%94%99%E8%AF%AF/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>配置文件下载，开启文件浏览列表</title>
-    <link href="https://zhangyuhan.netlify.app/posts/47689.html"/>
-    <id>https://zhangyuhan.netlify.app/posts/47689.html</id>
-    <published>2023-03-06T07:47:44.000Z</published>
-    <updated>2023-03-08T08:52:25.520Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;文件存储&lt;br&gt;&lt;img src=&quot;https://s2.loli.net/2023/03/08/yDar2JNVn1LEmHU.png&quot; alt=&quot;20230105173803.png&quot;&gt;&lt;br&gt;配置文件&lt;/p&gt;
-&lt;figure class=&quot;highlight</summary>
-        
-      
-    
-    
-    
-    <category term="Ops" scheme="https://zhangyuhan.netlify.app/categories/Ops/"/>
-    
-    <category term="nginx" scheme="https://zhangyuhan.netlify.app/categories/Ops/nginx/"/>
-    
-    
-    <category term="Ops" scheme="https://zhangyuhan.netlify.app/tags/Ops/"/>
-    
-    <category term="nginx" scheme="https://zhangyuhan.netlify.app/tags/nginx/"/>
-    
-    <category term="配置文件下载，开启文件浏览列表" scheme="https://zhangyuhan.netlify.app/tags/%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%E4%B8%8B%E8%BD%BD%EF%BC%8C%E5%BC%80%E5%90%AF%E6%96%87%E4%BB%B6%E6%B5%8F%E8%A7%88%E5%88%97%E8%A1%A8/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>配置视频播放</title>
-    <link href="https://zhangyuhan.netlify.app/posts/20491.html"/>
-    <id>https://zhangyuhan.netlify.app/posts/20491.html</id>
-    <published>2023-03-06T07:47:44.000Z</published>
-    <updated>2023-03-08T06:14:49.406Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;前提：nginx 需要安装 mp4 模块&lt;br&gt;假设服务器 ip 为 192.168.10.234&lt;/p&gt;
-&lt;h2 id=&quot;播放-mp4-视频&quot;&gt;&lt;a href=&quot;#播放-mp4-视频&quot; class=&quot;headerlink&quot; title=&quot;播放 mp4</summary>
-        
-      
-    
-    
-    
-    <category term="Ops" scheme="https://zhangyuhan.netlify.app/categories/Ops/"/>
-    
-    <category term="nginx" scheme="https://zhangyuhan.netlify.app/categories/Ops/nginx/"/>
-    
-    
-    <category term="Ops" scheme="https://zhangyuhan.netlify.app/tags/Ops/"/>
-    
-    <category term="nginx" scheme="https://zhangyuhan.netlify.app/tags/nginx/"/>
-    
-    <category term="配置视频播放" scheme="https://zhangyuhan.netlify.app/tags/%E9%85%8D%E7%BD%AE%E8%A7%86%E9%A2%91%E6%92%AD%E6%94%BE/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>部署前端项目</title>
-    <link href="https://zhangyuhan.netlify.app/posts/1561.html"/>
-    <id>https://zhangyuhan.netlify.app/posts/1561.html</id>
-    <published>2023-03-06T07:47:44.000Z</published>
-    <updated>2023-03-08T08:52:45.955Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;前端项目存储位置&lt;br&gt;&amp;#x2F;usr&amp;#x2F;local&amp;#x2F;webserver&amp;#x2F;nginx&amp;#x2F;project&amp;#x2F;crtoms&lt;br&gt;&lt;img</summary>
-        
-      
-    
-    
-    
-    <category term="Ops" scheme="https://zhangyuhan.netlify.app/categories/Ops/"/>
-    
-    <category term="nginx" scheme="https://zhangyuhan.netlify.app/categories/Ops/nginx/"/>
-    
-    
-    <category term="Ops" scheme="https://zhangyuhan.netlify.app/tags/Ops/"/>
-    
-    <category term="nginx" scheme="https://zhangyuhan.netlify.app/tags/nginx/"/>
-    
-    <category term="部署前端项目" scheme="https://zhangyuhan.netlify.app/tags/%E9%83%A8%E7%BD%B2%E5%89%8D%E7%AB%AF%E9%A1%B9%E7%9B%AE/"/>
-    
-  </entry>
-  
-  <entry>
     <title>linux修改jar包文件</title>
     <link href="https://zhangyuhan.netlify.app/posts/28105.html"/>
     <id>https://zhangyuhan.netlify.app/posts/28105.html</id>
@@ -415,9 +183,7 @@
       
         
         
-    <summary type="html">&lt;ol&gt;
-&lt;li&gt;使用 jar tvf jar 名称 | grep 目标文件名 查询出目标文件在 war 包中的目录&lt;/li&gt;
-&lt;li&gt;使用 jar xvf jar 名称 目标文件名(copy 上面查出的全路径) 将目标文件及所在 war</summary>
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
         
       
     
@@ -448,8 +214,7 @@
       
         
         
-    <summary type="html">&lt;p&gt;将运行的 jar 错误日志信息输出到 log.file 文件中，然后（&amp;gt;&amp;amp;1）就是继续输出到标准输出(前面加的&amp;amp;，是为了让系统识别是标准输出)，最后一个&amp;amp;,表示在后台运行。&lt;/p&gt;
-&lt;figure class=&quot;highlight</summary>
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
         
       
     
@@ -469,34 +234,219 @@
   </entry>
   
   <entry>
-    <title>学习路线</title>
-    <link href="https://zhangyuhan.netlify.app/posts/4225.html"/>
-    <id>https://zhangyuhan.netlify.app/posts/4225.html</id>
+    <title>反向代理后端项目并配置跨域</title>
+    <link href="https://zhangyuhan.netlify.app/posts/60598.html"/>
+    <id>https://zhangyuhan.netlify.app/posts/60598.html</id>
     <published>2023-03-06T07:47:44.000Z</published>
-    <updated>2023-03-08T06:14:49.385Z</updated>
+    <updated>2023-03-08T06:14:49.406Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;jlpt &lt;del&gt;n5&lt;/del&gt;-&amp;gt;n4-&amp;gt;n3-&amp;gt;n2&lt;/p&gt;
-&lt;p&gt;java：&lt;del&gt;stream&lt;/del&gt;,&lt;del&gt;lambda&lt;/del&gt;，&lt;del&gt;IO</summary>
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
         
       
     
     
     
-    <category term="Dev" scheme="https://zhangyuhan.netlify.app/categories/Dev/"/>
+    <category term="Ops" scheme="https://zhangyuhan.netlify.app/categories/Ops/"/>
     
-    <category term="essays" scheme="https://zhangyuhan.netlify.app/categories/Dev/essays/"/>
+    <category term="nginx" scheme="https://zhangyuhan.netlify.app/categories/Ops/nginx/"/>
     
     
-    <category term="Dev" scheme="https://zhangyuhan.netlify.app/tags/Dev/"/>
+    <category term="Ops" scheme="https://zhangyuhan.netlify.app/tags/Ops/"/>
     
-    <category term="essays" scheme="https://zhangyuhan.netlify.app/tags/essays/"/>
+    <category term="nginx" scheme="https://zhangyuhan.netlify.app/tags/nginx/"/>
     
-    <category term="学习路线" scheme="https://zhangyuhan.netlify.app/tags/%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF/"/>
+    <category term="反向代理后端项目并配置跨域" scheme="https://zhangyuhan.netlify.app/tags/%E5%8F%8D%E5%90%91%E4%BB%A3%E7%90%86%E5%90%8E%E7%AB%AF%E9%A1%B9%E7%9B%AE%E5%B9%B6%E9%85%8D%E7%BD%AE%E8%B7%A8%E5%9F%9F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>收藏</title>
+    <link href="https://zhangyuhan.netlify.app/posts/13230.html"/>
+    <id>https://zhangyuhan.netlify.app/posts/13230.html</id>
+    <published>2023-03-06T07:47:44.000Z</published>
+    <updated>2023-03-08T06:14:49.407Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Ops" scheme="https://zhangyuhan.netlify.app/categories/Ops/"/>
+    
+    <category term="nginx" scheme="https://zhangyuhan.netlify.app/categories/Ops/nginx/"/>
+    
+    
+    <category term="Ops" scheme="https://zhangyuhan.netlify.app/tags/Ops/"/>
+    
+    <category term="nginx" scheme="https://zhangyuhan.netlify.app/tags/nginx/"/>
+    
+    <category term="收藏" scheme="https://zhangyuhan.netlify.app/tags/%E6%94%B6%E8%97%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>解决单页面应用，刷新后出现404或者404的错误</title>
+    <link href="https://zhangyuhan.netlify.app/posts/12146.html"/>
+    <id>https://zhangyuhan.netlify.app/posts/12146.html</id>
+    <published>2023-03-06T07:47:44.000Z</published>
+    <updated>2023-03-08T06:14:49.407Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Ops" scheme="https://zhangyuhan.netlify.app/categories/Ops/"/>
+    
+    <category term="nginx" scheme="https://zhangyuhan.netlify.app/categories/Ops/nginx/"/>
+    
+    
+    <category term="Ops" scheme="https://zhangyuhan.netlify.app/tags/Ops/"/>
+    
+    <category term="nginx" scheme="https://zhangyuhan.netlify.app/tags/nginx/"/>
+    
+    <category term="解决单页面应用，刷新后出现404或者404的错误" scheme="https://zhangyuhan.netlify.app/tags/%E8%A7%A3%E5%86%B3%E5%8D%95%E9%A1%B5%E9%9D%A2%E5%BA%94%E7%94%A8%EF%BC%8C%E5%88%B7%E6%96%B0%E5%90%8E%E5%87%BA%E7%8E%B0404%E6%88%96%E8%80%85404%E7%9A%84%E9%94%99%E8%AF%AF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>开启gzip配置</title>
+    <link href="https://zhangyuhan.netlify.app/posts/2714.html"/>
+    <id>https://zhangyuhan.netlify.app/posts/2714.html</id>
+    <published>2023-03-06T07:47:44.000Z</published>
+    <updated>2023-03-08T06:14:49.407Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Ops" scheme="https://zhangyuhan.netlify.app/categories/Ops/"/>
+    
+    <category term="nginx" scheme="https://zhangyuhan.netlify.app/categories/Ops/nginx/"/>
+    
+    
+    <category term="Ops" scheme="https://zhangyuhan.netlify.app/tags/Ops/"/>
+    
+    <category term="nginx" scheme="https://zhangyuhan.netlify.app/tags/nginx/"/>
+    
+    <category term="开启gzip配置" scheme="https://zhangyuhan.netlify.app/tags/%E5%BC%80%E5%90%AFgzip%E9%85%8D%E7%BD%AE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>部署前端项目</title>
+    <link href="https://zhangyuhan.netlify.app/posts/1561.html"/>
+    <id>https://zhangyuhan.netlify.app/posts/1561.html</id>
+    <published>2023-03-06T07:47:44.000Z</published>
+    <updated>2023-03-08T08:52:45.955Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Ops" scheme="https://zhangyuhan.netlify.app/categories/Ops/"/>
+    
+    <category term="nginx" scheme="https://zhangyuhan.netlify.app/categories/Ops/nginx/"/>
+    
+    
+    <category term="Ops" scheme="https://zhangyuhan.netlify.app/tags/Ops/"/>
+    
+    <category term="nginx" scheme="https://zhangyuhan.netlify.app/tags/nginx/"/>
+    
+    <category term="部署前端项目" scheme="https://zhangyuhan.netlify.app/tags/%E9%83%A8%E7%BD%B2%E5%89%8D%E7%AB%AF%E9%A1%B9%E7%9B%AE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>配置文件下载，开启文件浏览列表</title>
+    <link href="https://zhangyuhan.netlify.app/posts/47689.html"/>
+    <id>https://zhangyuhan.netlify.app/posts/47689.html</id>
+    <published>2023-03-06T07:47:44.000Z</published>
+    <updated>2023-03-08T08:52:25.520Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Ops" scheme="https://zhangyuhan.netlify.app/categories/Ops/"/>
+    
+    <category term="nginx" scheme="https://zhangyuhan.netlify.app/categories/Ops/nginx/"/>
+    
+    
+    <category term="Ops" scheme="https://zhangyuhan.netlify.app/tags/Ops/"/>
+    
+    <category term="nginx" scheme="https://zhangyuhan.netlify.app/tags/nginx/"/>
+    
+    <category term="配置文件下载，开启文件浏览列表" scheme="https://zhangyuhan.netlify.app/tags/%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%E4%B8%8B%E8%BD%BD%EF%BC%8C%E5%BC%80%E5%90%AF%E6%96%87%E4%BB%B6%E6%B5%8F%E8%A7%88%E5%88%97%E8%A1%A8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>配置视频播放</title>
+    <link href="https://zhangyuhan.netlify.app/posts/20491.html"/>
+    <id>https://zhangyuhan.netlify.app/posts/20491.html</id>
+    <published>2023-03-06T07:47:44.000Z</published>
+    <updated>2023-03-08T06:14:49.406Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Ops" scheme="https://zhangyuhan.netlify.app/categories/Ops/"/>
+    
+    <category term="nginx" scheme="https://zhangyuhan.netlify.app/categories/Ops/nginx/"/>
+    
+    
+    <category term="Ops" scheme="https://zhangyuhan.netlify.app/tags/Ops/"/>
+    
+    <category term="nginx" scheme="https://zhangyuhan.netlify.app/tags/nginx/"/>
+    
+    <category term="配置视频播放" scheme="https://zhangyuhan.netlify.app/tags/%E9%85%8D%E7%BD%AE%E8%A7%86%E9%A2%91%E6%92%AD%E6%94%BE/"/>
     
   </entry>
   
@@ -512,12 +462,7 @@
       
         
         
-    <summary type="html">&lt;ol&gt;
-&lt;li&gt;计算机网络：ipv6 部分&lt;/li&gt;
-&lt;li&gt;echarts 网课：前边布局，后面地图&lt;/li&gt;
-&lt;li&gt;ztree 的使用&lt;/li&gt;
-&lt;li&gt;jstree 的 demo&lt;/li&gt;
-&lt;li&gt;&lt;del&gt;java 底层：2 进制，10</summary>
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
         
       
     
@@ -548,9 +493,7 @@
       
         
         
-    <summary type="html">&lt;p&gt;1.ajax 远程调用，远程服务器必须开放跨域访问权限&lt;/p&gt;
-&lt;p&gt;2.form 表单远程调用，不受跨域限制，缺点是需要组装表单&lt;/p&gt;
-&lt;p&gt;3.java 代码远程调用（常用的有 java.net.HttpURLConnection，springboot 的</summary>
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
         
       
     
@@ -570,20 +513,18 @@
   </entry>
   
   <entry>
-    <title>mybatis中$和#的使用场景</title>
-    <link href="https://zhangyuhan.netlify.app/posts/27592.html"/>
-    <id>https://zhangyuhan.netlify.app/posts/27592.html</id>
+    <title>在maven库上添加手动添加第三方jar包</title>
+    <link href="https://zhangyuhan.netlify.app/posts/61509.html"/>
+    <id>https://zhangyuhan.netlify.app/posts/61509.html</id>
     <published>2023-03-06T07:47:44.000Z</published>
-    <updated>2023-03-08T06:14:49.350Z</updated>
+    <updated>2023-03-08T06:14:49.386Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;ul&gt;
-&lt;li&gt;group by 字段 ,order by 字段，表名，字段名，如果是动态的用$&lt;/li&gt;
-&lt;li&gt;limit</summary>
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
         
       
     
@@ -591,31 +532,30 @@
     
     <category term="Dev" scheme="https://zhangyuhan.netlify.app/categories/Dev/"/>
     
-    <category term="mybatis" scheme="https://zhangyuhan.netlify.app/categories/Dev/mybatis/"/>
+    <category term="maven" scheme="https://zhangyuhan.netlify.app/categories/Dev/maven/"/>
     
     
     <category term="Dev" scheme="https://zhangyuhan.netlify.app/tags/Dev/"/>
     
-    <category term="mybatis" scheme="https://zhangyuhan.netlify.app/tags/mybatis/"/>
+    <category term="maven" scheme="https://zhangyuhan.netlify.app/tags/maven/"/>
     
-    <category term="mybatis中$和#的使用场景" scheme="https://zhangyuhan.netlify.app/tags/mybatis%E4%B8%AD-%E5%92%8C-%E7%9A%84%E4%BD%BF%E7%94%A8%E5%9C%BA%E6%99%AF/"/>
+    <category term="在maven库上添加手动添加第三方jar包" scheme="https://zhangyuhan.netlify.app/tags/%E5%9C%A8maven%E5%BA%93%E4%B8%8A%E6%B7%BB%E5%8A%A0%E6%89%8B%E5%8A%A8%E6%B7%BB%E5%8A%A0%E7%AC%AC%E4%B8%89%E6%96%B9jar%E5%8C%85/"/>
     
   </entry>
   
   <entry>
-    <title>传入集合循环查询并用union组合</title>
-    <link href="https://zhangyuhan.netlify.app/posts/25838.html"/>
-    <id>https://zhangyuhan.netlify.app/posts/25838.html</id>
+    <title>将普通项目托付给maven管理</title>
+    <link href="https://zhangyuhan.netlify.app/posts/21615.html"/>
+    <id>https://zhangyuhan.netlify.app/posts/21615.html</id>
     <published>2023-03-06T07:47:44.000Z</published>
-    <updated>2023-03-08T06:14:49.349Z</updated>
+    <updated>2023-03-08T06:14:49.385Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;实例：接口&lt;/p&gt;
-&lt;figure class=&quot;highlight java&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span</summary>
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
         
       
     
@@ -623,32 +563,30 @@
     
     <category term="Dev" scheme="https://zhangyuhan.netlify.app/categories/Dev/"/>
     
-    <category term="mybatis" scheme="https://zhangyuhan.netlify.app/categories/Dev/mybatis/"/>
+    <category term="maven" scheme="https://zhangyuhan.netlify.app/categories/Dev/maven/"/>
     
     
     <category term="Dev" scheme="https://zhangyuhan.netlify.app/tags/Dev/"/>
     
-    <category term="mybatis" scheme="https://zhangyuhan.netlify.app/tags/mybatis/"/>
+    <category term="maven" scheme="https://zhangyuhan.netlify.app/tags/maven/"/>
     
-    <category term="传入集合循环查询并用union组合" scheme="https://zhangyuhan.netlify.app/tags/%E4%BC%A0%E5%85%A5%E9%9B%86%E5%90%88%E5%BE%AA%E7%8E%AF%E6%9F%A5%E8%AF%A2%E5%B9%B6%E7%94%A8union%E7%BB%84%E5%90%88/"/>
+    <category term="将普通项目托付给maven管理" scheme="https://zhangyuhan.netlify.app/tags/%E5%B0%86%E6%99%AE%E9%80%9A%E9%A1%B9%E7%9B%AE%E6%89%98%E4%BB%98%E7%BB%99maven%E7%AE%A1%E7%90%86/"/>
     
   </entry>
   
   <entry>
-    <title>判断字符串相等时的注意事项</title>
-    <link href="https://zhangyuhan.netlify.app/posts/281.html"/>
-    <id>https://zhangyuhan.netlify.app/posts/281.html</id>
+    <title>项目打成jar包时，将项目下的文件，以及所有的依赖打成一个jar包</title>
+    <link href="https://zhangyuhan.netlify.app/posts/22750.html"/>
+    <id>https://zhangyuhan.netlify.app/posts/22750.html</id>
     <published>2023-03-06T07:47:44.000Z</published>
-    <updated>2023-03-08T06:14:49.351Z</updated>
+    <updated>2023-03-08T08:56:11.868Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;mybatis 映射文件中，if 标签判断字符串相等，两种方式：&lt;/p&gt;
-&lt;p&gt;因为 mybatis 映射文件，是使用的 ognl 表达式，所以在判断字符串 sex 变量是否是字符串 Y 的时候，&lt;/p&gt;
-&lt;figure class=&quot;highlight</summary>
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
         
       
     
@@ -656,14 +594,45 @@
     
     <category term="Dev" scheme="https://zhangyuhan.netlify.app/categories/Dev/"/>
     
-    <category term="mybatis" scheme="https://zhangyuhan.netlify.app/categories/Dev/mybatis/"/>
+    <category term="maven" scheme="https://zhangyuhan.netlify.app/categories/Dev/maven/"/>
     
     
     <category term="Dev" scheme="https://zhangyuhan.netlify.app/tags/Dev/"/>
     
-    <category term="mybatis" scheme="https://zhangyuhan.netlify.app/tags/mybatis/"/>
+    <category term="maven" scheme="https://zhangyuhan.netlify.app/tags/maven/"/>
     
-    <category term="判断字符串相等时的注意事项" scheme="https://zhangyuhan.netlify.app/tags/%E5%88%A4%E6%96%AD%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%9B%B8%E7%AD%89%E6%97%B6%E7%9A%84%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9/"/>
+    <category term="项目打成jar包时，将项目下的文件，以及所有的依赖打成一个jar包" scheme="https://zhangyuhan.netlify.app/tags/%E9%A1%B9%E7%9B%AE%E6%89%93%E6%88%90jar%E5%8C%85%E6%97%B6%EF%BC%8C%E5%B0%86%E9%A1%B9%E7%9B%AE%E4%B8%8B%E7%9A%84%E6%96%87%E4%BB%B6%EF%BC%8C%E4%BB%A5%E5%8F%8A%E6%89%80%E6%9C%89%E7%9A%84%E4%BE%9D%E8%B5%96%E6%89%93%E6%88%90%E4%B8%80%E4%B8%AAjar%E5%8C%85/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>项目的jar包都正常引用了，但是build时就是提示jar包不存在的解决办法</title>
+    <link href="https://zhangyuhan.netlify.app/posts/52198.html"/>
+    <id>https://zhangyuhan.netlify.app/posts/52198.html</id>
+    <published>2023-03-06T07:47:44.000Z</published>
+    <updated>2023-03-08T08:35:48.841Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Dev" scheme="https://zhangyuhan.netlify.app/categories/Dev/"/>
+    
+    <category term="maven" scheme="https://zhangyuhan.netlify.app/categories/Dev/maven/"/>
+    
+    
+    <category term="Dev" scheme="https://zhangyuhan.netlify.app/tags/Dev/"/>
+    
+    <category term="maven" scheme="https://zhangyuhan.netlify.app/tags/maven/"/>
+    
+    <category term="项目的jar包都正常引用了，但是build时就是提示jar包不存在的解决办法" scheme="https://zhangyuhan.netlify.app/tags/%E9%A1%B9%E7%9B%AE%E7%9A%84jar%E5%8C%85%E9%83%BD%E6%AD%A3%E5%B8%B8%E5%BC%95%E7%94%A8%E4%BA%86%EF%BC%8C%E4%BD%86%E6%98%AFbuild%E6%97%B6%E5%B0%B1%E6%98%AF%E6%8F%90%E7%A4%BAjar%E5%8C%85%E4%B8%8D%E5%AD%98%E5%9C%A8%E7%9A%84%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/"/>
     
   </entry>
   
