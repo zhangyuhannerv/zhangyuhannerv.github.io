@@ -73,330 +73,6 @@
   </entry>
   
   <entry>
-    <title>查看端口，查看进程，关闭进程</title>
-    <link href="https://zhangyuhan.netlify.app/posts/42434.html"/>
-    <id>https://zhangyuhan.netlify.app/posts/42434.html</id>
-    <published>2023-03-06T07:47:44.000Z</published>
-    <updated>2023-03-08T06:14:49.398Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;以 8088 端口为例：&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;netstat  -aon|findstr &amp;quot;8088&amp;quot;&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;最后一列是 pid。假设为 5544&lt;/p&gt;
-&lt;p&gt;然后根据 pid</summary>
-        
-      
-    
-    
-    
-    <category term="Ops" scheme="https://zhangyuhan.netlify.app/categories/Ops/"/>
-    
-    <category term="windows" scheme="https://zhangyuhan.netlify.app/categories/Ops/windows/"/>
-    
-    
-    <category term="Ops" scheme="https://zhangyuhan.netlify.app/tags/Ops/"/>
-    
-    <category term="windows" scheme="https://zhangyuhan.netlify.app/tags/windows/"/>
-    
-    <category term="查看端口，查看进程，关闭进程" scheme="https://zhangyuhan.netlify.app/tags/%E6%9F%A5%E7%9C%8B%E7%AB%AF%E5%8F%A3%EF%BC%8C%E6%9F%A5%E7%9C%8B%E8%BF%9B%E7%A8%8B%EF%BC%8C%E5%85%B3%E9%97%AD%E8%BF%9B%E7%A8%8B/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>根据端口直接关闭进程</title>
-    <link href="https://zhangyuhan.netlify.app/posts/64156.html"/>
-    <id>https://zhangyuhan.netlify.app/posts/64156.html</id>
-    <published>2023-03-06T07:47:44.000Z</published>
-    <updated>2023-03-08T06:14:49.399Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;以 8088 端口为例：&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;netstat  -aon|findstr &amp;quot;8088&amp;quot;&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;最后一列是 pid。假设为 5544&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;taskkill /pid 5544 -t</summary>
-        
-      
-    
-    
-    
-    <category term="Ops" scheme="https://zhangyuhan.netlify.app/categories/Ops/"/>
-    
-    <category term="windows" scheme="https://zhangyuhan.netlify.app/categories/Ops/windows/"/>
-    
-    
-    <category term="Ops" scheme="https://zhangyuhan.netlify.app/tags/Ops/"/>
-    
-    <category term="windows" scheme="https://zhangyuhan.netlify.app/tags/windows/"/>
-    
-    <category term="根据端口直接关闭进程" scheme="https://zhangyuhan.netlify.app/tags/%E6%A0%B9%E6%8D%AE%E7%AB%AF%E5%8F%A3%E7%9B%B4%E6%8E%A5%E5%85%B3%E9%97%AD%E8%BF%9B%E7%A8%8B/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>linux修改jar包文件</title>
-    <link href="https://zhangyuhan.netlify.app/posts/28105.html"/>
-    <id>https://zhangyuhan.netlify.app/posts/28105.html</id>
-    <published>2023-03-06T07:47:44.000Z</published>
-    <updated>2023-03-08T06:14:49.398Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;ol&gt;
-&lt;li&gt;使用 jar tvf jar 名称 | grep 目标文件名 查询出目标文件在 war 包中的目录&lt;/li&gt;
-&lt;li&gt;使用 jar xvf jar 名称 目标文件名(copy 上面查出的全路径) 将目标文件及所在 war</summary>
-        
-      
-    
-    
-    
-    <category term="Ops" scheme="https://zhangyuhan.netlify.app/categories/Ops/"/>
-    
-    <category term="JAVA" scheme="https://zhangyuhan.netlify.app/categories/Ops/JAVA/"/>
-    
-    
-    <category term="Ops" scheme="https://zhangyuhan.netlify.app/tags/Ops/"/>
-    
-    <category term="JAVA" scheme="https://zhangyuhan.netlify.app/tags/JAVA/"/>
-    
-    <category term="linux修改jar包文件" scheme="https://zhangyuhan.netlify.app/tags/linux%E4%BF%AE%E6%94%B9jar%E5%8C%85%E6%96%87%E4%BB%B6/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>部署java项目</title>
-    <link href="https://zhangyuhan.netlify.app/posts/26055.html"/>
-    <id>https://zhangyuhan.netlify.app/posts/26055.html</id>
-    <published>2023-03-06T07:47:44.000Z</published>
-    <updated>2023-03-08T06:14:49.397Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;将运行的 jar 错误日志信息输出到 log.file 文件中，然后（&amp;gt;&amp;amp;1）就是继续输出到标准输出(前面加的&amp;amp;，是为了让系统识别是标准输出)，最后一个&amp;amp;,表示在后台运行。&lt;/p&gt;
-&lt;figure class=&quot;highlight</summary>
-        
-      
-    
-    
-    
-    <category term="Ops" scheme="https://zhangyuhan.netlify.app/categories/Ops/"/>
-    
-    <category term="JAVA" scheme="https://zhangyuhan.netlify.app/categories/Ops/JAVA/"/>
-    
-    
-    <category term="Ops" scheme="https://zhangyuhan.netlify.app/tags/Ops/"/>
-    
-    <category term="JAVA" scheme="https://zhangyuhan.netlify.app/tags/JAVA/"/>
-    
-    <category term="部署java项目" scheme="https://zhangyuhan.netlify.app/tags/%E9%83%A8%E7%BD%B2java%E9%A1%B9%E7%9B%AE/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>反向代理后端项目并配置跨域</title>
-    <link href="https://zhangyuhan.netlify.app/posts/60598.html"/>
-    <id>https://zhangyuhan.netlify.app/posts/60598.html</id>
-    <published>2023-03-06T07:47:44.000Z</published>
-    <updated>2023-03-08T06:14:49.406Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;后台服务占用端口为 9003，用本地的 9004 代理 9003 并且配置跨域&lt;/p&gt;
-&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span</summary>
-        
-      
-    
-    
-    
-    <category term="Ops" scheme="https://zhangyuhan.netlify.app/categories/Ops/"/>
-    
-    <category term="nginx" scheme="https://zhangyuhan.netlify.app/categories/Ops/nginx/"/>
-    
-    
-    <category term="Ops" scheme="https://zhangyuhan.netlify.app/tags/Ops/"/>
-    
-    <category term="nginx" scheme="https://zhangyuhan.netlify.app/tags/nginx/"/>
-    
-    <category term="反向代理后端项目并配置跨域" scheme="https://zhangyuhan.netlify.app/tags/%E5%8F%8D%E5%90%91%E4%BB%A3%E7%90%86%E5%90%8E%E7%AB%AF%E9%A1%B9%E7%9B%AE%E5%B9%B6%E9%85%8D%E7%BD%AE%E8%B7%A8%E5%9F%9F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>开启gzip配置</title>
-    <link href="https://zhangyuhan.netlify.app/posts/2714.html"/>
-    <id>https://zhangyuhan.netlify.app/posts/2714.html</id>
-    <published>2023-03-06T07:47:44.000Z</published>
-    <updated>2023-03-08T06:14:49.407Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;配置示例&lt;/p&gt;
-&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;server&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span</summary>
-        
-      
-    
-    
-    
-    <category term="Ops" scheme="https://zhangyuhan.netlify.app/categories/Ops/"/>
-    
-    <category term="nginx" scheme="https://zhangyuhan.netlify.app/categories/Ops/nginx/"/>
-    
-    
-    <category term="Ops" scheme="https://zhangyuhan.netlify.app/tags/Ops/"/>
-    
-    <category term="nginx" scheme="https://zhangyuhan.netlify.app/tags/nginx/"/>
-    
-    <category term="开启gzip配置" scheme="https://zhangyuhan.netlify.app/tags/%E5%BC%80%E5%90%AFgzip%E9%85%8D%E7%BD%AE/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>收藏</title>
-    <link href="https://zhangyuhan.netlify.app/posts/13230.html"/>
-    <id>https://zhangyuhan.netlify.app/posts/13230.html</id>
-    <published>2023-03-06T07:47:44.000Z</published>
-    <updated>2023-03-08T06:14:49.407Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;Nginx 一网打尽：动静分离、压缩、缓存、黑白名单、跨域、高可用、性能优化…&lt;br&gt;&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="Ops" scheme="https://zhangyuhan.netlify.app/categories/Ops/"/>
-    
-    <category term="nginx" scheme="https://zhangyuhan.netlify.app/categories/Ops/nginx/"/>
-    
-    
-    <category term="Ops" scheme="https://zhangyuhan.netlify.app/tags/Ops/"/>
-    
-    <category term="nginx" scheme="https://zhangyuhan.netlify.app/tags/nginx/"/>
-    
-    <category term="收藏" scheme="https://zhangyuhan.netlify.app/tags/%E6%94%B6%E8%97%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>解决单页面应用，刷新后出现404或者404的错误</title>
-    <link href="https://zhangyuhan.netlify.app/posts/12146.html"/>
-    <id>https://zhangyuhan.netlify.app/posts/12146.html</id>
-    <published>2023-03-06T07:47:44.000Z</published>
-    <updated>2023-03-08T06:14:49.407Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;在 location 里加上 try_files $uri $uri&amp;#x2F; &amp;#x2F;index.html;&lt;/p&gt;
-&lt;p&gt;具体配置如下：&lt;/p&gt;
-&lt;figure class=&quot;highlight shell&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td</summary>
-        
-      
-    
-    
-    
-    <category term="Ops" scheme="https://zhangyuhan.netlify.app/categories/Ops/"/>
-    
-    <category term="nginx" scheme="https://zhangyuhan.netlify.app/categories/Ops/nginx/"/>
-    
-    
-    <category term="Ops" scheme="https://zhangyuhan.netlify.app/tags/Ops/"/>
-    
-    <category term="nginx" scheme="https://zhangyuhan.netlify.app/tags/nginx/"/>
-    
-    <category term="解决单页面应用，刷新后出现404或者404的错误" scheme="https://zhangyuhan.netlify.app/tags/%E8%A7%A3%E5%86%B3%E5%8D%95%E9%A1%B5%E9%9D%A2%E5%BA%94%E7%94%A8%EF%BC%8C%E5%88%B7%E6%96%B0%E5%90%8E%E5%87%BA%E7%8E%B0404%E6%88%96%E8%80%85404%E7%9A%84%E9%94%99%E8%AF%AF/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>配置文件下载，开启文件浏览列表</title>
-    <link href="https://zhangyuhan.netlify.app/posts/47689.html"/>
-    <id>https://zhangyuhan.netlify.app/posts/47689.html</id>
-    <published>2023-03-06T07:47:44.000Z</published>
-    <updated>2023-03-08T08:52:25.520Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;文件存储&lt;br&gt;&lt;img src=&quot;https://s2.loli.net/2023/03/08/yDar2JNVn1LEmHU.png&quot; alt=&quot;20230105173803.png&quot;&gt;&lt;br&gt;配置文件&lt;/p&gt;
-&lt;figure class=&quot;highlight</summary>
-        
-      
-    
-    
-    
-    <category term="Ops" scheme="https://zhangyuhan.netlify.app/categories/Ops/"/>
-    
-    <category term="nginx" scheme="https://zhangyuhan.netlify.app/categories/Ops/nginx/"/>
-    
-    
-    <category term="Ops" scheme="https://zhangyuhan.netlify.app/tags/Ops/"/>
-    
-    <category term="nginx" scheme="https://zhangyuhan.netlify.app/tags/nginx/"/>
-    
-    <category term="配置文件下载，开启文件浏览列表" scheme="https://zhangyuhan.netlify.app/tags/%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%E4%B8%8B%E8%BD%BD%EF%BC%8C%E5%BC%80%E5%90%AF%E6%96%87%E4%BB%B6%E6%B5%8F%E8%A7%88%E5%88%97%E8%A1%A8/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>部署前端项目</title>
-    <link href="https://zhangyuhan.netlify.app/posts/1561.html"/>
-    <id>https://zhangyuhan.netlify.app/posts/1561.html</id>
-    <published>2023-03-06T07:47:44.000Z</published>
-    <updated>2023-03-08T08:52:45.955Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;前端项目存储位置&lt;br&gt;&amp;#x2F;usr&amp;#x2F;local&amp;#x2F;webserver&amp;#x2F;nginx&amp;#x2F;project&amp;#x2F;crtoms&lt;br&gt;&lt;img</summary>
-        
-      
-    
-    
-    
-    <category term="Ops" scheme="https://zhangyuhan.netlify.app/categories/Ops/"/>
-    
-    <category term="nginx" scheme="https://zhangyuhan.netlify.app/categories/Ops/nginx/"/>
-    
-    
-    <category term="Ops" scheme="https://zhangyuhan.netlify.app/tags/Ops/"/>
-    
-    <category term="nginx" scheme="https://zhangyuhan.netlify.app/tags/nginx/"/>
-    
-    <category term="部署前端项目" scheme="https://zhangyuhan.netlify.app/tags/%E9%83%A8%E7%BD%B2%E5%89%8D%E7%AB%AF%E9%A1%B9%E7%9B%AE/"/>
-    
-  </entry>
-  
-  <entry>
     <title>学习路线</title>
     <link href="https://zhangyuhan.netlify.app/posts/4225.html"/>
     <id>https://zhangyuhan.netlify.app/posts/4225.html</id>
@@ -425,38 +101,6 @@
     <category term="essays" scheme="https://zhangyuhan.netlify.app/tags/essays/"/>
     
     <category term="学习路线" scheme="https://zhangyuhan.netlify.app/tags/%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>配置视频播放</title>
-    <link href="https://zhangyuhan.netlify.app/posts/20491.html"/>
-    <id>https://zhangyuhan.netlify.app/posts/20491.html</id>
-    <published>2023-03-06T07:47:44.000Z</published>
-    <updated>2023-03-08T06:14:49.406Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;前提：nginx 需要安装 mp4 模块&lt;br&gt;假设服务器 ip 为 192.168.10.234&lt;/p&gt;
-&lt;h2 id=&quot;播放-mp4-视频&quot;&gt;&lt;a href=&quot;#播放-mp4-视频&quot; class=&quot;headerlink&quot; title=&quot;播放 mp4</summary>
-        
-      
-    
-    
-    
-    <category term="Ops" scheme="https://zhangyuhan.netlify.app/categories/Ops/"/>
-    
-    <category term="nginx" scheme="https://zhangyuhan.netlify.app/categories/Ops/nginx/"/>
-    
-    
-    <category term="Ops" scheme="https://zhangyuhan.netlify.app/tags/Ops/"/>
-    
-    <category term="nginx" scheme="https://zhangyuhan.netlify.app/tags/nginx/"/>
-    
-    <category term="配置视频播放" scheme="https://zhangyuhan.netlify.app/tags/%E9%85%8D%E7%BD%AE%E8%A7%86%E9%A2%91%E6%92%AD%E6%94%BE/"/>
     
   </entry>
   
@@ -626,19 +270,18 @@
   </entry>
   
   <entry>
-    <title>and() 和 or()的嵌套使用</title>
-    <link href="https://zhangyuhan.netlify.app/posts/4758.html"/>
-    <id>https://zhangyuhan.netlify.app/posts/4758.html</id>
+    <title>项目的jar包都正常引用了，但是build时就是提示jar包不存在的解决办法</title>
+    <link href="https://zhangyuhan.netlify.app/posts/52198.html"/>
+    <id>https://zhangyuhan.netlify.app/posts/52198.html</id>
     <published>2023-03-06T07:47:44.000Z</published>
-    <updated>2023-03-08T06:14:49.352Z</updated>
+    <updated>2023-03-08T08:35:48.841Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;and 里面嵌套 or 如下使用&lt;/p&gt;
-&lt;figure class=&quot;highlight java&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;QueryWrapper&amp;lt;ErrorData&amp;gt; ew</summary>
+    <summary type="html">&lt;p&gt;如题，编译和打包都是正常的，pom 文件中依赖存在并且没有报错。找到相应包的引用位置，也能正常访问包中的内容。而且提示的一般都是基础的 jar 包找不到，比如单元测试用到的 jar 包等。。。&lt;br&gt;&lt;img</summary>
         
       
     
@@ -646,14 +289,381 @@
     
     <category term="Dev" scheme="https://zhangyuhan.netlify.app/categories/Dev/"/>
     
-    <category term="mybatisPlus" scheme="https://zhangyuhan.netlify.app/categories/Dev/mybatisPlus/"/>
+    <category term="maven" scheme="https://zhangyuhan.netlify.app/categories/Dev/maven/"/>
     
     
     <category term="Dev" scheme="https://zhangyuhan.netlify.app/tags/Dev/"/>
     
-    <category term="mybatisPlus" scheme="https://zhangyuhan.netlify.app/tags/mybatisPlus/"/>
+    <category term="maven" scheme="https://zhangyuhan.netlify.app/tags/maven/"/>
     
-    <category term="and() 和 or()的嵌套使用" scheme="https://zhangyuhan.netlify.app/tags/and-%E5%92%8C-or-%E7%9A%84%E5%B5%8C%E5%A5%97%E4%BD%BF%E7%94%A8/"/>
+    <category term="项目的jar包都正常引用了，但是build时就是提示jar包不存在的解决办法" scheme="https://zhangyuhan.netlify.app/tags/%E9%A1%B9%E7%9B%AE%E7%9A%84jar%E5%8C%85%E9%83%BD%E6%AD%A3%E5%B8%B8%E5%BC%95%E7%94%A8%E4%BA%86%EF%BC%8C%E4%BD%86%E6%98%AFbuild%E6%97%B6%E5%B0%B1%E6%98%AF%E6%8F%90%E7%A4%BAjar%E5%8C%85%E4%B8%8D%E5%AD%98%E5%9C%A8%E7%9A%84%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>DATE_FORMAT()和STR_TO_DATE()</title>
+    <link href="https://zhangyuhan.netlify.app/posts/24292.html"/>
+    <id>https://zhangyuhan.netlify.app/posts/24292.html</id>
+    <published>2023-03-06T07:47:44.000Z</published>
+    <updated>2023-03-08T06:14:49.379Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;常用的 DATE_FORMAA()格式&lt;/p&gt;
+&lt;figure class=&quot;highlight sql&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;DATE_FORMAT(updatetime,&lt;span</summary>
+        
+      
+    
+    
+    
+    <category term="Dev" scheme="https://zhangyuhan.netlify.app/categories/Dev/"/>
+    
+    <category term="mysql" scheme="https://zhangyuhan.netlify.app/categories/Dev/mysql/"/>
+    
+    
+    <category term="Dev" scheme="https://zhangyuhan.netlify.app/tags/Dev/"/>
+    
+    <category term="mysql" scheme="https://zhangyuhan.netlify.app/tags/mysql/"/>
+    
+    <category term="DATE_FORMAT()和STR_TO_DATE()" scheme="https://zhangyuhan.netlify.app/tags/DATE-FORMAT-%E5%92%8CSTR-TO-DATE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>mysql dump导入sql脚本后表中的数据中文乱码</title>
+    <link href="https://zhangyuhan.netlify.app/posts/18721.html"/>
+    <id>https://zhangyuhan.netlify.app/posts/18721.html</id>
+    <published>2023-03-06T07:47:44.000Z</published>
+    <updated>2023-03-08T06:14:49.382Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;解决办法：&lt;br&gt;加上–default-character-set&amp;#x3D;utf8</summary>
+        
+      
+    
+    
+    
+    <category term="Dev" scheme="https://zhangyuhan.netlify.app/categories/Dev/"/>
+    
+    <category term="mysql" scheme="https://zhangyuhan.netlify.app/categories/Dev/mysql/"/>
+    
+    
+    <category term="Dev" scheme="https://zhangyuhan.netlify.app/tags/Dev/"/>
+    
+    <category term="mysql" scheme="https://zhangyuhan.netlify.app/tags/mysql/"/>
+    
+    <category term="mysql dump导入sql脚本后表中的数据中文乱码" scheme="https://zhangyuhan.netlify.app/tags/mysql-dump%E5%AF%BC%E5%85%A5sql%E8%84%9A%E6%9C%AC%E5%90%8E%E8%A1%A8%E4%B8%AD%E7%9A%84%E6%95%B0%E6%8D%AE%E4%B8%AD%E6%96%87%E4%B9%B1%E7%A0%81/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>any 和 all 关键字</title>
+    <link href="https://zhangyuhan.netlify.app/posts/52297.html"/>
+    <id>https://zhangyuhan.netlify.app/posts/52297.html</id>
+    <published>2023-03-06T07:47:44.000Z</published>
+    <updated>2023-03-08T06:14:49.382Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;figure class=&quot;highlight sql&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;A &lt;span class=&quot;operator&quot;&gt;=&lt;/span&gt; &lt;span</summary>
+        
+      
+    
+    
+    
+    <category term="Dev" scheme="https://zhangyuhan.netlify.app/categories/Dev/"/>
+    
+    <category term="mysql" scheme="https://zhangyuhan.netlify.app/categories/Dev/mysql/"/>
+    
+    
+    <category term="Dev" scheme="https://zhangyuhan.netlify.app/tags/Dev/"/>
+    
+    <category term="mysql" scheme="https://zhangyuhan.netlify.app/tags/mysql/"/>
+    
+    <category term="any 和 all 关键字" scheme="https://zhangyuhan.netlify.app/tags/any-%E5%92%8C-all-%E5%85%B3%E9%94%AE%E5%AD%97/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>mysql常见的函数和问题的汇总</title>
+    <link href="https://zhangyuhan.netlify.app/posts/36898.html"/>
+    <id>https://zhangyuhan.netlify.app/posts/36898.html</id>
+    <published>2023-03-06T07:47:44.000Z</published>
+    <updated>2023-03-08T06:14:49.381Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;注意 mysql 里面关于字符串的截取下标一般都是从 1 开始&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Substring(‘str’,a,b) 注意：a 是起始位置，b 是要截取得长度。且下标从 1 开始 ，如果 a 是 0，那么无论 b</summary>
+        
+      
+    
+    
+    
+    <category term="Dev" scheme="https://zhangyuhan.netlify.app/categories/Dev/"/>
+    
+    <category term="mysql" scheme="https://zhangyuhan.netlify.app/categories/Dev/mysql/"/>
+    
+    
+    <category term="Dev" scheme="https://zhangyuhan.netlify.app/tags/Dev/"/>
+    
+    <category term="mysql" scheme="https://zhangyuhan.netlify.app/tags/mysql/"/>
+    
+    <category term="mysql常见的函数和问题的汇总" scheme="https://zhangyuhan.netlify.app/tags/mysql%E5%B8%B8%E8%A7%81%E7%9A%84%E5%87%BD%E6%95%B0%E5%92%8C%E9%97%AE%E9%A2%98%E7%9A%84%E6%B1%87%E6%80%BB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>mysql在导入.sql文件的时候报错  1067 - Invalid default value for LOCK_TIME</title>
+    <link href="https://zhangyuhan.netlify.app/posts/60814.html"/>
+    <id>https://zhangyuhan.netlify.app/posts/60814.html</id>
+    <published>2023-03-06T07:47:44.000Z</published>
+    <updated>2023-03-08T06:14:49.381Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;推荐使用以下的方式永久修改&lt;/p&gt;
+&lt;p&gt;编辑 mysql 的配配置文件 my.cnf&lt;/p&gt;
+&lt;p&gt;在[mysqld]下面添加如下列：&lt;/p&gt;
+&lt;figure class=&quot;highlight properties&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td</summary>
+        
+      
+    
+    
+    
+    <category term="Dev" scheme="https://zhangyuhan.netlify.app/categories/Dev/"/>
+    
+    <category term="mysql" scheme="https://zhangyuhan.netlify.app/categories/Dev/mysql/"/>
+    
+    
+    <category term="Dev" scheme="https://zhangyuhan.netlify.app/tags/Dev/"/>
+    
+    <category term="mysql" scheme="https://zhangyuhan.netlify.app/tags/mysql/"/>
+    
+    <category term="TIME_‘" scheme="https://zhangyuhan.netlify.app/tags/TIME-%E2%80%98/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>mysql建立新用户和授权</title>
+    <link href="https://zhangyuhan.netlify.app/posts/42280.html"/>
+    <id>https://zhangyuhan.netlify.app/posts/42280.html</id>
+    <published>2023-03-06T07:47:44.000Z</published>
+    <updated>2023-03-08T06:14:49.379Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;需求：只允许某个用户访问某个库&quot;&gt;&lt;a href=&quot;#需求：只允许某个用户访问某个库&quot; class=&quot;headerlink&quot; title=&quot;需求：只允许某个用户访问某个库&quot;&gt;&lt;/a&gt;需求：只允许某个用户访问某个库&lt;/h1&gt;&lt;figure</summary>
+        
+      
+    
+    
+    
+    <category term="Dev" scheme="https://zhangyuhan.netlify.app/categories/Dev/"/>
+    
+    <category term="mysql" scheme="https://zhangyuhan.netlify.app/categories/Dev/mysql/"/>
+    
+    
+    <category term="Dev" scheme="https://zhangyuhan.netlify.app/tags/Dev/"/>
+    
+    <category term="mysql" scheme="https://zhangyuhan.netlify.app/tags/mysql/"/>
+    
+    <category term="mysql建立新用户和授权" scheme="https://zhangyuhan.netlify.app/tags/mysql%E5%BB%BA%E7%AB%8B%E6%96%B0%E7%94%A8%E6%88%B7%E5%92%8C%E6%8E%88%E6%9D%83/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>mysql建表的几个必备字段</title>
+    <link href="https://zhangyuhan.netlify.app/posts/62575.html"/>
+    <id>https://zhangyuhan.netlify.app/posts/62575.html</id>
+    <published>2023-03-06T07:47:44.000Z</published>
+    <updated>2023-03-08T06:14:49.380Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;ul&gt;
+&lt;li&gt;id(主键)&lt;/li&gt;
+&lt;li&gt;码表（在基础字典表中该字段是必须的)&lt;/li&gt;
+&lt;li&gt;排序（在基础字典表中该字段是必须的)&lt;/li&gt;
+&lt;li&gt;创建人&lt;/li&gt;
+&lt;li&gt;创建时间&lt;/li&gt;
+&lt;li&gt;修改时间&lt;/li&gt;
+&lt;li&gt;逻辑删除字段&lt;/li&gt;
+&lt;/ul&gt;
+</summary>
+        
+      
+    
+    
+    
+    <category term="Dev" scheme="https://zhangyuhan.netlify.app/categories/Dev/"/>
+    
+    <category term="mysql" scheme="https://zhangyuhan.netlify.app/categories/Dev/mysql/"/>
+    
+    
+    <category term="Dev" scheme="https://zhangyuhan.netlify.app/tags/Dev/"/>
+    
+    <category term="mysql" scheme="https://zhangyuhan.netlify.app/tags/mysql/"/>
+    
+    <category term="mysql建表的几个必备字段" scheme="https://zhangyuhan.netlify.app/tags/mysql%E5%BB%BA%E8%A1%A8%E7%9A%84%E5%87%A0%E4%B8%AA%E5%BF%85%E5%A4%87%E5%AD%97%E6%AE%B5/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>show profile功能</title>
+    <link href="https://zhangyuhan.netlify.app/posts/51045.html"/>
+    <id>https://zhangyuhan.netlify.app/posts/51045.html</id>
+    <published>2023-03-06T07:47:44.000Z</published>
+    <updated>2023-03-08T06:14:49.378Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;开启 Show Profile 功能，默认该功能是关闭的，使用前需开启。&lt;/p&gt;
+&lt;figure class=&quot;highlight sql&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span</summary>
+        
+      
+    
+    
+    
+    <category term="Dev" scheme="https://zhangyuhan.netlify.app/categories/Dev/"/>
+    
+    <category term="mysql" scheme="https://zhangyuhan.netlify.app/categories/Dev/mysql/"/>
+    
+    
+    <category term="Dev" scheme="https://zhangyuhan.netlify.app/tags/Dev/"/>
+    
+    <category term="mysql" scheme="https://zhangyuhan.netlify.app/tags/mysql/"/>
+    
+    <category term="show profile功能" scheme="https://zhangyuhan.netlify.app/tags/show-profile%E5%8A%9F%E8%83%BD/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>union和union all 关键字</title>
+    <link href="https://zhangyuhan.netlify.app/posts/32462.html"/>
+    <id>https://zhangyuhan.netlify.app/posts/32462.html</id>
+    <published>2023-03-06T07:47:44.000Z</published>
+    <updated>2023-03-08T06:14:49.382Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;区别 1：取结果的交集&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;union: 对两个结果集进行并集操作, 不包括重复行,相当于 distinct, 同时进行默认规则的排序;&lt;/li&gt;
+&lt;li&gt;union all: 对两个结果集进行并集操作, 包括重复行,</summary>
+        
+      
+    
+    
+    
+    <category term="Dev" scheme="https://zhangyuhan.netlify.app/categories/Dev/"/>
+    
+    <category term="mysql" scheme="https://zhangyuhan.netlify.app/categories/Dev/mysql/"/>
+    
+    
+    <category term="Dev" scheme="https://zhangyuhan.netlify.app/tags/Dev/"/>
+    
+    <category term="mysql" scheme="https://zhangyuhan.netlify.app/tags/mysql/"/>
+    
+    <category term="union和union all 关键字" scheme="https://zhangyuhan.netlify.app/tags/union%E5%92%8Cunion-all-%E5%85%B3%E9%94%AE%E5%AD%97/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>主从复制的搭建</title>
+    <link href="https://zhangyuhan.netlify.app/posts/46953.html"/>
+    <id>https://zhangyuhan.netlify.app/posts/46953.html</id>
+    <published>2023-03-06T07:47:44.000Z</published>
+    <updated>2023-03-08T06:14:49.383Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h4 id=&quot;&quot;&gt;&lt;a href=&quot;#&quot; class=&quot;headerlink&quot; title=&quot;&quot;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ol start=&quot;0&quot;&gt;
+&lt;li&gt;&lt;p&gt;做主从的前提&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;两台服务器的防火墙都开放了各自 mysql 的服务端口（下面以默认的</summary>
+        
+      
+    
+    
+    
+    <category term="Dev" scheme="https://zhangyuhan.netlify.app/categories/Dev/"/>
+    
+    <category term="mysql" scheme="https://zhangyuhan.netlify.app/categories/Dev/mysql/"/>
+    
+    
+    <category term="Dev" scheme="https://zhangyuhan.netlify.app/tags/Dev/"/>
+    
+    <category term="mysql" scheme="https://zhangyuhan.netlify.app/tags/mysql/"/>
+    
+    <category term="主从复制的搭建" scheme="https://zhangyuhan.netlify.app/tags/%E4%B8%BB%E4%BB%8E%E5%A4%8D%E5%88%B6%E7%9A%84%E6%90%AD%E5%BB%BA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>区间查询</title>
+    <link href="https://zhangyuhan.netlify.app/posts/59900.html"/>
+    <id>https://zhangyuhan.netlify.app/posts/59900.html</id>
+    <published>2023-03-06T07:47:44.000Z</published>
+    <updated>2023-03-08T06:14:49.381Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;取交集的区间查询&quot;&gt;&lt;a href=&quot;#取交集的区间查询&quot; class=&quot;headerlink&quot; title=&quot;取交集的区间查询&quot;&gt;&lt;/a&gt;取交集的区间查询&lt;/h2&gt;&lt;p&gt;两个区间段只要有交集就查出来&lt;/p&gt;
+&lt;figure class=&quot;highlight</summary>
+        
+      
+    
+    
+    
+    <category term="Dev" scheme="https://zhangyuhan.netlify.app/categories/Dev/"/>
+    
+    <category term="mysql" scheme="https://zhangyuhan.netlify.app/categories/Dev/mysql/"/>
+    
+    
+    <category term="Dev" scheme="https://zhangyuhan.netlify.app/tags/Dev/"/>
+    
+    <category term="mysql" scheme="https://zhangyuhan.netlify.app/tags/mysql/"/>
+    
+    <category term="区间查询" scheme="https://zhangyuhan.netlify.app/tags/%E5%8C%BA%E9%97%B4%E6%9F%A5%E8%AF%A2/"/>
     
   </entry>
   
