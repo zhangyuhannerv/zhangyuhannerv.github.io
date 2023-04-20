@@ -237,98 +237,34 @@
   </entry>
   
   <entry>
-    <title>快速搭建v2ray</title>
-    <link href="https://zhangyuhan.netlify.app/posts/47358.html"/>
-    <id>https://zhangyuhan.netlify.app/posts/47358.html</id>
+    <title>学习路线</title>
+    <link href="https://zhangyuhan.netlify.app/posts/4225.html"/>
+    <id>https://zhangyuhan.netlify.app/posts/4225.html</id>
     <published>2023-03-06T07:47:44.000Z</published>
-    <updated>2023-03-08T06:14:49.345Z</updated>
+    <updated>2023-03-08T06:14:49.385Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h2 id=&quot;v2ray-一键脚本安装&quot;&gt;&lt;a href=&quot;#v2ray-一键脚本安装&quot; class=&quot;headerlink&quot; title=&quot;v2ray 一键脚本安装&quot;&gt;&lt;/a&gt;v2ray 一键脚本安装&lt;/h2&gt;&lt;p&gt;从下面脚本选择一个能用的&lt;/p&gt;
-&lt;p&gt;脚本</summary>
+    <summary type="html">&lt;p&gt;jlpt &lt;del&gt;n5&lt;/del&gt;-&amp;gt;n4-&amp;gt;n3-&amp;gt;n2&lt;/p&gt;
+&lt;p&gt;java：&lt;del&gt;stream&lt;/del&gt;,&lt;del&gt;lambda&lt;/del&gt;，&lt;del&gt;IO</summary>
         
       
     
     
     
-    <category term="Life" scheme="https://zhangyuhan.netlify.app/categories/Life/"/>
+    <category term="Dev" scheme="https://zhangyuhan.netlify.app/categories/Dev/"/>
     
-    <category term="v2ray" scheme="https://zhangyuhan.netlify.app/categories/Life/v2ray/"/>
-    
-    
-    <category term="Life" scheme="https://zhangyuhan.netlify.app/tags/Life/"/>
-    
-    <category term="v2ray" scheme="https://zhangyuhan.netlify.app/tags/v2ray/"/>
-    
-    <category term="快速搭建v2ray" scheme="https://zhangyuhan.netlify.app/tags/%E5%BF%AB%E9%80%9F%E6%90%AD%E5%BB%BAv2ray/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>toDo</title>
-    <link href="https://zhangyuhan.netlify.app/posts/49496.html"/>
-    <id>https://zhangyuhan.netlify.app/posts/49496.html</id>
-    <published>2023-03-06T07:47:44.000Z</published>
-    <updated>2023-04-11T08:40:27.255Z</updated>
+    <category term="essays" scheme="https://zhangyuhan.netlify.app/categories/Dev/essays/"/>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;20221114&quot;&gt;&lt;a href=&quot;#20221114&quot; class=&quot;headerlink&quot; title=&quot;20221114&quot;&gt;&lt;/a&gt;20221114&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&gt; 整理</summary>
-        
-      
+    <category term="Dev" scheme="https://zhangyuhan.netlify.app/tags/Dev/"/>
     
+    <category term="essays" scheme="https://zhangyuhan.netlify.app/tags/essays/"/>
     
-    
-    <category term="Life" scheme="https://zhangyuhan.netlify.app/categories/Life/"/>
-    
-    <category term="todo" scheme="https://zhangyuhan.netlify.app/categories/Life/todo/"/>
-    
-    
-    <category term="Life" scheme="https://zhangyuhan.netlify.app/tags/Life/"/>
-    
-    <category term="todo" scheme="https://zhangyuhan.netlify.app/tags/todo/"/>
-    
-    <category term="toDo" scheme="https://zhangyuhan.netlify.app/tags/toDo/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>toSee</title>
-    <link href="https://zhangyuhan.netlify.app/posts/30134.html"/>
-    <id>https://zhangyuhan.netlify.app/posts/30134.html</id>
-    <published>2023-03-06T07:47:44.000Z</published>
-    <updated>2023-04-14T07:30:03.292Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;动漫&quot;&gt;&lt;a href=&quot;#动漫&quot; class=&quot;headerlink&quot; title=&quot;动漫&quot;&gt;&lt;/a&gt;动漫&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;input checked=&quot;&quot; disabled=&quot;&quot; type=&quot;checkbox&quot;&gt;</summary>
-        
-      
-    
-    
-    
-    <category term="Life" scheme="https://zhangyuhan.netlify.app/categories/Life/"/>
-    
-    <category term="todo" scheme="https://zhangyuhan.netlify.app/categories/Life/todo/"/>
-    
-    
-    <category term="Life" scheme="https://zhangyuhan.netlify.app/tags/Life/"/>
-    
-    <category term="todo" scheme="https://zhangyuhan.netlify.app/tags/todo/"/>
-    
-    <category term="toSee" scheme="https://zhangyuhan.netlify.app/tags/toSee/"/>
+    <category term="学习路线" scheme="https://zhangyuhan.netlify.app/tags/%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF/"/>
     
   </entry>
   
@@ -398,38 +334,6 @@
     <category term="essays" scheme="https://zhangyuhan.netlify.app/tags/essays/"/>
     
     <category term="远程请求http的三种方式" scheme="https://zhangyuhan.netlify.app/tags/%E8%BF%9C%E7%A8%8B%E8%AF%B7%E6%B1%82http%E7%9A%84%E4%B8%89%E7%A7%8D%E6%96%B9%E5%BC%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>学习路线</title>
-    <link href="https://zhangyuhan.netlify.app/posts/4225.html"/>
-    <id>https://zhangyuhan.netlify.app/posts/4225.html</id>
-    <published>2023-03-06T07:47:44.000Z</published>
-    <updated>2023-03-08T06:14:49.385Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;jlpt &lt;del&gt;n5&lt;/del&gt;-&amp;gt;n4-&amp;gt;n3-&amp;gt;n2&lt;/p&gt;
-&lt;p&gt;java：&lt;del&gt;stream&lt;/del&gt;,&lt;del&gt;lambda&lt;/del&gt;，&lt;del&gt;IO</summary>
-        
-      
-    
-    
-    
-    <category term="Dev" scheme="https://zhangyuhan.netlify.app/categories/Dev/"/>
-    
-    <category term="essays" scheme="https://zhangyuhan.netlify.app/categories/Dev/essays/"/>
-    
-    
-    <category term="Dev" scheme="https://zhangyuhan.netlify.app/tags/Dev/"/>
-    
-    <category term="essays" scheme="https://zhangyuhan.netlify.app/tags/essays/"/>
-    
-    <category term="学习路线" scheme="https://zhangyuhan.netlify.app/tags/%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF/"/>
     
   </entry>
   
@@ -561,11 +465,139 @@
   </entry>
   
   <entry>
-    <title>mybatis中$和#的使用场景</title>
-    <link href="https://zhangyuhan.netlify.app/posts/27592.html"/>
-    <id>https://zhangyuhan.netlify.app/posts/27592.html</id>
+    <title>DATE_FORMAT()和STR_TO_DATE()</title>
+    <link href="https://zhangyuhan.netlify.app/posts/24292.html"/>
+    <id>https://zhangyuhan.netlify.app/posts/24292.html</id>
     <published>2023-03-06T07:47:44.000Z</published>
-    <updated>2023-03-08T06:14:49.350Z</updated>
+    <updated>2023-03-08T06:14:49.379Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;常用的 DATE_FORMAA()格式&lt;/p&gt;
+&lt;figure class=&quot;highlight sql&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;DATE_FORMAT(updatetime,&lt;span</summary>
+        
+      
+    
+    
+    
+    <category term="Dev" scheme="https://zhangyuhan.netlify.app/categories/Dev/"/>
+    
+    <category term="mysql" scheme="https://zhangyuhan.netlify.app/categories/Dev/mysql/"/>
+    
+    
+    <category term="Dev" scheme="https://zhangyuhan.netlify.app/tags/Dev/"/>
+    
+    <category term="mysql" scheme="https://zhangyuhan.netlify.app/tags/mysql/"/>
+    
+    <category term="DATE_FORMAT()和STR_TO_DATE()" scheme="https://zhangyuhan.netlify.app/tags/DATE-FORMAT-%E5%92%8CSTR-TO-DATE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>any 和 all 关键字</title>
+    <link href="https://zhangyuhan.netlify.app/posts/52297.html"/>
+    <id>https://zhangyuhan.netlify.app/posts/52297.html</id>
+    <published>2023-03-06T07:47:44.000Z</published>
+    <updated>2023-03-08T06:14:49.382Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;figure class=&quot;highlight sql&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;A &lt;span class=&quot;operator&quot;&gt;=&lt;/span&gt; &lt;span</summary>
+        
+      
+    
+    
+    
+    <category term="Dev" scheme="https://zhangyuhan.netlify.app/categories/Dev/"/>
+    
+    <category term="mysql" scheme="https://zhangyuhan.netlify.app/categories/Dev/mysql/"/>
+    
+    
+    <category term="Dev" scheme="https://zhangyuhan.netlify.app/tags/Dev/"/>
+    
+    <category term="mysql" scheme="https://zhangyuhan.netlify.app/tags/mysql/"/>
+    
+    <category term="any 和 all 关键字" scheme="https://zhangyuhan.netlify.app/tags/any-%E5%92%8C-all-%E5%85%B3%E9%94%AE%E5%AD%97/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>mysql dump导入sql脚本后表中的数据中文乱码</title>
+    <link href="https://zhangyuhan.netlify.app/posts/18721.html"/>
+    <id>https://zhangyuhan.netlify.app/posts/18721.html</id>
+    <published>2023-03-06T07:47:44.000Z</published>
+    <updated>2023-03-08T06:14:49.382Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;解决办法：&lt;br&gt;加上–default-character-set&amp;#x3D;utf8</summary>
+        
+      
+    
+    
+    
+    <category term="Dev" scheme="https://zhangyuhan.netlify.app/categories/Dev/"/>
+    
+    <category term="mysql" scheme="https://zhangyuhan.netlify.app/categories/Dev/mysql/"/>
+    
+    
+    <category term="Dev" scheme="https://zhangyuhan.netlify.app/tags/Dev/"/>
+    
+    <category term="mysql" scheme="https://zhangyuhan.netlify.app/tags/mysql/"/>
+    
+    <category term="mysql dump导入sql脚本后表中的数据中文乱码" scheme="https://zhangyuhan.netlify.app/tags/mysql-dump%E5%AF%BC%E5%85%A5sql%E8%84%9A%E6%9C%AC%E5%90%8E%E8%A1%A8%E4%B8%AD%E7%9A%84%E6%95%B0%E6%8D%AE%E4%B8%AD%E6%96%87%E4%B9%B1%E7%A0%81/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>mysql在导入.sql文件的时候报错  1067 - Invalid default value for LOCK_TIME</title>
+    <link href="https://zhangyuhan.netlify.app/posts/60814.html"/>
+    <id>https://zhangyuhan.netlify.app/posts/60814.html</id>
+    <published>2023-03-06T07:47:44.000Z</published>
+    <updated>2023-03-08T06:14:49.381Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;推荐使用以下的方式永久修改&lt;/p&gt;
+&lt;p&gt;编辑 mysql 的配配置文件 my.cnf&lt;/p&gt;
+&lt;p&gt;在[mysqld]下面添加如下列：&lt;/p&gt;
+&lt;figure class=&quot;highlight properties&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td</summary>
+        
+      
+    
+    
+    
+    <category term="Dev" scheme="https://zhangyuhan.netlify.app/categories/Dev/"/>
+    
+    <category term="mysql" scheme="https://zhangyuhan.netlify.app/categories/Dev/mysql/"/>
+    
+    
+    <category term="Dev" scheme="https://zhangyuhan.netlify.app/tags/Dev/"/>
+    
+    <category term="mysql" scheme="https://zhangyuhan.netlify.app/tags/mysql/"/>
+    
+    <category term="TIME_‘" scheme="https://zhangyuhan.netlify.app/tags/TIME-%E2%80%98/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>mysql常见的函数和问题的汇总</title>
+    <link href="https://zhangyuhan.netlify.app/posts/36898.html"/>
+    <id>https://zhangyuhan.netlify.app/posts/36898.html</id>
+    <published>2023-03-06T07:47:44.000Z</published>
+    <updated>2023-03-08T06:14:49.381Z</updated>
     
     
       
@@ -573,8 +605,9 @@
         
         
     <summary type="html">&lt;ul&gt;
-&lt;li&gt;group by 字段 ,order by 字段，表名，字段名，如果是动态的用$&lt;/li&gt;
-&lt;li&gt;limit</summary>
+&lt;li&gt;&lt;p&gt;注意 mysql 里面关于字符串的截取下标一般都是从 1 开始&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Substring(‘str’,a,b) 注意：a 是起始位置，b 是要截取得长度。且下标从 1 开始 ，如果 a 是 0，那么无论 b</summary>
         
       
     
@@ -582,32 +615,30 @@
     
     <category term="Dev" scheme="https://zhangyuhan.netlify.app/categories/Dev/"/>
     
-    <category term="mybatis" scheme="https://zhangyuhan.netlify.app/categories/Dev/mybatis/"/>
+    <category term="mysql" scheme="https://zhangyuhan.netlify.app/categories/Dev/mysql/"/>
     
     
     <category term="Dev" scheme="https://zhangyuhan.netlify.app/tags/Dev/"/>
     
-    <category term="mybatis" scheme="https://zhangyuhan.netlify.app/tags/mybatis/"/>
+    <category term="mysql" scheme="https://zhangyuhan.netlify.app/tags/mysql/"/>
     
-    <category term="mybatis中$和#的使用场景" scheme="https://zhangyuhan.netlify.app/tags/mybatis%E4%B8%AD-%E5%92%8C-%E7%9A%84%E4%BD%BF%E7%94%A8%E5%9C%BA%E6%99%AF/"/>
+    <category term="mysql常见的函数和问题的汇总" scheme="https://zhangyuhan.netlify.app/tags/mysql%E5%B8%B8%E8%A7%81%E7%9A%84%E5%87%BD%E6%95%B0%E5%92%8C%E9%97%AE%E9%A2%98%E7%9A%84%E6%B1%87%E6%80%BB/"/>
     
   </entry>
   
   <entry>
-    <title>判断字符串相等时的注意事项</title>
-    <link href="https://zhangyuhan.netlify.app/posts/281.html"/>
-    <id>https://zhangyuhan.netlify.app/posts/281.html</id>
+    <title>mysql建立新用户和授权</title>
+    <link href="https://zhangyuhan.netlify.app/posts/42280.html"/>
+    <id>https://zhangyuhan.netlify.app/posts/42280.html</id>
     <published>2023-03-06T07:47:44.000Z</published>
-    <updated>2023-03-08T06:14:49.351Z</updated>
+    <updated>2023-03-08T06:14:49.379Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;mybatis 映射文件中，if 标签判断字符串相等，两种方式：&lt;/p&gt;
-&lt;p&gt;因为 mybatis 映射文件，是使用的 ognl 表达式，所以在判断字符串 sex 变量是否是字符串 Y 的时候，&lt;/p&gt;
-&lt;figure class=&quot;highlight</summary>
+    <summary type="html">&lt;h1 id=&quot;需求：只允许某个用户访问某个库&quot;&gt;&lt;a href=&quot;#需求：只允许某个用户访问某个库&quot; class=&quot;headerlink&quot; title=&quot;需求：只允许某个用户访问某个库&quot;&gt;&lt;/a&gt;需求：只允许某个用户访问某个库&lt;/h1&gt;&lt;figure</summary>
         
       
     
@@ -615,45 +646,14 @@
     
     <category term="Dev" scheme="https://zhangyuhan.netlify.app/categories/Dev/"/>
     
-    <category term="mybatis" scheme="https://zhangyuhan.netlify.app/categories/Dev/mybatis/"/>
+    <category term="mysql" scheme="https://zhangyuhan.netlify.app/categories/Dev/mysql/"/>
     
     
     <category term="Dev" scheme="https://zhangyuhan.netlify.app/tags/Dev/"/>
     
-    <category term="mybatis" scheme="https://zhangyuhan.netlify.app/tags/mybatis/"/>
+    <category term="mysql" scheme="https://zhangyuhan.netlify.app/tags/mysql/"/>
     
-    <category term="判断字符串相等时的注意事项" scheme="https://zhangyuhan.netlify.app/tags/%E5%88%A4%E6%96%AD%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%9B%B8%E7%AD%89%E6%97%B6%E7%9A%84%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>实现if-else</title>
-    <link href="https://zhangyuhan.netlify.app/posts/51749.html"/>
-    <id>https://zhangyuhan.netlify.app/posts/51749.html</id>
-    <published>2023-03-06T07:47:44.000Z</published>
-    <updated>2023-03-08T06:14:49.348Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;figure class=&quot;highlight xml&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span</summary>
-        
-      
-    
-    
-    
-    <category term="Dev" scheme="https://zhangyuhan.netlify.app/categories/Dev/"/>
-    
-    <category term="mybatis" scheme="https://zhangyuhan.netlify.app/categories/Dev/mybatis/"/>
-    
-    
-    <category term="Dev" scheme="https://zhangyuhan.netlify.app/tags/Dev/"/>
-    
-    <category term="mybatis" scheme="https://zhangyuhan.netlify.app/tags/mybatis/"/>
-    
-    <category term="实现if-else" scheme="https://zhangyuhan.netlify.app/tags/%E5%AE%9E%E7%8E%B0if-else/"/>
+    <category term="mysql建立新用户和授权" scheme="https://zhangyuhan.netlify.app/tags/mysql%E5%BB%BA%E7%AB%8B%E6%96%B0%E7%94%A8%E6%88%B7%E5%92%8C%E6%8E%88%E6%9D%83/"/>
     
   </entry>
   
