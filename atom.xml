@@ -6,7 +6,7 @@
   <link href="https://zhangyuhan.netlify.app/atom.xml" rel="self"/>
   
   <link href="https://zhangyuhan.netlify.app/"/>
-  <updated>2023-06-25T01:20:55.877Z</updated>
+  <updated>2023-06-28T07:08:13.995Z</updated>
   <id>https://zhangyuhan.netlify.app/</id>
   
   <author>
@@ -15,6 +15,73 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>xml文件不在resource下时配置方法</title>
+    <link href="https://zhangyuhan.netlify.app/posts/59895.html"/>
+    <id>https://zhangyuhan.netlify.app/posts/59895.html</id>
+    <published>2023-06-28T07:49:44.000Z</published>
+    <updated>2023-06-28T07:08:13.995Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;ol&gt;
+&lt;li&gt;在pom中添加build打包的配置&lt;/li&gt;
+&lt;/ol&gt;
+&lt;figure class=&quot;highlight xml&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span</summary>
+        
+      
+    
+    
+    
+    <category term="Dev" scheme="https://zhangyuhan.netlify.app/categories/Dev/"/>
+    
+    <category term="mybatisPlus" scheme="https://zhangyuhan.netlify.app/categories/Dev/mybatisPlus/"/>
+    
+    
+    <category term="Dev" scheme="https://zhangyuhan.netlify.app/tags/Dev/"/>
+    
+    <category term="mybatisPlus" scheme="https://zhangyuhan.netlify.app/tags/mybatisPlus/"/>
+    
+    <category term="xml文件不在resource下时配置方法" scheme="https://zhangyuhan.netlify.app/tags/xml%E6%96%87%E4%BB%B6%E4%B8%8D%E5%9C%A8resource%E4%B8%8B%E6%97%B6%E9%85%8D%E7%BD%AE%E6%96%B9%E6%B3%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>mybatis-plus无法使用BaseMapper的公用方法</title>
+    <link href="https://zhangyuhan.netlify.app/posts/14681.html"/>
+    <id>https://zhangyuhan.netlify.app/posts/14681.html</id>
+    <published>2023-06-28T06:49:44.000Z</published>
+    <updated>2023-06-28T07:01:47.509Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;报错原因：&lt;br&gt;原本的mybatis里面再次引入mybatis-plus之后，使用公用的BaseMapper无法使用报错：也就是无法找到sql，但是可以使用自己编写的sql&lt;/p&gt;
+&lt;p&gt;解决办法：&lt;br&gt;只需要在你配置数据源的地方，换一个类即可：&lt;/p&gt;
+&lt;figure</summary>
+        
+      
+    
+    
+    
+    <category term="Dev" scheme="https://zhangyuhan.netlify.app/categories/Dev/"/>
+    
+    <category term="mybatisPlus" scheme="https://zhangyuhan.netlify.app/categories/Dev/mybatisPlus/"/>
+    
+    
+    <category term="Dev" scheme="https://zhangyuhan.netlify.app/tags/Dev/"/>
+    
+    <category term="mybatisPlus" scheme="https://zhangyuhan.netlify.app/tags/mybatisPlus/"/>
+    
+    <category term="mybatis-plus无法使用BaseMapper的公用方法" scheme="https://zhangyuhan.netlify.app/tags/mybatis-plus%E6%97%A0%E6%B3%95%E4%BD%BF%E7%94%A8BaseMapper%E7%9A%84%E5%85%AC%E7%94%A8%E6%96%B9%E6%B3%95/"/>
+    
+  </entry>
   
   <entry>
     <title>SpringBoot下最全的依赖注入方式</title>
@@ -402,6 +469,38 @@
   </entry>
   
   <entry>
+    <title>快速搭建v2ray</title>
+    <link href="https://zhangyuhan.netlify.app/posts/47358.html"/>
+    <id>https://zhangyuhan.netlify.app/posts/47358.html</id>
+    <published>2023-03-06T07:47:44.000Z</published>
+    <updated>2023-06-25T01:20:55.906Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;v2ray-一键脚本安装&quot;&gt;&lt;a href=&quot;#v2ray-一键脚本安装&quot; class=&quot;headerlink&quot; title=&quot;v2ray 一键脚本安装&quot;&gt;&lt;/a&gt;v2ray 一键脚本安装&lt;/h2&gt;&lt;p&gt;从下面脚本选择一个能用的&lt;/p&gt;
+&lt;p&gt;脚本</summary>
+        
+      
+    
+    
+    
+    <category term="Life" scheme="https://zhangyuhan.netlify.app/categories/Life/"/>
+    
+    <category term="v2ray" scheme="https://zhangyuhan.netlify.app/categories/Life/v2ray/"/>
+    
+    
+    <category term="Life" scheme="https://zhangyuhan.netlify.app/tags/Life/"/>
+    
+    <category term="v2ray" scheme="https://zhangyuhan.netlify.app/tags/v2ray/"/>
+    
+    <category term="快速搭建v2ray" scheme="https://zhangyuhan.netlify.app/tags/%E5%BF%AB%E9%80%9F%E6%90%AD%E5%BB%BAv2ray/"/>
+    
+  </entry>
+  
+  <entry>
     <title>待学习</title>
     <link href="https://zhangyuhan.netlify.app/posts/7682.html"/>
     <id>https://zhangyuhan.netlify.app/posts/7682.html</id>
@@ -471,98 +570,66 @@
   </entry>
   
   <entry>
-    <title>在maven库上添加手动添加第三方jar包</title>
-    <link href="https://zhangyuhan.netlify.app/posts/61509.html"/>
-    <id>https://zhangyuhan.netlify.app/posts/61509.html</id>
+    <title>toSee</title>
+    <link href="https://zhangyuhan.netlify.app/posts/30134.html"/>
+    <id>https://zhangyuhan.netlify.app/posts/30134.html</id>
     <published>2023-03-06T07:47:44.000Z</published>
-    <updated>2023-06-25T01:20:55.871Z</updated>
+    <updated>2023-06-25T01:20:55.901Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;进入到放这个 jar 包的文件夹，运行 cmd&lt;/p&gt;
-&lt;p&gt;然后根据下面的例子手动自己可以尝试着添加&lt;/p&gt;
-&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span</summary>
+    <summary type="html">&lt;h2 id=&quot;动漫&quot;&gt;&lt;a href=&quot;#动漫&quot; class=&quot;headerlink&quot; title=&quot;动漫&quot;&gt;&lt;/a&gt;动漫&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;input checked=&quot;&quot; disabled=&quot;&quot; type=&quot;checkbox&quot;&gt;</summary>
         
       
     
     
     
-    <category term="Dev" scheme="https://zhangyuhan.netlify.app/categories/Dev/"/>
+    <category term="Life" scheme="https://zhangyuhan.netlify.app/categories/Life/"/>
     
-    <category term="maven" scheme="https://zhangyuhan.netlify.app/categories/Dev/maven/"/>
+    <category term="todo" scheme="https://zhangyuhan.netlify.app/categories/Life/todo/"/>
     
     
-    <category term="Dev" scheme="https://zhangyuhan.netlify.app/tags/Dev/"/>
+    <category term="Life" scheme="https://zhangyuhan.netlify.app/tags/Life/"/>
     
-    <category term="maven" scheme="https://zhangyuhan.netlify.app/tags/maven/"/>
+    <category term="todo" scheme="https://zhangyuhan.netlify.app/tags/todo/"/>
     
-    <category term="在maven库上添加手动添加第三方jar包" scheme="https://zhangyuhan.netlify.app/tags/%E5%9C%A8maven%E5%BA%93%E4%B8%8A%E6%B7%BB%E5%8A%A0%E6%89%8B%E5%8A%A8%E6%B7%BB%E5%8A%A0%E7%AC%AC%E4%B8%89%E6%96%B9jar%E5%8C%85/"/>
+    <category term="toSee" scheme="https://zhangyuhan.netlify.app/tags/toSee/"/>
     
   </entry>
   
   <entry>
-    <title>将普通项目托付给maven管理</title>
-    <link href="https://zhangyuhan.netlify.app/posts/21615.html"/>
-    <id>https://zhangyuhan.netlify.app/posts/21615.html</id>
+    <title>toDo</title>
+    <link href="https://zhangyuhan.netlify.app/posts/49496.html"/>
+    <id>https://zhangyuhan.netlify.app/posts/49496.html</id>
     <published>2023-03-06T07:47:44.000Z</published>
-    <updated>2023-06-25T01:20:55.871Z</updated>
+    <updated>2023-06-25T01:20:55.901Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;如需将一个 java 项目托付给 maven 管理。在项目的根目录下，建个 pom.xml 把以下内容复制进去。同时&lt;strong&gt;右键把该项目标记为 maven 项目&lt;/strong&gt;(不同的 idea 版本该操作的名称可能不一样)&lt;/p&gt;
-&lt;figure</summary>
+    <summary type="html">&lt;h2 id=&quot;20221114&quot;&gt;&lt;a href=&quot;#20221114&quot; class=&quot;headerlink&quot; title=&quot;20221114&quot;&gt;&lt;/a&gt;20221114&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&gt; 整理</summary>
         
       
     
     
     
-    <category term="Dev" scheme="https://zhangyuhan.netlify.app/categories/Dev/"/>
+    <category term="Life" scheme="https://zhangyuhan.netlify.app/categories/Life/"/>
     
-    <category term="maven" scheme="https://zhangyuhan.netlify.app/categories/Dev/maven/"/>
-    
-    
-    <category term="Dev" scheme="https://zhangyuhan.netlify.app/tags/Dev/"/>
-    
-    <category term="maven" scheme="https://zhangyuhan.netlify.app/tags/maven/"/>
-    
-    <category term="将普通项目托付给maven管理" scheme="https://zhangyuhan.netlify.app/tags/%E5%B0%86%E6%99%AE%E9%80%9A%E9%A1%B9%E7%9B%AE%E6%89%98%E4%BB%98%E7%BB%99maven%E7%AE%A1%E7%90%86/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>项目打成jar包时，将项目下的文件，以及所有的依赖打成一个jar包</title>
-    <link href="https://zhangyuhan.netlify.app/posts/22750.html"/>
-    <id>https://zhangyuhan.netlify.app/posts/22750.html</id>
-    <published>2023-03-06T07:47:44.000Z</published>
-    <updated>2023-06-25T01:20:55.871Z</updated>
+    <category term="todo" scheme="https://zhangyuhan.netlify.app/categories/Life/todo/"/>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;例子：在做一个单机的用 maven 管理的 swing 项目时，引入了 poi，但是打成的 jar 包里没有 poi 的依赖，导致用 exe4j 转换出的 exe 程序报错（Caused by:</summary>
-        
-      
+    <category term="Life" scheme="https://zhangyuhan.netlify.app/tags/Life/"/>
     
+    <category term="todo" scheme="https://zhangyuhan.netlify.app/tags/todo/"/>
     
-    
-    <category term="Dev" scheme="https://zhangyuhan.netlify.app/categories/Dev/"/>
-    
-    <category term="maven" scheme="https://zhangyuhan.netlify.app/categories/Dev/maven/"/>
-    
-    
-    <category term="Dev" scheme="https://zhangyuhan.netlify.app/tags/Dev/"/>
-    
-    <category term="maven" scheme="https://zhangyuhan.netlify.app/tags/maven/"/>
-    
-    <category term="项目打成jar包时，将项目下的文件，以及所有的依赖打成一个jar包" scheme="https://zhangyuhan.netlify.app/tags/%E9%A1%B9%E7%9B%AE%E6%89%93%E6%88%90jar%E5%8C%85%E6%97%B6%EF%BC%8C%E5%B0%86%E9%A1%B9%E7%9B%AE%E4%B8%8B%E7%9A%84%E6%96%87%E4%BB%B6%EF%BC%8C%E4%BB%A5%E5%8F%8A%E6%89%80%E6%9C%89%E7%9A%84%E4%BE%9D%E8%B5%96%E6%89%93%E6%88%90%E4%B8%80%E4%B8%AAjar%E5%8C%85/"/>
+    <category term="toDo" scheme="https://zhangyuhan.netlify.app/tags/toDo/"/>
     
   </entry>
   
@@ -595,69 +662,6 @@
     <category term="essays" scheme="https://zhangyuhan.netlify.app/tags/essays/"/>
     
     <category term="学习路线" scheme="https://zhangyuhan.netlify.app/tags/%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>项目的jar包都正常引用了，但是build时就是提示jar包不存在的解决办法</title>
-    <link href="https://zhangyuhan.netlify.app/posts/52198.html"/>
-    <id>https://zhangyuhan.netlify.app/posts/52198.html</id>
-    <published>2023-03-06T07:47:44.000Z</published>
-    <updated>2023-06-25T01:20:55.871Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;如题，编译和打包都是正常的，pom 文件中依赖存在并且没有报错。找到相应包的引用位置，也能正常访问包中的内容。而且提示的一般都是基础的 jar 包找不到，比如单元测试用到的 jar 包等。。。&lt;br&gt;&lt;img</summary>
-        
-      
-    
-    
-    
-    <category term="Dev" scheme="https://zhangyuhan.netlify.app/categories/Dev/"/>
-    
-    <category term="maven" scheme="https://zhangyuhan.netlify.app/categories/Dev/maven/"/>
-    
-    
-    <category term="Dev" scheme="https://zhangyuhan.netlify.app/tags/Dev/"/>
-    
-    <category term="maven" scheme="https://zhangyuhan.netlify.app/tags/maven/"/>
-    
-    <category term="项目的jar包都正常引用了，但是build时就是提示jar包不存在的解决办法" scheme="https://zhangyuhan.netlify.app/tags/%E9%A1%B9%E7%9B%AE%E7%9A%84jar%E5%8C%85%E9%83%BD%E6%AD%A3%E5%B8%B8%E5%BC%95%E7%94%A8%E4%BA%86%EF%BC%8C%E4%BD%86%E6%98%AFbuild%E6%97%B6%E5%B0%B1%E6%98%AF%E6%8F%90%E7%A4%BAjar%E5%8C%85%E4%B8%8D%E5%AD%98%E5%9C%A8%E7%9A%84%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>DATE_FORMAT()和STR_TO_DATE()</title>
-    <link href="https://zhangyuhan.netlify.app/posts/24292.html"/>
-    <id>https://zhangyuhan.netlify.app/posts/24292.html</id>
-    <published>2023-03-06T07:47:44.000Z</published>
-    <updated>2023-06-25T01:20:55.875Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;常用的 DATE_FORMAA()格式&lt;/p&gt;
-&lt;figure class=&quot;highlight sql&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;DATE_FORMAT(updatetime,&lt;span</summary>
-        
-      
-    
-    
-    
-    <category term="Dev" scheme="https://zhangyuhan.netlify.app/categories/Dev/"/>
-    
-    <category term="mysql" scheme="https://zhangyuhan.netlify.app/categories/Dev/mysql/"/>
-    
-    
-    <category term="Dev" scheme="https://zhangyuhan.netlify.app/tags/Dev/"/>
-    
-    <category term="mysql" scheme="https://zhangyuhan.netlify.app/tags/mysql/"/>
-    
-    <category term="DATE_FORMAT()和STR_TO_DATE()" scheme="https://zhangyuhan.netlify.app/tags/DATE-FORMAT-%E5%92%8CSTR-TO-DATE/"/>
     
   </entry>
   
