@@ -6,7 +6,7 @@
   <link href="https://zhangyuhan.netlify.app/atom.xml" rel="self"/>
   
   <link href="https://zhangyuhan.netlify.app/"/>
-  <updated>2023-06-28T07:08:13.995Z</updated>
+  <updated>2023-06-29T01:28:17.094Z</updated>
   <id>https://zhangyuhan.netlify.app/</id>
   
   <author>
@@ -15,6 +15,37 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>SpringBoot开启gzip</title>
+    <link href="https://zhangyuhan.netlify.app/posts/7152.html"/>
+    <id>https://zhangyuhan.netlify.app/posts/7152.html</id>
+    <published>2023-06-29T01:20:12.000Z</published>
+    <updated>2023-06-29T01:28:17.094Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;在-SpringBoot-中启用-GZIP-压缩&quot;&gt;&lt;a href=&quot;#在-SpringBoot-中启用-GZIP-压缩&quot; class=&quot;headerlink&quot; title=&quot;在 SpringBoot 中启用 GZIP 压缩&quot;&gt;&lt;/a&gt;在 SpringBoot</summary>
+        
+      
+    
+    
+    
+    <category term="Dev" scheme="https://zhangyuhan.netlify.app/categories/Dev/"/>
+    
+    <category term="SpringBoot" scheme="https://zhangyuhan.netlify.app/categories/Dev/SpringBoot/"/>
+    
+    
+    <category term="Dev" scheme="https://zhangyuhan.netlify.app/tags/Dev/"/>
+    
+    <category term="SpringBoot" scheme="https://zhangyuhan.netlify.app/tags/SpringBoot/"/>
+    
+    <category term="SpringBoot开启gzip" scheme="https://zhangyuhan.netlify.app/tags/SpringBoot%E5%BC%80%E5%90%AFgzip/"/>
+    
+  </entry>
   
   <entry>
     <title>xml文件不在resource下时配置方法</title>
@@ -469,38 +500,6 @@
   </entry>
   
   <entry>
-    <title>快速搭建v2ray</title>
-    <link href="https://zhangyuhan.netlify.app/posts/47358.html"/>
-    <id>https://zhangyuhan.netlify.app/posts/47358.html</id>
-    <published>2023-03-06T07:47:44.000Z</published>
-    <updated>2023-06-25T01:20:55.906Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;v2ray-一键脚本安装&quot;&gt;&lt;a href=&quot;#v2ray-一键脚本安装&quot; class=&quot;headerlink&quot; title=&quot;v2ray 一键脚本安装&quot;&gt;&lt;/a&gt;v2ray 一键脚本安装&lt;/h2&gt;&lt;p&gt;从下面脚本选择一个能用的&lt;/p&gt;
-&lt;p&gt;脚本</summary>
-        
-      
-    
-    
-    
-    <category term="Life" scheme="https://zhangyuhan.netlify.app/categories/Life/"/>
-    
-    <category term="v2ray" scheme="https://zhangyuhan.netlify.app/categories/Life/v2ray/"/>
-    
-    
-    <category term="Life" scheme="https://zhangyuhan.netlify.app/tags/Life/"/>
-    
-    <category term="v2ray" scheme="https://zhangyuhan.netlify.app/tags/v2ray/"/>
-    
-    <category term="快速搭建v2ray" scheme="https://zhangyuhan.netlify.app/tags/%E5%BF%AB%E9%80%9F%E6%90%AD%E5%BB%BAv2ray/"/>
-    
-  </entry>
-  
-  <entry>
     <title>待学习</title>
     <link href="https://zhangyuhan.netlify.app/posts/7682.html"/>
     <id>https://zhangyuhan.netlify.app/posts/7682.html</id>
@@ -570,70 +569,6 @@
   </entry>
   
   <entry>
-    <title>toSee</title>
-    <link href="https://zhangyuhan.netlify.app/posts/30134.html"/>
-    <id>https://zhangyuhan.netlify.app/posts/30134.html</id>
-    <published>2023-03-06T07:47:44.000Z</published>
-    <updated>2023-06-25T01:20:55.901Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;动漫&quot;&gt;&lt;a href=&quot;#动漫&quot; class=&quot;headerlink&quot; title=&quot;动漫&quot;&gt;&lt;/a&gt;动漫&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;input checked=&quot;&quot; disabled=&quot;&quot; type=&quot;checkbox&quot;&gt;</summary>
-        
-      
-    
-    
-    
-    <category term="Life" scheme="https://zhangyuhan.netlify.app/categories/Life/"/>
-    
-    <category term="todo" scheme="https://zhangyuhan.netlify.app/categories/Life/todo/"/>
-    
-    
-    <category term="Life" scheme="https://zhangyuhan.netlify.app/tags/Life/"/>
-    
-    <category term="todo" scheme="https://zhangyuhan.netlify.app/tags/todo/"/>
-    
-    <category term="toSee" scheme="https://zhangyuhan.netlify.app/tags/toSee/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>toDo</title>
-    <link href="https://zhangyuhan.netlify.app/posts/49496.html"/>
-    <id>https://zhangyuhan.netlify.app/posts/49496.html</id>
-    <published>2023-03-06T07:47:44.000Z</published>
-    <updated>2023-06-25T01:20:55.901Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;20221114&quot;&gt;&lt;a href=&quot;#20221114&quot; class=&quot;headerlink&quot; title=&quot;20221114&quot;&gt;&lt;/a&gt;20221114&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;input disabled=&quot;&quot; type=&quot;checkbox&quot;&gt; 整理</summary>
-        
-      
-    
-    
-    
-    <category term="Life" scheme="https://zhangyuhan.netlify.app/categories/Life/"/>
-    
-    <category term="todo" scheme="https://zhangyuhan.netlify.app/categories/Life/todo/"/>
-    
-    
-    <category term="Life" scheme="https://zhangyuhan.netlify.app/tags/Life/"/>
-    
-    <category term="todo" scheme="https://zhangyuhan.netlify.app/tags/todo/"/>
-    
-    <category term="toDo" scheme="https://zhangyuhan.netlify.app/tags/toDo/"/>
-    
-  </entry>
-  
-  <entry>
     <title>学习路线</title>
     <link href="https://zhangyuhan.netlify.app/posts/4225.html"/>
     <id>https://zhangyuhan.netlify.app/posts/4225.html</id>
@@ -662,6 +597,71 @@
     <category term="essays" scheme="https://zhangyuhan.netlify.app/tags/essays/"/>
     
     <category term="学习路线" scheme="https://zhangyuhan.netlify.app/tags/%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>在maven库上添加手动添加第三方jar包</title>
+    <link href="https://zhangyuhan.netlify.app/posts/61509.html"/>
+    <id>https://zhangyuhan.netlify.app/posts/61509.html</id>
+    <published>2023-03-06T07:47:44.000Z</published>
+    <updated>2023-06-25T01:20:55.871Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;进入到放这个 jar 包的文件夹，运行 cmd&lt;/p&gt;
+&lt;p&gt;然后根据下面的例子手动自己可以尝试着添加&lt;/p&gt;
+&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span</summary>
+        
+      
+    
+    
+    
+    <category term="Dev" scheme="https://zhangyuhan.netlify.app/categories/Dev/"/>
+    
+    <category term="maven" scheme="https://zhangyuhan.netlify.app/categories/Dev/maven/"/>
+    
+    
+    <category term="Dev" scheme="https://zhangyuhan.netlify.app/tags/Dev/"/>
+    
+    <category term="maven" scheme="https://zhangyuhan.netlify.app/tags/maven/"/>
+    
+    <category term="在maven库上添加手动添加第三方jar包" scheme="https://zhangyuhan.netlify.app/tags/%E5%9C%A8maven%E5%BA%93%E4%B8%8A%E6%B7%BB%E5%8A%A0%E6%89%8B%E5%8A%A8%E6%B7%BB%E5%8A%A0%E7%AC%AC%E4%B8%89%E6%96%B9jar%E5%8C%85/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>将普通项目托付给maven管理</title>
+    <link href="https://zhangyuhan.netlify.app/posts/21615.html"/>
+    <id>https://zhangyuhan.netlify.app/posts/21615.html</id>
+    <published>2023-03-06T07:47:44.000Z</published>
+    <updated>2023-06-25T01:20:55.871Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;如需将一个 java 项目托付给 maven 管理。在项目的根目录下，建个 pom.xml 把以下内容复制进去。同时&lt;strong&gt;右键把该项目标记为 maven 项目&lt;/strong&gt;(不同的 idea 版本该操作的名称可能不一样)&lt;/p&gt;
+&lt;figure</summary>
+        
+      
+    
+    
+    
+    <category term="Dev" scheme="https://zhangyuhan.netlify.app/categories/Dev/"/>
+    
+    <category term="maven" scheme="https://zhangyuhan.netlify.app/categories/Dev/maven/"/>
+    
+    
+    <category term="Dev" scheme="https://zhangyuhan.netlify.app/tags/Dev/"/>
+    
+    <category term="maven" scheme="https://zhangyuhan.netlify.app/tags/maven/"/>
+    
+    <category term="将普通项目托付给maven管理" scheme="https://zhangyuhan.netlify.app/tags/%E5%B0%86%E6%99%AE%E9%80%9A%E9%A1%B9%E7%9B%AE%E6%89%98%E4%BB%98%E7%BB%99maven%E7%AE%A1%E7%90%86/"/>
     
   </entry>
   
