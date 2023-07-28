@@ -6,7 +6,7 @@
   <link href="https://zhangyuhan.netlify.app/atom.xml" rel="self"/>
   
   <link href="https://zhangyuhan.netlify.app/"/>
-  <updated>2023-07-24T02:01:56.415Z</updated>
+  <updated>2023-07-28T06:44:51.162Z</updated>
   <id>https://zhangyuhan.netlify.app/</id>
   
   <author>
@@ -15,6 +15,37 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>linux上停止mysql报错的解决办法</title>
+    <link href="https://zhangyuhan.netlify.app/posts/8695.html"/>
+    <id>https://zhangyuhan.netlify.app/posts/8695.html</id>
+    <published>2023-07-28T06:29:14.000Z</published>
+    <updated>2023-07-28T06:44:51.162Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;linux上停止mysql报错，解决办法有：1、检查错误消息，根据信息提示解决问题；2、查看日志文件，找到导致停止失败的具体错误并解决；3、使用强制停止命令，终止所有与MySQL相关的进程；4、使用kill命令手动杀死MySQL进程；5、确保MySQL相关文件和目录的权限设</summary>
+        
+      
+    
+    
+    
+    <category term="Ops" scheme="https://zhangyuhan.netlify.app/categories/Ops/"/>
+    
+    <category term="MySql" scheme="https://zhangyuhan.netlify.app/categories/Ops/MySql/"/>
+    
+    
+    <category term="Ops" scheme="https://zhangyuhan.netlify.app/tags/Ops/"/>
+    
+    <category term="MySql" scheme="https://zhangyuhan.netlify.app/tags/MySql/"/>
+    
+    <category term="linux上停止mysql报错的解决办法" scheme="https://zhangyuhan.netlify.app/tags/linux%E4%B8%8A%E5%81%9C%E6%AD%A2mysql%E6%8A%A5%E9%94%99%E7%9A%84%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/"/>
+    
+  </entry>
   
   <entry>
     <title>linux的常用脚本</title>
@@ -634,38 +665,6 @@
     
     
     
-    
-  </entry>
-  
-  <entry>
-    <title>学习路线</title>
-    <link href="https://zhangyuhan.netlify.app/posts/4225.html"/>
-    <id>https://zhangyuhan.netlify.app/posts/4225.html</id>
-    <published>2023-03-06T07:47:44.000Z</published>
-    <updated>2023-06-25T01:20:55.871Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;jlpt &lt;del&gt;n5&lt;/del&gt;-&amp;gt;n4-&amp;gt;n3-&amp;gt;n2&lt;/p&gt;
-&lt;p&gt;java：&lt;del&gt;stream&lt;/del&gt;,&lt;del&gt;lambda&lt;/del&gt;，&lt;del&gt;IO</summary>
-        
-      
-    
-    
-    
-    <category term="Dev" scheme="https://zhangyuhan.netlify.app/categories/Dev/"/>
-    
-    <category term="essays" scheme="https://zhangyuhan.netlify.app/categories/Dev/essays/"/>
-    
-    
-    <category term="Dev" scheme="https://zhangyuhan.netlify.app/tags/Dev/"/>
-    
-    <category term="essays" scheme="https://zhangyuhan.netlify.app/tags/essays/"/>
-    
-    <category term="学习路线" scheme="https://zhangyuhan.netlify.app/tags/%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF/"/>
     
   </entry>
   
