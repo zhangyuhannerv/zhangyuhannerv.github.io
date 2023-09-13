@@ -6,7 +6,7 @@
   <link href="https://zhangyuhan.netlify.app/atom.xml" rel="self"/>
   
   <link href="https://zhangyuhan.netlify.app/"/>
-  <updated>2023-09-08T08:13:26.672Z</updated>
+  <updated>2023-09-13T02:59:21.245Z</updated>
   <id>https://zhangyuhan.netlify.app/</id>
   
   <author>
@@ -15,6 +15,41 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>event.path过期</title>
+    <link href="https://zhangyuhan.netlify.app/posts/65131.html"/>
+    <id>https://zhangyuhan.netlify.app/posts/65131.html</id>
+    <published>2023-09-13T02:41:01.000Z</published>
+    <updated>2023-09-13T02:59:21.245Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;起因是 chromium 开发团队认为 Event.path 属于非标准 API，会导致 Firefox 等其他浏览器的兼容性问题，于是他们决定将其删除。&lt;br&gt;目前这个变更在 chrome 108 属于灰度阶段，在chrome 109 上会全面应用，webview</summary>
+        
+      
+    
+    
+    
+    <category term="Dev" scheme="https://zhangyuhan.netlify.app/categories/Dev/"/>
+    
+    <category term="JavaScript" scheme="https://zhangyuhan.netlify.app/categories/Dev/JavaScript/"/>
+    
+    <category term="browseAPI" scheme="https://zhangyuhan.netlify.app/categories/Dev/JavaScript/browseAPI/"/>
+    
+    
+    <category term="Dev" scheme="https://zhangyuhan.netlify.app/tags/Dev/"/>
+    
+    <category term="JavaScript" scheme="https://zhangyuhan.netlify.app/tags/JavaScript/"/>
+    
+    <category term="browseAPI" scheme="https://zhangyuhan.netlify.app/tags/browseAPI/"/>
+    
+    <category term="event.path过期" scheme="https://zhangyuhan.netlify.app/tags/event-path%E8%BF%87%E6%9C%9F/"/>
+    
+  </entry>
   
   <entry>
     <title>GROUP_CONCAT()函数的说明</title>
@@ -423,7 +458,7 @@
     <link href="https://zhangyuhan.netlify.app/posts/1170.html"/>
     <id>https://zhangyuhan.netlify.app/posts/1170.html</id>
     <published>2023-06-21T06:06:44.000Z</published>
-    <updated>2023-06-25T01:20:55.877Z</updated>
+    <updated>2023-09-13T03:05:48.159Z</updated>
     
     
       
@@ -648,40 +683,6 @@
     <category term="Echarts" scheme="https://zhangyuhan.netlify.app/tags/Echarts/"/>
     
     <category term="category-line的两种数据类型所绘制图形不同的问题" scheme="https://zhangyuhan.netlify.app/tags/category-line%E7%9A%84%E4%B8%A4%E7%A7%8D%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E6%89%80%E7%BB%98%E5%88%B6%E5%9B%BE%E5%BD%A2%E4%B8%8D%E5%90%8C%E7%9A%84%E9%97%AE%E9%A2%98/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>SpringBoot统一登录鉴权、异常处理、数据格式</title>
-    <link href="https://zhangyuhan.netlify.app/posts/39078.html"/>
-    <id>https://zhangyuhan.netlify.app/posts/39078.html</id>
-    <published>2023-04-14T07:47:44.000Z</published>
-    <updated>2023-06-25T01:20:55.877Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;本篇将要学习 Spring Boot 统一功能处理模块，这也是 AOP 的实战环节&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;用户登录权限的校验实现接口 HandlerInterceptor + WebMvcConfigurer&lt;/li&gt;
-&lt;li&gt;异常处理使用注解</summary>
-        
-      
-    
-    
-    
-    <category term="Dev" scheme="https://zhangyuhan.netlify.app/categories/Dev/"/>
-    
-    <category term="SpringBoot" scheme="https://zhangyuhan.netlify.app/categories/Dev/SpringBoot/"/>
-    
-    
-    <category term="Dev" scheme="https://zhangyuhan.netlify.app/tags/Dev/"/>
-    
-    <category term="SpringBoot" scheme="https://zhangyuhan.netlify.app/tags/SpringBoot/"/>
-    
-    <category term="SpringBoot统一登录鉴权、异常处理、数据格式" scheme="https://zhangyuhan.netlify.app/tags/SpringBoot%E7%BB%9F%E4%B8%80%E7%99%BB%E5%BD%95%E9%89%B4%E6%9D%83%E3%80%81%E5%BC%82%E5%B8%B8%E5%A4%84%E7%90%86%E3%80%81%E6%95%B0%E6%8D%AE%E6%A0%BC%E5%BC%8F/"/>
     
   </entry>
   
