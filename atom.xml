@@ -6,7 +6,7 @@
   <link href="https://zhangyuhan.netlify.app/atom.xml" rel="self"/>
   
   <link href="https://zhangyuhan.netlify.app/"/>
-  <updated>2023-10-25T06:59:39.838Z</updated>
+  <updated>2023-11-21T03:44:35.974Z</updated>
   <id>https://zhangyuhan.netlify.app/</id>
   
   <author>
@@ -15,6 +15,38 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>mysqldump定时备份</title>
+    <link href="https://zhangyuhan.netlify.app/posts/29320.html"/>
+    <id>https://zhangyuhan.netlify.app/posts/29320.html</id>
+    <published>2023-11-21T03:42:01.000Z</published>
+    <updated>2023-11-21T03:44:35.974Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;创建脚本&quot;&gt;&lt;a href=&quot;#创建脚本&quot; class=&quot;headerlink&quot; title=&quot;创建脚本&quot;&gt;&lt;/a&gt;创建脚本&lt;/h2&gt;&lt;p&gt;创建一个新的Shell脚本文件，比如backup_mysql.sh&lt;/p&gt;
+&lt;figure</summary>
+        
+      
+    
+    
+    
+    <category term="Ops" scheme="https://zhangyuhan.netlify.app/categories/Ops/"/>
+    
+    <category term="MySql" scheme="https://zhangyuhan.netlify.app/categories/Ops/MySql/"/>
+    
+    
+    <category term="Ops" scheme="https://zhangyuhan.netlify.app/tags/Ops/"/>
+    
+    <category term="MySql" scheme="https://zhangyuhan.netlify.app/tags/MySql/"/>
+    
+    <category term="mysqldump定时备份" scheme="https://zhangyuhan.netlify.app/tags/mysqldump%E5%AE%9A%E6%97%B6%E5%A4%87%E4%BB%BD/"/>
+    
+  </entry>
   
   <entry>
     <title>js获取当前页面的地址</title>
@@ -651,37 +683,6 @@
     <category term="JUC" scheme="https://zhangyuhan.netlify.app/tags/JUC/"/>
     
     <category term="多线程事务回滚" scheme="https://zhangyuhan.netlify.app/tags/%E5%A4%9A%E7%BA%BF%E7%A8%8B%E4%BA%8B%E5%8A%A1%E5%9B%9E%E6%BB%9A/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>OAuth 2.0 第三方登录</title>
-    <link href="https://zhangyuhan.netlify.app/posts/14380.html"/>
-    <id>https://zhangyuhan.netlify.app/posts/14380.html</id>
-    <published>2023-05-09T01:04:44.000Z</published>
-    <updated>2023-06-25T01:20:55.875Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;OAuth简介&quot;&gt;&lt;a href=&quot;#OAuth简介&quot; class=&quot;headerlink&quot; title=&quot;OAuth简介&quot;&gt;&lt;/a&gt;OAuth简介&lt;/h1&gt;&lt;h2 id=&quot;OAuth2-0介绍&quot;&gt;&lt;a href=&quot;#OAuth2-0介绍&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="Dev" scheme="https://zhangyuhan.netlify.app/categories/Dev/"/>
-    
-    <category term="OAuth2.0" scheme="https://zhangyuhan.netlify.app/categories/Dev/OAuth2-0/"/>
-    
-    
-    <category term="Dev" scheme="https://zhangyuhan.netlify.app/tags/Dev/"/>
-    
-    <category term="OAuth2.0" scheme="https://zhangyuhan.netlify.app/tags/OAuth2-0/"/>
-    
-    <category term="OAuth 2.0 第三方登录" scheme="https://zhangyuhan.netlify.app/tags/OAuth-2-0-%E7%AC%AC%E4%B8%89%E6%96%B9%E7%99%BB%E5%BD%95/"/>
     
   </entry>
   
