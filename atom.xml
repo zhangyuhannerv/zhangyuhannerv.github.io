@@ -6,7 +6,7 @@
   <link href="https://zhangyuhan.netlify.app/atom.xml" rel="self"/>
   
   <link href="https://zhangyuhan.netlify.app/"/>
-  <updated>2023-11-21T03:44:35.974Z</updated>
+  <updated>2024-02-21T07:39:38.845Z</updated>
   <id>https://zhangyuhan.netlify.app/</id>
   
   <author>
@@ -15,6 +15,41 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>公网nfs配置踩坑</title>
+    <link href="https://zhangyuhan.netlify.app/posts/973.html"/>
+    <id>https://zhangyuhan.netlify.app/posts/973.html</id>
+    <published>2024-02-21T06:47:44.000Z</published>
+    <updated>2024-02-21T07:39:38.845Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;背景&quot;&gt;&lt;a href=&quot;#背景&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Ops" scheme="https://zhangyuhan.netlify.app/categories/Ops/"/>
+    
+    <category term="linux" scheme="https://zhangyuhan.netlify.app/categories/Ops/linux/"/>
+    
+    <category term="centos" scheme="https://zhangyuhan.netlify.app/categories/Ops/linux/centos/"/>
+    
+    
+    <category term="Ops" scheme="https://zhangyuhan.netlify.app/tags/Ops/"/>
+    
+    <category term="linux" scheme="https://zhangyuhan.netlify.app/tags/linux/"/>
+    
+    <category term="centos" scheme="https://zhangyuhan.netlify.app/tags/centos/"/>
+    
+    <category term="nfs" scheme="https://zhangyuhan.netlify.app/tags/nfs/"/>
+    
+  </entry>
   
   <entry>
     <title>mysqldump定时备份</title>
@@ -647,42 +682,6 @@
     <category term="SpringBoot" scheme="https://zhangyuhan.netlify.app/tags/SpringBoot/"/>
     
     <category term="Springboot调用外部http接口的三种方式" scheme="https://zhangyuhan.netlify.app/tags/Springboot%E8%B0%83%E7%94%A8%E5%A4%96%E9%83%A8http%E6%8E%A5%E5%8F%A3%E7%9A%84%E4%B8%89%E7%A7%8D%E6%96%B9%E5%BC%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>多线程事务回滚</title>
-    <link href="https://zhangyuhan.netlify.app/posts/9793.html"/>
-    <id>https://zhangyuhan.netlify.app/posts/9793.html</id>
-    <published>2023-05-23T01:44:23.000Z</published>
-    <updated>2023-06-25T01:20:55.842Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;场景&quot;&gt;&lt;a href=&quot;#场景&quot; class=&quot;headerlink&quot; title=&quot;场景&quot;&gt;&lt;/a&gt;场景&lt;/h1&gt;&lt;p&gt;项目需要 导入一批数据，对数据进行切割，用多线程跑。&lt;/p&gt;
-&lt;h1 id=&quot;问题点&quot;&gt;&lt;a href=&quot;#问题点&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="Dev" scheme="https://zhangyuhan.netlify.app/categories/Dev/"/>
-    
-    <category term="Java" scheme="https://zhangyuhan.netlify.app/categories/Dev/Java/"/>
-    
-    <category term="JUC" scheme="https://zhangyuhan.netlify.app/categories/Dev/Java/JUC/"/>
-    
-    
-    <category term="Dev" scheme="https://zhangyuhan.netlify.app/tags/Dev/"/>
-    
-    <category term="Java" scheme="https://zhangyuhan.netlify.app/tags/Java/"/>
-    
-    <category term="JUC" scheme="https://zhangyuhan.netlify.app/tags/JUC/"/>
-    
-    <category term="多线程事务回滚" scheme="https://zhangyuhan.netlify.app/tags/%E5%A4%9A%E7%BA%BF%E7%A8%8B%E4%BA%8B%E5%8A%A1%E5%9B%9E%E6%BB%9A/"/>
     
   </entry>
   
