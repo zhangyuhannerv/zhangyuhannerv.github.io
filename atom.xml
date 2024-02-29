@@ -6,7 +6,7 @@
   <link href="https://zhangyuhan.netlify.app/atom.xml" rel="self"/>
   
   <link href="https://zhangyuhan.netlify.app/"/>
-  <updated>2024-02-23T08:27:58.637Z</updated>
+  <updated>2024-02-29T05:52:35.345Z</updated>
   <id>https://zhangyuhan.netlify.app/</id>
   
   <author>
@@ -15,6 +15,41 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>redis主从、哨兵、集群搭建</title>
+    <link href="https://zhangyuhan.netlify.app/posts/30107.html"/>
+    <id>https://zhangyuhan.netlify.app/posts/30107.html</id>
+    <published>2024-02-29T03:28:01.000Z</published>
+    <updated>2024-02-29T05:52:35.345Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="Ops" scheme="https://zhangyuhan.netlify.app/categories/Ops/"/>
+    
+    <category term="redis" scheme="https://zhangyuhan.netlify.app/categories/Ops/redis/"/>
+    
+    
+    <category term="redis" scheme="https://zhangyuhan.netlify.app/tags/redis/"/>
+    
+    <category term="Ops" scheme="https://zhangyuhan.netlify.app/tags/Ops/"/>
+    
+    <category term="redis主从" scheme="https://zhangyuhan.netlify.app/tags/redis%E4%B8%BB%E4%BB%8E/"/>
+    
+    <category term="redis哨兵" scheme="https://zhangyuhan.netlify.app/tags/redis%E5%93%A8%E5%85%B5/"/>
+    
+    <category term="redis集群" scheme="https://zhangyuhan.netlify.app/tags/redis%E9%9B%86%E7%BE%A4/"/>
+    
+  </entry>
   
   <entry>
     <title>redis哨兵模式在springboot下的配置</title>
@@ -145,9 +180,9 @@
     
     <category term="Dev" scheme="https://zhangyuhan.netlify.app/tags/Dev/"/>
     
-    <category term="JavaScript" scheme="https://zhangyuhan.netlify.app/tags/JavaScript/"/>
-    
     <category term="studyEveryday" scheme="https://zhangyuhan.netlify.app/tags/studyEveryday/"/>
+    
+    <category term="JavaScript" scheme="https://zhangyuhan.netlify.app/tags/JavaScript/"/>
     
     <category term="js获取当前页面的地址" scheme="https://zhangyuhan.netlify.app/tags/js%E8%8E%B7%E5%8F%96%E5%BD%93%E5%89%8D%E9%A1%B5%E9%9D%A2%E7%9A%84%E5%9C%B0%E5%9D%80/"/>
     
@@ -650,41 +685,6 @@
     <category term="SpringBoot" scheme="https://zhangyuhan.netlify.app/tags/SpringBoot/"/>
     
     <category term="SpringBoot下最全的依赖注入方式" scheme="https://zhangyuhan.netlify.app/tags/SpringBoot%E4%B8%8B%E6%9C%80%E5%85%A8%E7%9A%84%E4%BE%9D%E8%B5%96%E6%B3%A8%E5%85%A5%E6%96%B9%E5%BC%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>RedisTemplate工具类整合</title>
-    <link href="https://zhangyuhan.netlify.app/posts/57079.html"/>
-    <id>https://zhangyuhan.netlify.app/posts/57079.html</id>
-    <published>2023-05-31T02:09:14.000Z</published>
-    <updated>2023-06-25T01:20:55.871Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;figure class=&quot;highlight java&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;meta&quot;&gt;@Component&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span</summary>
-        
-      
-    
-    
-    
-    <category term="Dev" scheme="https://zhangyuhan.netlify.app/categories/Dev/"/>
-    
-    <category term="redis" scheme="https://zhangyuhan.netlify.app/categories/Dev/redis/"/>
-    
-    <category term="ResidTemplate" scheme="https://zhangyuhan.netlify.app/categories/Dev/redis/ResidTemplate/"/>
-    
-    
-    <category term="Dev" scheme="https://zhangyuhan.netlify.app/tags/Dev/"/>
-    
-    <category term="redis" scheme="https://zhangyuhan.netlify.app/tags/redis/"/>
-    
-    <category term="ResidTemplate" scheme="https://zhangyuhan.netlify.app/tags/ResidTemplate/"/>
-    
-    <category term="RedisTemplate工具类整合" scheme="https://zhangyuhan.netlify.app/tags/RedisTemplate%E5%B7%A5%E5%85%B7%E7%B1%BB%E6%95%B4%E5%90%88/"/>
     
   </entry>
   
