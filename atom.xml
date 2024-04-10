@@ -6,7 +6,7 @@
   <link href="https://zhangyuhan.netlify.app/atom.xml" rel="self"/>
   
   <link href="https://zhangyuhan.netlify.app/"/>
-  <updated>2024-02-29T05:52:35.345Z</updated>
+  <updated>2024-04-10T09:03:13.771Z</updated>
   <id>https://zhangyuhan.netlify.app/</id>
   
   <author>
@@ -15,6 +15,38 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>1.elasticsearch通过docker在mackbook m1安装</title>
+    <link href="https://zhangyuhan.netlify.app/posts/14380.html"/>
+    <id>https://zhangyuhan.netlify.app/posts/14380.html</id>
+    <published>2024-04-10T08:53:13.000Z</published>
+    <updated>2024-04-10T09:03:13.771Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;主要目的：安装elasticsearch和kibana，解决kibana无法连接elasticsearch导致server is not ready yet的问题&lt;/p&gt;
+&lt;h2 id=&quot;建立docker网络els&quot;&gt;&lt;a href=&quot;#建立docker网络els&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Dev" scheme="https://zhangyuhan.netlify.app/categories/Dev/"/>
+    
+    <category term="elasticsearch" scheme="https://zhangyuhan.netlify.app/categories/Dev/elasticsearch/"/>
+    
+    
+    <category term="Dev" scheme="https://zhangyuhan.netlify.app/tags/Dev/"/>
+    
+    <category term="elasticsearch" scheme="https://zhangyuhan.netlify.app/tags/elasticsearch/"/>
+    
+    <category term="elasticsearch通过docker安装（适配macbook m1）" scheme="https://zhangyuhan.netlify.app/tags/elasticsearch%E9%80%9A%E8%BF%87docker%E5%AE%89%E8%A3%85%EF%BC%88%E9%80%82%E9%85%8Dmacbook-m1%EF%BC%89/"/>
+    
+  </entry>
   
   <entry>
     <title>redis主从、哨兵、集群搭建</title>
@@ -653,38 +685,6 @@
     <category term="mybatisPlus" scheme="https://zhangyuhan.netlify.app/tags/mybatisPlus/"/>
     
     <category term="mybatis-plus无法使用BaseMapper的公用方法" scheme="https://zhangyuhan.netlify.app/tags/mybatis-plus%E6%97%A0%E6%B3%95%E4%BD%BF%E7%94%A8BaseMapper%E7%9A%84%E5%85%AC%E7%94%A8%E6%96%B9%E6%B3%95/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>SpringBoot下最全的依赖注入方式</title>
-    <link href="https://zhangyuhan.netlify.app/posts/1170.html"/>
-    <id>https://zhangyuhan.netlify.app/posts/1170.html</id>
-    <published>2023-06-21T06:06:44.000Z</published>
-    <updated>2023-09-13T03:05:48.159Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;属性注入&quot;&gt;&lt;a href=&quot;#属性注入&quot; class=&quot;headerlink&quot; title=&quot;属性注入&quot;&gt;&lt;/a&gt;属性注入&lt;/h2&gt;&lt;p&gt;通过属性注入的方式非常常用，或者说是最常用的&lt;/p&gt;
-&lt;figure class=&quot;highlight</summary>
-        
-      
-    
-    
-    
-    <category term="Dev" scheme="https://zhangyuhan.netlify.app/categories/Dev/"/>
-    
-    <category term="SpringBoot" scheme="https://zhangyuhan.netlify.app/categories/Dev/SpringBoot/"/>
-    
-    
-    <category term="Dev" scheme="https://zhangyuhan.netlify.app/tags/Dev/"/>
-    
-    <category term="SpringBoot" scheme="https://zhangyuhan.netlify.app/tags/SpringBoot/"/>
-    
-    <category term="SpringBoot下最全的依赖注入方式" scheme="https://zhangyuhan.netlify.app/tags/SpringBoot%E4%B8%8B%E6%9C%80%E5%85%A8%E7%9A%84%E4%BE%9D%E8%B5%96%E6%B3%A8%E5%85%A5%E6%96%B9%E5%BC%8F/"/>
     
   </entry>
   
