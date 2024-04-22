@@ -6,7 +6,7 @@
   <link href="https://zhangyuhan.netlify.app/atom.xml" rel="self"/>
   
   <link href="https://zhangyuhan.netlify.app/"/>
-  <updated>2024-04-22T06:47:25.273Z</updated>
+  <updated>2024-04-22T07:16:02.876Z</updated>
   <id>https://zhangyuhan.netlify.app/</id>
   
   <author>
@@ -15,6 +15,37 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>docker安装nginx</title>
+    <link href="https://zhangyuhan.netlify.app/posts/57560.html"/>
+    <id>https://zhangyuhan.netlify.app/posts/57560.html</id>
+    <published>2024-04-22T06:48:10.000Z</published>
+    <updated>2024-04-22T07:16:02.876Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;# 拉取镜像&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span</summary>
+        
+      
+    
+    
+    
+    <category term="Ops" scheme="https://zhangyuhan.netlify.app/categories/Ops/"/>
+    
+    <category term="nginx" scheme="https://zhangyuhan.netlify.app/categories/Ops/nginx/"/>
+    
+    
+    <category term="Ops" scheme="https://zhangyuhan.netlify.app/tags/Ops/"/>
+    
+    <category term="nginx" scheme="https://zhangyuhan.netlify.app/tags/nginx/"/>
+    
+    <category term="docker安装nginx" scheme="https://zhangyuhan.netlify.app/tags/docker%E5%AE%89%E8%A3%85nginx/"/>
+    
+  </entry>
   
   <entry>
     <title>elasticsearch通过docker在mackbook m1安装</title>
@@ -71,9 +102,9 @@
     <category term="redis" scheme="https://zhangyuhan.netlify.app/categories/Ops/redis/"/>
     
     
-    <category term="redis" scheme="https://zhangyuhan.netlify.app/tags/redis/"/>
-    
     <category term="Ops" scheme="https://zhangyuhan.netlify.app/tags/Ops/"/>
+    
+    <category term="redis" scheme="https://zhangyuhan.netlify.app/tags/redis/"/>
     
     <category term="redis主从" scheme="https://zhangyuhan.netlify.app/tags/redis%E4%B8%BB%E4%BB%8E/"/>
     
@@ -107,9 +138,9 @@
     <category term="redis" scheme="https://zhangyuhan.netlify.app/categories/Dev/redis/"/>
     
     
-    <category term="Dev" scheme="https://zhangyuhan.netlify.app/tags/Dev/"/>
-    
     <category term="redis" scheme="https://zhangyuhan.netlify.app/tags/redis/"/>
+    
+    <category term="Dev" scheme="https://zhangyuhan.netlify.app/tags/Dev/"/>
     
     <category term="哨兵" scheme="https://zhangyuhan.netlify.app/tags/%E5%93%A8%E5%85%B5/"/>
     
@@ -652,39 +683,6 @@
     <category term="mybatisPlus" scheme="https://zhangyuhan.netlify.app/tags/mybatisPlus/"/>
     
     <category term="xml文件不在resource下时配置方法" scheme="https://zhangyuhan.netlify.app/tags/xml%E6%96%87%E4%BB%B6%E4%B8%8D%E5%9C%A8resource%E4%B8%8B%E6%97%B6%E9%85%8D%E7%BD%AE%E6%96%B9%E6%B3%95/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>mybatis-plus无法使用BaseMapper的公用方法</title>
-    <link href="https://zhangyuhan.netlify.app/posts/14681.html"/>
-    <id>https://zhangyuhan.netlify.app/posts/14681.html</id>
-    <published>2023-06-28T06:49:44.000Z</published>
-    <updated>2023-06-28T07:01:47.509Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;报错原因：&lt;br&gt;原本的mybatis里面再次引入mybatis-plus之后，使用公用的BaseMapper无法使用报错：也就是无法找到sql，但是可以使用自己编写的sql&lt;/p&gt;
-&lt;p&gt;解决办法：&lt;br&gt;只需要在你配置数据源的地方，换一个类即可：&lt;/p&gt;
-&lt;figure</summary>
-        
-      
-    
-    
-    
-    <category term="Dev" scheme="https://zhangyuhan.netlify.app/categories/Dev/"/>
-    
-    <category term="mybatisPlus" scheme="https://zhangyuhan.netlify.app/categories/Dev/mybatisPlus/"/>
-    
-    
-    <category term="Dev" scheme="https://zhangyuhan.netlify.app/tags/Dev/"/>
-    
-    <category term="mybatisPlus" scheme="https://zhangyuhan.netlify.app/tags/mybatisPlus/"/>
-    
-    <category term="mybatis-plus无法使用BaseMapper的公用方法" scheme="https://zhangyuhan.netlify.app/tags/mybatis-plus%E6%97%A0%E6%B3%95%E4%BD%BF%E7%94%A8BaseMapper%E7%9A%84%E5%85%AC%E7%94%A8%E6%96%B9%E6%B3%95/"/>
     
   </entry>
   
