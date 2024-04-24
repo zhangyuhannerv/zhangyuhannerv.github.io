@@ -6,7 +6,7 @@
   <link href="https://zhangyuhan.netlify.app/atom.xml" rel="self"/>
   
   <link href="https://zhangyuhan.netlify.app/"/>
-  <updated>2024-04-22T07:24:04.960Z</updated>
+  <updated>2024-04-24T07:41:48.741Z</updated>
   <id>https://zhangyuhan.netlify.app/</id>
   
   <author>
@@ -15,6 +15,38 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>m1芯片,docker安装mysql5.7</title>
+    <link href="https://zhangyuhan.netlify.app/posts/35651.html"/>
+    <id>https://zhangyuhan.netlify.app/posts/35651.html</id>
+    <published>2024-04-24T07:19:11.000Z</published>
+    <updated>2024-04-24T07:41:48.741Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;mysql5.7版本没有适合arm架构的docker镜像&lt;br&gt;但是网上大佬说x86镜像的mysql5.7一样能在macbook m1上运行&lt;br&gt;自己试验了，果然可以。整理一下&lt;/p&gt;
+&lt;figure class=&quot;highlight</summary>
+        
+      
+    
+    
+    
+    <category term="Dev" scheme="https://zhangyuhan.netlify.app/categories/Dev/"/>
+    
+    <category term="mysql" scheme="https://zhangyuhan.netlify.app/categories/Dev/mysql/"/>
+    
+    
+    <category term="Dev" scheme="https://zhangyuhan.netlify.app/tags/Dev/"/>
+    
+    <category term="mysql" scheme="https://zhangyuhan.netlify.app/tags/mysql/"/>
+    
+    <category term="m1芯片,docker安装mysql5.7" scheme="https://zhangyuhan.netlify.app/tags/m1%E8%8A%AF%E7%89%87-docker%E5%AE%89%E8%A3%85mysql5-7/"/>
+    
+  </entry>
   
   <entry>
     <title>docker安装nginx</title>
@@ -84,7 +116,7 @@
     <link href="https://zhangyuhan.netlify.app/posts/30107.html"/>
     <id>https://zhangyuhan.netlify.app/posts/30107.html</id>
     <published>2024-02-29T03:28:01.000Z</published>
-    <updated>2024-02-29T05:52:35.345Z</updated>
+    <updated>2024-04-22T08:47:32.751Z</updated>
     
     
       
@@ -649,40 +681,6 @@
     <category term="SpringBoot" scheme="https://zhangyuhan.netlify.app/tags/SpringBoot/"/>
     
     <category term="SpringBoot开启gzip" scheme="https://zhangyuhan.netlify.app/tags/SpringBoot%E5%BC%80%E5%90%AFgzip/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>xml文件不在resource下时配置方法</title>
-    <link href="https://zhangyuhan.netlify.app/posts/59895.html"/>
-    <id>https://zhangyuhan.netlify.app/posts/59895.html</id>
-    <published>2023-06-28T07:49:44.000Z</published>
-    <updated>2023-06-28T07:08:13.995Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;ol&gt;
-&lt;li&gt;在pom中添加build打包的配置&lt;/li&gt;
-&lt;/ol&gt;
-&lt;figure class=&quot;highlight xml&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span</summary>
-        
-      
-    
-    
-    
-    <category term="Dev" scheme="https://zhangyuhan.netlify.app/categories/Dev/"/>
-    
-    <category term="mybatisPlus" scheme="https://zhangyuhan.netlify.app/categories/Dev/mybatisPlus/"/>
-    
-    
-    <category term="Dev" scheme="https://zhangyuhan.netlify.app/tags/Dev/"/>
-    
-    <category term="mybatisPlus" scheme="https://zhangyuhan.netlify.app/tags/mybatisPlus/"/>
-    
-    <category term="xml文件不在resource下时配置方法" scheme="https://zhangyuhan.netlify.app/tags/xml%E6%96%87%E4%BB%B6%E4%B8%8D%E5%9C%A8resource%E4%B8%8B%E6%97%B6%E9%85%8D%E7%BD%AE%E6%96%B9%E6%B3%95/"/>
     
   </entry>
   
