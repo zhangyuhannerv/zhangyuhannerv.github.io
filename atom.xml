@@ -6,7 +6,7 @@
   <link href="https://zhangyuhan.netlify.app/atom.xml" rel="self"/>
   
   <link href="https://zhangyuhan.netlify.app/"/>
-  <updated>2024-04-24T08:37:04.798Z</updated>
+  <updated>2024-04-24T08:37:55.034Z</updated>
   <id>https://zhangyuhan.netlify.app/</id>
   
   <author>
@@ -15,6 +15,37 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>m1,docker安装rabbitmq</title>
+    <link href="https://zhangyuhan.netlify.app/posts/56360.html"/>
+    <id>https://zhangyuhan.netlify.app/posts/56360.html</id>
+    <published>2024-04-24T08:31:23.000Z</published>
+    <updated>2024-04-24T08:37:55.034Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;# 拉镜像&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span</summary>
+        
+      
+    
+    
+    
+    <category term="Dev" scheme="https://zhangyuhan.netlify.app/categories/Dev/"/>
+    
+    <category term="RabbitMq" scheme="https://zhangyuhan.netlify.app/categories/Dev/RabbitMq/"/>
+    
+    
+    <category term="Dev" scheme="https://zhangyuhan.netlify.app/tags/Dev/"/>
+    
+    <category term="RabbitMq" scheme="https://zhangyuhan.netlify.app/tags/RabbitMq/"/>
+    
+    <category term="m1,docker安装rabbitmq" scheme="https://zhangyuhan.netlify.app/tags/m1-docker%E5%AE%89%E8%A3%85rabbitmq/"/>
+    
+  </entry>
   
   <entry>
     <title>m1,docker安装mysql5.7</title>
@@ -650,37 +681,6 @@
     <category term="公共api" scheme="https://zhangyuhan.netlify.app/tags/%E5%85%AC%E5%85%B1api/"/>
     
     <category term="随机图片api整理" scheme="https://zhangyuhan.netlify.app/tags/%E9%9A%8F%E6%9C%BA%E5%9B%BE%E7%89%87api%E6%95%B4%E7%90%86/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>SpringBoot开启gzip</title>
-    <link href="https://zhangyuhan.netlify.app/posts/7152.html"/>
-    <id>https://zhangyuhan.netlify.app/posts/7152.html</id>
-    <published>2023-06-29T01:20:12.000Z</published>
-    <updated>2023-06-29T01:28:17.094Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;在-SpringBoot-中启用-GZIP-压缩&quot;&gt;&lt;a href=&quot;#在-SpringBoot-中启用-GZIP-压缩&quot; class=&quot;headerlink&quot; title=&quot;在 SpringBoot 中启用 GZIP 压缩&quot;&gt;&lt;/a&gt;在 SpringBoot</summary>
-        
-      
-    
-    
-    
-    <category term="Dev" scheme="https://zhangyuhan.netlify.app/categories/Dev/"/>
-    
-    <category term="SpringBoot" scheme="https://zhangyuhan.netlify.app/categories/Dev/SpringBoot/"/>
-    
-    
-    <category term="Dev" scheme="https://zhangyuhan.netlify.app/tags/Dev/"/>
-    
-    <category term="SpringBoot" scheme="https://zhangyuhan.netlify.app/tags/SpringBoot/"/>
-    
-    <category term="SpringBoot开启gzip" scheme="https://zhangyuhan.netlify.app/tags/SpringBoot%E5%BC%80%E5%90%AFgzip/"/>
     
   </entry>
   
