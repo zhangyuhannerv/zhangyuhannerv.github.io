@@ -6,7 +6,7 @@
   <link href="https://zhangyuhan.netlify.app/atom.xml" rel="self"/>
   
   <link href="https://zhangyuhan.netlify.app/"/>
-  <updated>2024-04-24T07:41:48.741Z</updated>
+  <updated>2024-04-24T08:32:58.864Z</updated>
   <id>https://zhangyuhan.netlify.app/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>m1芯片,docker安装mysql5.7</title>
-    <link href="https://zhangyuhan.netlify.app/posts/35651.html"/>
-    <id>https://zhangyuhan.netlify.app/posts/35651.html</id>
+    <title>m1,docker安装mysql5.7</title>
+    <link href="https://zhangyuhan.netlify.app/posts/2459.html"/>
+    <id>https://zhangyuhan.netlify.app/posts/2459.html</id>
     <published>2024-04-24T07:19:11.000Z</published>
-    <updated>2024-04-24T07:41:48.741Z</updated>
+    <updated>2024-04-24T08:32:58.864Z</updated>
     
     
       
@@ -44,7 +44,7 @@
     
     <category term="mysql" scheme="https://zhangyuhan.netlify.app/tags/mysql/"/>
     
-    <category term="m1芯片,docker安装mysql5.7" scheme="https://zhangyuhan.netlify.app/tags/m1%E8%8A%AF%E7%89%87-docker%E5%AE%89%E8%A3%85mysql5-7/"/>
+    <category term="m1,docker安装mysql5.7" scheme="https://zhangyuhan.netlify.app/tags/m1-docker%E5%AE%89%E8%A3%85mysql5-7/"/>
     
   </entry>
   
@@ -134,9 +134,9 @@
     <category term="redis" scheme="https://zhangyuhan.netlify.app/categories/Ops/redis/"/>
     
     
-    <category term="redis" scheme="https://zhangyuhan.netlify.app/tags/redis/"/>
-    
     <category term="Ops" scheme="https://zhangyuhan.netlify.app/tags/Ops/"/>
+    
+    <category term="redis" scheme="https://zhangyuhan.netlify.app/tags/redis/"/>
     
     <category term="redis主从" scheme="https://zhangyuhan.netlify.app/tags/redis%E4%B8%BB%E4%BB%8E/"/>
     
@@ -542,9 +542,9 @@
     
     <category term="Ops" scheme="https://zhangyuhan.netlify.app/tags/Ops/"/>
     
-    <category term="general" scheme="https://zhangyuhan.netlify.app/tags/general/"/>
-    
     <category term="linux" scheme="https://zhangyuhan.netlify.app/tags/linux/"/>
+    
+    <category term="general" scheme="https://zhangyuhan.netlify.app/tags/general/"/>
     
     <category term="常用脚本" scheme="https://zhangyuhan.netlify.app/tags/%E5%B8%B8%E7%94%A8%E8%84%9A%E6%9C%AC/"/>
     
