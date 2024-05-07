@@ -6,7 +6,7 @@
   <link href="https://zhangyuhan.netlify.app/atom.xml" rel="self"/>
   
   <link href="https://zhangyuhan.netlify.app/"/>
-  <updated>2024-04-24T08:37:55.034Z</updated>
+  <updated>2024-05-07T09:05:25.646Z</updated>
   <id>https://zhangyuhan.netlify.app/</id>
   
   <author>
@@ -15,6 +15,37 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>docker安装redis</title>
+    <link href="https://zhangyuhan.netlify.app/posts/44762.html"/>
+    <id>https://zhangyuhan.netlify.app/posts/44762.html</id>
+    <published>2024-05-07T07:11:15.000Z</published>
+    <updated>2024-05-07T09:05:25.646Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;docker pull redis:7.2&lt;/span&gt;&lt;br&gt;&lt;span</summary>
+        
+      
+    
+    
+    
+    <category term="Dev" scheme="https://zhangyuhan.netlify.app/categories/Dev/"/>
+    
+    <category term="redis" scheme="https://zhangyuhan.netlify.app/categories/Dev/redis/"/>
+    
+    
+    <category term="Dev" scheme="https://zhangyuhan.netlify.app/tags/Dev/"/>
+    
+    <category term="redis" scheme="https://zhangyuhan.netlify.app/tags/redis/"/>
+    
+    <category term="docker安装redis" scheme="https://zhangyuhan.netlify.app/tags/docker%E5%AE%89%E8%A3%85redis/"/>
+    
+  </entry>
   
   <entry>
     <title>m1,docker安装rabbitmq</title>
@@ -649,38 +680,6 @@
     <category term="SpringBoot" scheme="https://zhangyuhan.netlify.app/tags/SpringBoot/"/>
     
     <category term="SpringBoot扫码登录" scheme="https://zhangyuhan.netlify.app/tags/SpringBoot%E6%89%AB%E7%A0%81%E7%99%BB%E5%BD%95/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>随机图片api整理</title>
-    <link href="https://zhangyuhan.netlify.app/posts/41139.html"/>
-    <id>https://zhangyuhan.netlify.app/posts/41139.html</id>
-    <published>2023-07-19T09:16:24.000Z</published>
-    <updated>2023-07-19T09:26:18.558Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;div class=&quot;flink&quot;&gt;&lt;div class=&quot;flink-name&quot;&gt;随机图片api&lt;/div&gt;&lt;div class=&quot;flink-desc&quot;&gt;整理的博客收藏&lt;/div&gt; &lt;div class=&quot;flink-list&quot;&gt;
-          &lt;div</summary>
-        
-      
-    
-    
-    
-    <category term="Life" scheme="https://zhangyuhan.netlify.app/categories/Life/"/>
-    
-    <category term="公共api" scheme="https://zhangyuhan.netlify.app/categories/Life/%E5%85%AC%E5%85%B1api/"/>
-    
-    
-    <category term="Life" scheme="https://zhangyuhan.netlify.app/tags/Life/"/>
-    
-    <category term="公共api" scheme="https://zhangyuhan.netlify.app/tags/%E5%85%AC%E5%85%B1api/"/>
-    
-    <category term="随机图片api整理" scheme="https://zhangyuhan.netlify.app/tags/%E9%9A%8F%E6%9C%BA%E5%9B%BE%E7%89%87api%E6%95%B4%E7%90%86/"/>
     
   </entry>
   
