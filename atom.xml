@@ -6,7 +6,7 @@
   <link href="https://zhangyuhan.netlify.app/atom.xml" rel="self"/>
   
   <link href="https://zhangyuhan.netlify.app/"/>
-  <updated>2024-05-07T09:05:44.672Z</updated>
+  <updated>2024-05-10T02:38:59.163Z</updated>
   <id>https://zhangyuhan.netlify.app/</id>
   
   <author>
@@ -15,6 +15,37 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>配置ssl证书示例</title>
+    <link href="https://zhangyuhan.netlify.app/posts/62002.html"/>
+    <id>https://zhangyuhan.netlify.app/posts/62002.html</id>
+    <published>2024-05-10T02:38:13.000Z</published>
+    <updated>2024-05-10T02:38:59.163Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;server &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;   </summary>
+        
+      
+    
+    
+    
+    <category term="Ops" scheme="https://zhangyuhan.netlify.app/categories/Ops/"/>
+    
+    <category term="nginx" scheme="https://zhangyuhan.netlify.app/categories/Ops/nginx/"/>
+    
+    
+    <category term="Ops" scheme="https://zhangyuhan.netlify.app/tags/Ops/"/>
+    
+    <category term="nginx" scheme="https://zhangyuhan.netlify.app/tags/nginx/"/>
+    
+    <category term="配置ssl证书示例" scheme="https://zhangyuhan.netlify.app/tags/%E9%85%8D%E7%BD%AEssl%E8%AF%81%E4%B9%A6%E7%A4%BA%E4%BE%8B/"/>
+    
+  </entry>
   
   <entry>
     <title>docker安装redis</title>
@@ -604,9 +635,9 @@
     
     <category term="Ops" scheme="https://zhangyuhan.netlify.app/tags/Ops/"/>
     
-    <category term="linux" scheme="https://zhangyuhan.netlify.app/tags/linux/"/>
-    
     <category term="general" scheme="https://zhangyuhan.netlify.app/tags/general/"/>
+    
+    <category term="linux" scheme="https://zhangyuhan.netlify.app/tags/linux/"/>
     
     <category term="常用脚本" scheme="https://zhangyuhan.netlify.app/tags/%E5%B8%B8%E7%94%A8%E8%84%9A%E6%9C%AC/"/>
     
@@ -645,41 +676,6 @@
     <category term="studyEveryday" scheme="https://zhangyuhan.netlify.app/tags/studyEveryday/"/>
     
     <category term="Arrays.asList() 的坑" scheme="https://zhangyuhan.netlify.app/tags/Arrays-asList-%E7%9A%84%E5%9D%91/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>SpringBoot扫码登录</title>
-    <link href="https://zhangyuhan.netlify.app/posts/18184.html"/>
-    <id>https://zhangyuhan.netlify.app/posts/18184.html</id>
-    <published>2023-07-19T09:30:54.000Z</published>
-    <updated>2023-07-20T09:52:26.319Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;表&quot;&gt;&lt;a href=&quot;#表&quot; class=&quot;headerlink&quot; title=&quot;表&quot;&gt;&lt;/a&gt;表&lt;/h2&gt;&lt;p&gt;这张表就是记录一下谁扫码了。谁登录了。&lt;/p&gt;
-&lt;p&gt;User_Token表&lt;/p&gt;
-&lt;p&gt;字段如下：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;uuid :</summary>
-        
-      
-    
-    
-    
-    <category term="Dev" scheme="https://zhangyuhan.netlify.app/categories/Dev/"/>
-    
-    <category term="SpringBoot" scheme="https://zhangyuhan.netlify.app/categories/Dev/SpringBoot/"/>
-    
-    
-    <category term="Dev" scheme="https://zhangyuhan.netlify.app/tags/Dev/"/>
-    
-    <category term="SpringBoot" scheme="https://zhangyuhan.netlify.app/tags/SpringBoot/"/>
-    
-    <category term="SpringBoot扫码登录" scheme="https://zhangyuhan.netlify.app/tags/SpringBoot%E6%89%AB%E7%A0%81%E7%99%BB%E5%BD%95/"/>
     
   </entry>
   
