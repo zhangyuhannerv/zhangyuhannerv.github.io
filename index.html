@@ -1,277 +1,80 @@
-<!DOCTYPE html><html lang="en" data-theme="dark"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"><title>ZhangYuhanのblog - ಠ_ಠ</title><meta name="author" content="ZhangYuhan"><meta name="copyright" content="ZhangYuhan"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#0d0d0d"><meta name="description" content="Record the growth and learning process">
-<meta property="og:type" content="website">
-<meta property="og:title" content="ZhangYuhanのblog">
-<meta property="og:url" content="https://zhangyuhan.netlify.app/index.html">
-<meta property="og:site_name" content="ZhangYuhanのblog">
-<meta property="og:description" content="Record the growth and learning process">
-<meta property="og:locale" content="en_US">
-<meta property="og:image" content="https://zhangyuhan.netlify.app/img/theme/avatar.jpg">
-<meta property="article:author" content="ZhangYuhan">
-<meta property="article:tag" content="blog,java,js,日本语">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://zhangyuhan.netlify.app/img/theme/avatar.jpg"><link rel="shortcut icon" href="/img/theme/favicon.ico"><link rel="canonical" href="https://zhangyuhan.netlify.app/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
-  root: '/',
-  algolia: undefined,
-  localSearch: {"path":"/search.xml","preload":false,"languages":{"hits_empty":"We didn't find any results for the search: ${query}"}},
-  translate: {"defaultEncoding":2,"translateDelay":0,"msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"簡"},
-  noticeOutdate: undefined,
-  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
-  copy: {
-    success: 'Copy successfully',
-    error: 'Copy error',
-    noSupport: 'The browser does not support'
-  },
-  relativeDate: {
-    homepage: false,
-    post: false
-  },
-  runtime: 'days',
-  date_suffix: {
-    just: 'Just',
-    min: 'minutes ago',
-    hour: 'hours ago',
-    day: 'days ago',
-    month: 'months ago'
-  },
-  copyright: undefined,
-  lightbox: 'fancybox',
-  Snackbar: undefined,
-  source: {
-    justifiedGallery: {
-      js: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.js',
-      css: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.css'
-    }
-  },
-  isPhotoFigcaption: false,
-  islazyload: false,
-  isAnchor: false,
-  percent: {
-    toc: true,
-    rightside: true,
-  }
-}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
-  title: 'ZhangYuhanのblog',
-  isPost: false,
-  isHome: true,
-  isHighlightShrink: false,
-  isToc: false,
-  postUpdate: '2024-06-06 13:56:50'
-}</script><noscript><style type="text/css">
-  #nav {
-    opacity: 1
-  }
-  .justified-gallery img {
-    opacity: 1
-  }
-
-  #recent-posts time,
-  #post-meta time {
-    display: inline !important
-  }
-</style></noscript><script>(win=>{
-    win.saveToLocal = {
-      set: function setWithExpiry(key, value, ttl) {
-        if (ttl === 0) return
-        const now = new Date()
-        const expiryDay = ttl * 86400000
-        const item = {
-          value: value,
-          expiry: now.getTime() + expiryDay,
-        }
-        localStorage.setItem(key, JSON.stringify(item))
-      },
-
-      get: function getWithExpiry(key) {
-        const itemStr = localStorage.getItem(key)
-
-        if (!itemStr) {
-          return undefined
-        }
-        const item = JSON.parse(itemStr)
-        const now = new Date()
-
-        if (now.getTime() > item.expiry) {
-          localStorage.removeItem(key)
-          return undefined
-        }
-        return item.value
-      }
-    }
-  
-    win.getScript = url => new Promise((resolve, reject) => {
-      const script = document.createElement('script')
-      script.src = url
-      script.async = true
-      script.onerror = reject
-      script.onload = script.onreadystatechange = function() {
-        const loadState = this.readyState
-        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
-        script.onload = script.onreadystatechange = null
-        resolve()
-      }
-      document.head.appendChild(script)
-    })
-  
-    win.getCSS = (url,id = false) => new Promise((resolve, reject) => {
-      const link = document.createElement('link')
-      link.rel = 'stylesheet'
-      link.href = url
-      if (id) link.id = id
-      link.onerror = reject
-      link.onload = link.onreadystatechange = function() {
-        const loadState = this.readyState
-        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
-        link.onload = link.onreadystatechange = null
-        resolve()
-      }
-      document.head.appendChild(link)
-    })
-  
-      win.activateDarkMode = function () {
-        document.documentElement.setAttribute('data-theme', 'dark')
-        if (document.querySelector('meta[name="theme-color"]') !== null) {
-          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
-        }
-      }
-      win.activateLightMode = function () {
-        document.documentElement.setAttribute('data-theme', 'light')
-        if (document.querySelector('meta[name="theme-color"]') !== null) {
-          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
-        }
-      }
-      const t = saveToLocal.get('theme')
-    
-          if (t === 'dark') activateDarkMode()
-          else if (t === 'light') activateLightMode()
-        
-      const asideStatus = saveToLocal.get('aside-status')
-      if (asideStatus !== undefined) {
-        if (asideStatus === 'hide') {
-          document.documentElement.classList.add('hide-aside')
-        } else {
-          document.documentElement.classList.remove('hide-aside')
-        }
-      }
-    
-    const detectApple = () => {
-      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
-        document.documentElement.classList.add('apple')
-      }
-    }
-    detectApple()
-    })(window)</script><link rel="stylesheet" href="/css/font.css"><link rel="stylesheet" href="/css/modify.css"><link rel="stylesheet" href="/css/universe.css"><link rel="stylesheet" href="/css/mouse.css"><link rel="stylesheet" href="/css/card.css"><link rel="stylesheet" href="/css/custom.css"><!-- hexo injector head_end start --><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Zfour/Butterfly-double-row-display@1.00/cardlistpost.min.css"/>
+<!DOCTYPE html><html lang="en" theme-mode="dark-only"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>ZhangYuhanのblog</title><link rel="icon" type="image/x-icon" href="/img/theme/favicon.ico"><link rel="preload" as="font" crossorigin="anonymous" href="/font/Bender.ttf"><link rel="preload" as="font" crossorigin="anonymous" href="/font/BenderLight.ttf"><link rel="preload" as="font" crossorigin="anonymous" href="/font/JetBrainsMono-Regular.woff2"><link rel="stylesheet" href="/css/arknights.css"><style>@font-face {
+  font-family: Bender;
+  src: local('Bender'), url("/font/Bender.ttf"), url("/font/Bender.otf");
+}
+@font-face {
+  font-family: BenderLight;
+  src: local('BenderLight'), url("/font/BenderLight.ttf");
+}
+@font-face {
+  font-family: 'JetBrains Mono';
+  src: local('JetBrains Mono'), url('/font/JetBrainsMono-Regular.woff2') format('woff2');
+}
+</style><script>var config = {"root":"/","search":{"preload":false,"activeHolder":"Enter here","blurHolder":"Search","noResult":"Data \"$0\" not found"},"code":{"codeInfo":"$0 - $1 lines","copy":"copy"}}</script><link type="text/css" rel="stylesheet" href="/lib/encrypt/hbe.style.css"><script src="//unpkg.com/mermaid@10.5.0/dist/mermaid.min.js"></script><link type="text/css" rel="stylesheet" href="//unpkg.com/lightgallery@2.7.1/css/lightgallery.css"><link type="text/css" rel="stylesheet" href="//unpkg.com/lightgallery@2.7.1/css/lg-zoom.css"><link type="text/css" rel="stylesheet" href="//unpkg.com/lightgallery@2.7.1/css/lg-thumbnail.css"><link type="text/css" rel="stylesheet" href="/lib/fontawesome/css/all.min.css"><script>if (window.localStorage.getItem('theme-mode') === 'light')
+ document.documentElement.setAttribute('theme-mode', 'light')
+if (window.localStorage.getItem('theme-mode') === 'dark')
+ document.documentElement.setAttribute('theme-mode', 'dark')</script><style>@font-face {
+ font-family: BenderLight;
+ src: local('Bender'), url("/font/BenderLight.woff2") format('woff2');
+}
+@font-face {
+ font-family: 'JetBrains Mono';
+ src: local('JetBrains Mono'), url('/font/JetBrainsMono-Regular.woff2') format('woff2');
+}</style><style>:root {
+ --dark-background: url('/img/theme/banner1.jpg');
+ --light-background: url('/img/bk.jpg');
+ --theme-encrypt-confirm: 'confirm'
+}</style><script defer src="/js/arknights.js"></script><script defer src="/js/search.js"></script><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><script async src="//unpkg.com/valine/dist/Valine.min.js"></script><script defer type="module">import mermaid from '//unpkg.com/mermaid@10.5.0/dist/mermaid.esm.mjs';
+window.mermaid = mermaid;
+code.paintMermaid();
+</script><script async src="//unpkg.com/lightgallery@2.7.1/lightgallery.min.js"></script><script async src="//unpkg.com/lightgallery@2.7.1/plugins/zoom/lg-zoom.min.js"></script><script async src="//unpkg.com/lightgallery@2.7.1/plugins/thumbnail/lg-thumbnail.min.js"></script><script async src="/lib/encrypt/hbe.js"></script><script async src="/js/pjax.js"></script><script class="pjax-js">reset= () => {new Valine({
+ el: '#valine'
+ , appId: 'JkudL31UMA3LTrugX1MyaDSI-MdYXbMMI'
+ , appKey: 'G7H3CF0evPfzlwg7MCAK3ZJY', serverURLs: 'https://jkudl31u.api.lncldglobal.com' , placeholder: 'This comment is sent by Penguin Logistics.'
+ , path: window.location.pathname
+});document.querySelector('.lg-container')?.remove()
+lightGallery(document.getElementById('post-bg'), {
+  plugins: [lgZoom,lgThumbnail],
+  selector: '.item-img'})}</script><script>window.addEventListener("load",() => {pjax = new Pjax({
+ cacheBust: false,
+ selectors: ['title','article','#aside-block','.pjax-js','data-pjax','.busuanzi'],
+ switches: {'article': Pjax.switches.sideBySide},
+ switchesOptions: {
+   'article': {
+     classNames: {
+       remove: "pjax-out",
+       add: "pjax-in"
+     }
+   }
+ }
+});
+document.addEventListener("pjax:complete", reset);document.addEventListener('pjax:success', _ => bszCaller.fetch(
+ "//busuanzi.ibruce.info/busuanzi?jsonpCallback=BusuanziCallback", a => {
+  bszTag.texts(a),
+  bszTag.shows()
+}));reset()})</script><script class="pjax-js">reset= () => {new Valine({
+ el: '#valine'
+ , appId: 'JkudL31UMA3LTrugX1MyaDSI-MdYXbMMI'
+ , appKey: 'G7H3CF0evPfzlwg7MCAK3ZJY', serverURLs: 'https://jkudl31u.api.lncldglobal.com' , placeholder: 'This comment is sent by Penguin Logistics.'
+ , path: window.location.pathname
+});document.querySelector('.lg-container')?.remove()
+lightGallery(document.getElementById('post-bg'), {
+  plugins: [lgZoom,lgThumbnail],
+  selector: '.item-img'})}</script><script>window.addEventListener("load",() => {pjax = new Pjax({
+ cacheBust: false,
+ selectors: ['title','article','#aside-block','.pjax-js'],
+ switches: {'article': Pjax.switches.sideBySide},
+ switchesOptions: {
+   'article': {
+     classNames: {
+       remove: "pjax-out",
+       add: "pjax-in"
+     }
+   }
+ }
+});
+document.addEventListener("pjax:complete", reset);reset()})</script><!-- hexo injector head_end start --><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Zfour/Butterfly-double-row-display@1.00/cardlistpost.min.css"/>
 <style>#recent-posts > .recent-post-item >.recent-post-info > .article-meta-wrap > .tags:before {content:"\A";
   white-space: pre;}#recent-posts > .recent-post-item >.recent-post-info > .article-meta-wrap > .tags > .article-meta__separator{display:none}</style>
 <!-- hexo injector head_end end --><meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title="ZhangYuhanのblog" type="application/atom+xml">
-</head><body><div id="web_bg"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/img/theme/avatar.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">201</div></a><a href="/tags/"><div class="headline">Tags</div><div class="length-num">262</div></a><a href="/categories/"><div class="headline">Categories</div><div class="length-num">65</div></a></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> Archives</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> Categories</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> Link</span></a></div></div></div></div><div class="page" id="body-wrap"><header class="full_page" id="page-header"><nav id="nav"><span id="blog-info"><a href="/" title="ZhangYuhanのblog"><img class="site-icon" src="/img/theme/logo.png"/></a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search" href="javascript:void(0);" rel="external nofollow noreferrer"><i class="fas fa-search fa-fw"></i><span> Search</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> Archives</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> Categories</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> Link</span></a></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);" rel="external nofollow noreferrer"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="site-info"><h1 id="site-title">ZhangYuhanのblog</h1><div id="site-subtitle"><span id="subtitle"></span></div><div id="site_social_icons"><a class="social-icon" href="https://github.com/zhangyuhannerv" rel="external nofollow noreferrer" target="_blank" title="Github"><i class="fab fa-github"></i></a><a class="social-icon" href="mailto:zhangyuhannerv@gmail.com" rel="external nofollow noreferrer" target="_blank" title="Email"><i class="fas fa-envelope"></i></a></div></div><div id="scroll-down"><i class="fas fa-angle-down scroll-down-effects"></i></div></header><main class="layout" id="content-inner"><div class="recent-posts" id="recent-posts"><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/posts/64251.html" title="java split()方法输出示例">java split()方法输出示例</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2024-06-06T02:12:24.000Z" title="Created 2024-06-06 10:12:24">2024-06-06</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Dev/">Dev</a><i class="fas fa-angle-right article-meta-link"></i><a class="article-meta__categories" href="/categories/Dev/Java/">Java</a><i class="fas fa-angle-right article-meta-link"></i><a class="article-meta__categories" href="/categories/Dev/Java/studyEveryday/">studyEveryday</a></span></div><div class="content">在java里，split()方法如果只传入分割字符，那么会自动去除结尾的空字符串。
-以前一直不知道，到底写了多少隐藏的bug，ヽ（゜ロ゜；）ノ
-情况1String str = &quot;6000,5000&quot;;String[] s = str.split(&quot;,&quot;);System.out.println(Arrays.toString(s));// [6000, 5000]System.out.println(s.length);// 2
-
-情况2String str = &quot;6000,5000&quot;;String[] s = str.split(&quot;,&quot;, -1);System.out.println(Arrays.toString(s));// [6000, 5000]System.out.println(s.length);// 2
-
-情况3String str = &quot;6000,&quot;;String[] s = str.split(&quot;,&quot;);System.out.println(Arr ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/posts/62002.html" title="配置ssl证书示例">配置ssl证书示例</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2024-05-10T02:38:13.000Z" title="Created 2024-05-10 10:38:13">2024-05-10</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Ops/">Ops</a><i class="fas fa-angle-right article-meta-link"></i><a class="article-meta__categories" href="/categories/Ops/nginx/">nginx</a></span></div><div class="content">server &#123;    listen 443 ssl; #修改端口号增加ssl    server_name xxxx.cn; # 该域名必须对应当前nginx所在的服务器（通过dns解析的ip和nginx服务器的公网ip相同）    #server_name _;    #ssl on; #注释或删除ssl on    ssl_session_timeout 5m;    ssl_protocols TLSv1 TLSv1.1 TLSv1.2; #按照这个协议配置    ssl_ciphers ECDHE-RSA-AES128-GCM-SHA256:HIGH:!aNULL:!MD5:!RC4:!DHE;#按照这个套件配置    ssl_prefer_server_ciphers on;   #指定PEM格式的证书文件       ssl_certificate     xxxx.pem;   #指定PEM格式的私钥文件      ssl_certificate_key  xxxx.key;    location / &#123;        proxy_set_head ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/posts/44762.html" title="docker安装redis">docker安装redis</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2024-05-07T07:11:15.000Z" title="Created 2024-05-07 15:11:15">2024-05-07</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Dev/">Dev</a><i class="fas fa-angle-right article-meta-link"></i><a class="article-meta__categories" href="/categories/Dev/redis/">redis</a></span></div><div class="content">docker pull redis:7.2docker run \-p 6379:6379 \--name redis-7.2 \--restart=always \--network=els \-d redis:7.2
-</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/posts/56360.html" title="m1,docker安装rabbitmq">m1,docker安装rabbitmq</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2024-04-24T08:31:23.000Z" title="Created 2024-04-24 16:31:23">2024-04-24</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Dev/">Dev</a><i class="fas fa-angle-right article-meta-link"></i><a class="article-meta__categories" href="/categories/Dev/RabbitMq/">RabbitMq</a></span></div><div class="content"># 拉镜像docker pull rabbitmq:3-management# 运行容器。# 项目用到mqtt，所以额外开启了一个mqtt插件# 可以把--network去掉，或者自己建个自定义网络elsdocker run -d --name rabbitmq-3 --network els -p 5672:5672 -p 15672:15672 -e RABBITMQ_DEFAULT_USER=admin -e RABBITMQ_DEFAULT_PASS=123456  -e RABBITMQ_PLUGINS_ENABLE=rabbitmq_mqtt rabbitmq:3-management
-</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/posts/2459.html" title="m1,docker安装mysql5.7">m1,docker安装mysql5.7</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2024-04-24T07:19:11.000Z" title="Created 2024-04-24 15:19:11">2024-04-24</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Dev/">Dev</a><i class="fas fa-angle-right article-meta-link"></i><a class="article-meta__categories" href="/categories/Dev/mysql/">mysql</a></span></div><div class="content">mysql5.7版本没有适合arm架构的docker镜像但是网上大佬说x86镜像的mysql5.7一样能在macbook m1上运行自己试验了，果然可以。整理一下
-# 拉取镜像（--platform linux/x86_64一定要加，要不然会报错，提示搜不到适合arm架构的mysql:5.7镜像）docker pull --platform linux/x86_64 mysql:5.7# 建立目录mkdir /Users/zhangyuhan/Work/dev-env/mysql-5.7/logmkdir /Users/zhangyuhan/Work/dev-env/mysql-5.7/datamkdir /Users/zhangyuhan/Work/dev-env/mysql-5.7/conf# 建立配置文件vim /Users/zhangyuhan/Work/dev-env/mysql-5.7/conf/my.cnf# 归纳整理mysql:5.7的一些通用配置[client]default-character-set=utf8mb4[mysql]default-character- ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/posts/57560.html" title="docker安装nginx">docker安装nginx</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2024-04-22T06:48:10.000Z" title="Created 2024-04-22 14:48:10">2024-04-22</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Ops/">Ops</a><i class="fas fa-angle-right article-meta-link"></i><a class="article-meta__categories" href="/categories/Ops/nginx/">nginx</a></span></div><div class="content"># 拉取镜像# 本文章以1.24为例，读者可以自行替换为其他的版本，流程基本不变。docker pull nginx:1.24# 运行容器，该容器只为复制配置文件，后续会删除docker run -p80:80 --name nginx-1.24 -d nginx:1.24# 得到容器id：e6c27ac9bc13# 创建映射目录# 所有的映射目录根目录为/Users/zhangyuhan/Work/dev-env/nginx-1.24，可自行替换mkdir /Users/zhangyuhan/Work/dev-env/nginx-1.24cd /Users/zhangyuhan/Work/dev-env/nginx-1.24mkdir confmkdir htmlmkdir logs# 将容器内的nginx配置文件夹拷贝到conf文件下docker cp e6c27ac9bc13:/etc/nginx /Users/zhangyuhan/Work/dev-env/nginx-1.24/conf# 此时目录结构为conf/nginx/一堆配置文件，所以需要将所有的配置文件拷贝conf下 ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/posts/50662.html" title="elasticsearch通过docker在mackbook m1安装">elasticsearch通过docker在mackbook m1安装</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2024-04-10T08:53:13.000Z" title="Created 2024-04-10 16:53:13">2024-04-10</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Dev/">Dev</a><i class="fas fa-angle-right article-meta-link"></i><a class="article-meta__categories" href="/categories/Dev/elasticsearch/">elasticsearch</a></span></div><div class="content">主要目的：安装elasticsearch和kibana，解决kibana无法连接elasticsearch导致server is not ready yet的问题
-建立docker网络els# 建立docker network create els# 查看：有name：els，成功docker network lsNETWORK ID     NAME      DRIVER    SCOPE12f31e2d6df1   bridge    bridge    local4e3cc13000ef   els       bridge    locale0cb50b3dee5   host      host      local18f13202e657   none      null      local
-
-安装elasticsearch# 建立映射文件夹mkdir /Users/zhangyuhan/Work/dev-env/elasticsearch-7.16.2/configmkdir /Users/zhangyuhan/Work/dev-env/elasticsearch-7 ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/posts/30107.html" title="redis主从、哨兵、集群搭建">redis主从、哨兵、集群搭建</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2024-02-29T03:28:01.000Z" title="Created 2024-02-29 11:28:01">2024-02-29</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Ops/">Ops</a><i class="fas fa-angle-right article-meta-link"></i><a class="article-meta__categories" href="/categories/Ops/redis/">redis</a></span></div><div class="content">博客参考
-引申：如何给redis主从、哨兵模式添加认证密码
-注意：如果三台服务器已经启动了主从和哨兵，那么需要先在三台服务器上关闭所有的哨兵，再在三台服务器上关闭所有的主从
-服务器关闭顺序要求：先关从节点（从节点之间不分顺序），再关主节点
-如果不知道哪个是主节点，可以通过redis-cli进入redis控制台输入info replication查看主节点的ip
-#查看redis服务和哨兵的进程命令：ps -ef|grep redis
-
-
-redis服务的关闭命令如下：
-
-./redis-cli shutdown
-
-
-redis哨兵的关闭命令如下
-
-kill -9 哨兵进程
-
-配置认证密码在上面博客配置的基础上执行如下步骤：
-
-三台服务器的redis.conf添加如下配置
-
-requirepass &quot;123456&quot;masterauth &quot;123456&quot;
-
-
-三台服务器sentinel.conf添加如下配置
-
-# 在上面博客里已经配置了sentinel monitor mymaster 10.13.181.97 6379 2# 新增的配置，要求写在上 ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/posts/2684.html" title="redis哨兵模式在springboot下的配置">redis哨兵模式在springboot下的配置</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2024-02-23T08:20:15.000Z" title="Created 2024-02-23 16:20:15">2024-02-23</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Dev/">Dev</a><i class="fas fa-angle-right article-meta-link"></i><a class="article-meta__categories" href="/categories/Dev/redis/">redis</a></span></div><div class="content">springboot连接单体的redis配置如下
-spring:  redis:    database: 0    host: 127.0.0.1    port: 6379    password:
-
-但是如果是redis哨兵模式，那么上述配置会报错，无法连接redis。
-正确连接redis哨兵模式在springboot中的配置如下
-# Redis连接信息spring:  redis:    database: 0     # Redis数据库索引（默认为0）    password:       # timeout: 5000   # Redis超时时间（单位：毫秒）    sentinel:      master: mymaster   # Sentinel主节点名称      nodes: 192.168.10.11:26379,192.168.10.12:26379,192.168.10.13:26379   # Sentinel节点地址列表      # 注意端口是26379，即哨兵模式的端口，不是6379，redis服务的端口
-</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/posts/973.html" title="公网nfs配置踩坑">公网nfs配置踩坑</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2024-02-21T06:47:44.000Z" title="Created 2024-02-21 14:47:44">2024-02-21</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Ops/">Ops</a><i class="fas fa-angle-right article-meta-link"></i><a class="article-meta__categories" href="/categories/Ops/linux/">linux</a><i class="fas fa-angle-right article-meta-link"></i><a class="article-meta__categories" href="/categories/Ops/linux/centos/">centos</a></span></div><div class="content">背景最近需要迁移一个老的单体项目到私有云环境做集群，之前的上传文件都是直接存储在磁盘上，而且体积超大，而且项目架构又从单体过渡到多个实例集群。为了能够读取到之前的上传文件，采用nfs将原先服务器上存储文件的路径挂载到新的私有云环境的多个集群服务器上。网上有很多关于nfs的配置讲解，但是大多是局域网。我这里因为两个环境都是独立封闭，只通过堡垒机提供外部访问，因此需要配置公网的nfs，踩了不少坑。在这里总结一下相关经验。
-安装nfs安装的过程实际上很简单。我参考的这篇博客Centos7 NFS服务的安装以及使用
-唯一值得注意的是，私有云环境不能用yum，因此我是上传的多个rpm包来手动执行的安装，这里是参考的这篇博客nfs无网络条件rpm安装
-如果需要nfs的整合rpm包的话，可以发邮件给我
-配置配置这里是踩坑最多的地方，内网的环境下大可以关闭防火墙，而外网环境下不可能对外暴漏所有的端口，因此要搞明白nfs到底配置那些端口开放才能让客户端成功挂载。我这里也是和同事不断的查资料，并且试错最后才成功的。👏🏻👏🏻👏🏻👏🏻👏🏻👏🏻
-服务端还要额外配置5个端口# 修改vim  ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/posts/29320.html" title="mysqldump定时备份">mysqldump定时备份</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2023-11-21T03:42:01.000Z" title="Created 2023-11-21 11:42:01">2023-11-21</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Ops/">Ops</a><i class="fas fa-angle-right article-meta-link"></i><a class="article-meta__categories" href="/categories/Ops/MySql/">MySql</a></span></div><div class="content">创建脚本创建一个新的Shell脚本文件，比如backup_mysql.sh
-#!/bin/bash# MySQL数据库连接信息DB_USER=&quot;your_username&quot;DB_PASSWORD=&quot;your_password&quot;DB_NAME=&quot;your_database&quot;# 备份保存路径BACKUP_DIR=&quot;/path/to/backup/directory&quot;# 创建备份文件名，格式为：数据库名_年月日时分秒.sqlBACKUP_FILE=&quot;$BACKUP_DIR/$DB_NAME_$(date +%Y%m%d%H%M%S).sql&quot;# 使用mysqldump命令备份数据库mysqldump -u$DB_USER -p$DB_PASSWORD $DB_NAME &gt; $BACKUP_FILE# 检查备份是否成功if [ $? -eq 0 ]; then    echo &quot;MySQL backup completed successfully. Backup saved t ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/posts/15931.html" title="js获取当前页面的地址">js获取当前页面的地址</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2023-10-25T06:42:13.000Z" title="Created 2023-10-25 14:42:13">2023-10-25</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Dev/">Dev</a><i class="fas fa-angle-right article-meta-link"></i><a class="article-meta__categories" href="/categories/Dev/JavaScript/">JavaScript</a><i class="fas fa-angle-right article-meta-link"></i><a class="article-meta__categories" href="/categories/Dev/JavaScript/studyEveryday/">studyEveryday</a></span></div><div class="content">例1
-// 地址：http://www.php230.com/fisker/post/0703/window.location.html?ver=1.0&amp;id=6#imherewindow.location.host // URL 的主机部分:www.php230.com，如果没有域名会返回192.168.0.1:8080window.location.protocol// URL 的协议部分:http:window.location.pathname// URL 的路径部分(就是文件地址):/fisker/post/0703/window.location.htmlwindow.location.search// 查询(参数)部分:?ver=1.0&amp;id=6
-
-例2
-window.location.href     → &#x27;https://www.jianshu.com/search?q=JS#comments&#x27;               .origin   → &#x27;https://www.jianshu.com&#x27;         ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/posts/13227.html" title="动态sql常用总结">动态sql常用总结</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2023-09-20T09:18:02.000Z" title="Created 2023-09-20 17:18:02">2023-09-20</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Dev/">Dev</a><i class="fas fa-angle-right article-meta-link"></i><a class="article-meta__categories" href="/categories/Dev/mybatis/">mybatis</a></span></div><div class="content">动态 SQL 是 MyBatis 的强大特性之一。在 JDBC 或其它类似的框架中，开发人员通常需要手动拼接 SQL 语句。根据不同的条件拼接 SQL 语句是一件极其痛苦的工作。例如，拼接时要确保添加了必要的空格，还要注意去掉列表最后一个列名的逗号。而动态 SQL 恰好解决了这一问题，可以根据场景动态的构建查询。
-动态SQL（code that is executed dynamically），它一般是根据用户输入或外部条件动态组合的SQL语句块。动态SQL能灵活的发挥SQL强大的功能、方便的解决一些其它方法难以解决的问题。相信使用过动态SQL的人都能体会到它带来的便利，然而动态SQL有时候在执行性能 (效率)上面不如静态SQL，而且使用不恰当，往往会在安全方面存在隐患 (SQL 注入式攻击)。
-MyBatis动态 sql 的特性Mybatis 动态 sql 是做什么的?Mybatis 动态 sql 可以让我们在 Xml 映射文件内，以标签的形式编写动态 sql，完成逻辑判断和动态拼接 sql 的功能。
-Mybatis 的 9 种 动 态 sql 标 签有哪些？
-动态 sql 的执行原 ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/posts/65131.html" title="event.path过期">event.path过期</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2023-09-13T02:41:01.000Z" title="Created 2023-09-13 10:41:01">2023-09-13</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Dev/">Dev</a><i class="fas fa-angle-right article-meta-link"></i><a class="article-meta__categories" href="/categories/Dev/JavaScript/">JavaScript</a><i class="fas fa-angle-right article-meta-link"></i><a class="article-meta__categories" href="/categories/Dev/JavaScript/browseAPI/">browseAPI</a></span></div><div class="content">起因是 chromium 开发团队认为 Event.path 属于非标准 API，会导致 Firefox 等其他浏览器的兼容性问题，于是他们决定将其删除。目前这个变更在 chrome 108 属于灰度阶段，在chrome 109 上会全面应用，webview 则是从 109 版本开始逐步禁用
-在chrome浏览器中，event.path表示触发Dom事件的元素一路冒泡到window的所有元素但是在在Firefox、Safari、以及Chrome dev浏览器中，event中并没有path这个属性。在Firefox、Safari、以及Chrome dev浏览器中可以通过event.composedpath()获取
-// 旧的写法let evt = event || window.event;let path = evt.path // 此时path为undefined// 新的写法(兼容所有主流浏览器)var evt = event || window.event;let path = evt.path || (evt.composedPath &amp;&amp; evt.compos ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/posts/4112.html" title="GROUP_CONCAT()函数的说明">GROUP_CONCAT()函数的说明</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2023-09-08T07:33:11.000Z" title="Created 2023-09-08 15:33:11">2023-09-08</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Dev/">Dev</a><i class="fas fa-angle-right article-meta-link"></i><a class="article-meta__categories" href="/categories/Dev/mysql/">mysql</a></span></div><div class="content">首先我们来建立一个测试的表和数据，代码如下
-CREATE TABLE `per` (  `id` int(11) NOT NULL AUTO_INCREMENT,  `pname` varchar(50) DEFAULT NULL,  `page` int(11) DEFAULT NULL,  `psex` varchar(50) DEFAULT NULL,  `paddr` varchar(50) DEFAULT NULL,  PRIMARY KEY (`id`)) ENGINE=InnoDB AUTO_INCREMENT=13 DEFAULT CHARSET=utf8mb4;INSERT INTO `per` VALUES (&#x27;1&#x27;, &#x27;王小华&#x27;, &#x27;30&#x27;, &#x27;男&#x27;, &#x27;北京&#x27;);INSERT INTO `per` VALUES (&#x27;2&#x27;, &#x27;张文军&#x27;, &#x27;24&#x27;, &#x27;男&#x27;, &#x27;上海&#x27 ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/posts/13486.html" title="jQuery选择器赋值与取值">jQuery选择器赋值与取值</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2023-08-25T07:02:19.000Z" title="Created 2023-08-25 15:02:19">2023-08-25</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Dev/">Dev</a><i class="fas fa-angle-right article-meta-link"></i><a class="article-meta__categories" href="/categories/Dev/JavaScript/">JavaScript</a><i class="fas fa-angle-right article-meta-link"></i><a class="article-meta__categories" href="/categories/Dev/JavaScript/jQuery/">jQuery</a></span></div><div class="content">单选框radio&lt;input type=&quot;radio&quot; name=&quot;jclx&quot; value=&quot;1&quot; title=&quot;当前期次&quot; checked&gt;&lt;input type=&quot;radio&quot; name=&quot;jclx&quot; value=&quot;2&quot; title=&quot;当前月份&quot;&gt;
-
-// 获取radio选中的值$(&quot;input[name=&#x27;jclx&#x27;]:checked&quot;).val()// 设置radio选中的值$(&quot;input[name=&#x27;jclx&#x27;][value=&#x27;1&#x27;]&quot;).prop(&quot;checked&quot;, true)// 或者$(&quot;input[name=jclx]&quot;).attr(&quot;checked&quot;,&#x27;2&#x27;);// 设置value=2的项目为当前选中项  ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/posts/14116.html" title="table动态纵向合并单元格">table动态纵向合并单元格</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2023-08-25T06:30:11.000Z" title="Created 2023-08-25 14:30:11">2023-08-25</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Dev/">Dev</a><i class="fas fa-angle-right article-meta-link"></i><a class="article-meta__categories" href="/categories/Dev/JavaScript/">JavaScript</a><i class="fas fa-angle-right article-meta-link"></i><a class="article-meta__categories" href="/categories/Dev/JavaScript/layui/">layui</a></span></div><div class="content">需求：点击layui动态表格的某一行，给这行添加一个背景颜色，用来标识行已被点击
-.table-tr-selected-bg &#123;    background-color: #6189a7 !important;    color: #FFF;&#125;
-
-&lt;table id=&quot;table1&quot; lay-filter=&quot;table1&quot;&gt;&lt;/table&gt;
-
-// 渲染表格table.render(&#123;    elem: &#x27;#table1&#x27;    , height: 415    , page: false    , url: Hussar.ctxPath + &quot;/getData&quot;    , cols: [[         &#123;field: &#x27;field0&#x27;, title: &#x27;字段0&#x27;, align: &quot;center&quot;,&#125;,        , &#123;field: &#x27;field1 ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/posts/669.html" title="mysql的递归查询">mysql的递归查询</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2023-08-16T03:35:22.000Z" title="Created 2023-08-16 11:35:22">2023-08-16</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Dev/">Dev</a><i class="fas fa-angle-right article-meta-link"></i><a class="article-meta__categories" href="/categories/Dev/mysql/">mysql</a></span></div><div class="content">本篇博客的目的旨在不用写存储过程，不用建数据库函数，一段sql实现递归查询功能
-查询某个父节点下的所有层级的子节点SELECT  ID.temp_level,  DATA.* FROM  (  SELECT    @ids AS _ids,    ( SELECT @ids := GROUP_CONCAT( region_id ) FROM region WHERE FIND_IN_SET( parent_id, @ids ) ) AS cids,    @l := @l + 1 AS temp_level   FROM    region,    ( SELECT @ids := 3, @l := 0 ) b   WHERE    @ids IS NOT NULL   ) ID,  region DATA WHERE  FIND_IN_SET( DATA.region_id, ID._ids ) ORDER BYtemp_level
-
-注意：
-
-上面sql的两个region要替换为自己表名
-上面sql的两个region_id要替换为自己的主键id
-上面sql的一个parent_id要 ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/posts/8695.html" title="linux上停止mysql报错的解决办法">linux上停止mysql报错的解决办法</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2023-07-28T06:29:14.000Z" title="Created 2023-07-28 14:29:14">2023-07-28</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Ops/">Ops</a><i class="fas fa-angle-right article-meta-link"></i><a class="article-meta__categories" href="/categories/Ops/MySql/">MySql</a></span></div><div class="content">linux上停止mysql报错，解决办法有：1、检查错误消息，根据信息提示解决问题；2、查看日志文件，找到导致停止失败的具体错误并解决；3、使用强制停止命令，终止所有与MySQL相关的进程；4、使用kill命令手动杀死MySQL进程；5、确保MySQL相关文件和目录的权限设置正确；6、尝试重启服务器来强制停止MySQL进程。
-在 Linux 上停止 MySQL 时遇到错误，可以尝试以下步骤来解决问题：
-
-检查错误消息：当你运行 sudo systemctl stop mysql 或 sudo service mysql stop 命令时，如果遇到错误，系统通常会输出相应的错误消息。请检查错误消息以获取更多信息，这可能有助于确定问题的原因。
-
-查看日志文件：MySQL 通常会将错误和警告消息记录在日志文件中。你可以查看 MySQL 的错误日志文件，通常在 &#x2F;var&#x2F;log&#x2F;mysql 目录下，比如 error.log。通过查看日志文件，你可以找到导致停止失败的具体错误。
-
-使用强制停止命令：如果 MySQL 无法正常停止，你可以尝试使用强制停止命令。首先，使 ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/posts/20615.html" title="linux的常用脚本">linux的常用脚本</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2023-07-24T01:38:21.000Z" title="Created 2023-07-24 09:38:21">2023-07-24</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Ops/">Ops</a><i class="fas fa-angle-right article-meta-link"></i><a class="article-meta__categories" href="/categories/Ops/linux/">linux</a><i class="fas fa-angle-right article-meta-link"></i><a class="article-meta__categories" href="/categories/Ops/linux/general/">general</a></span></div><div class="content">检测两台服务器指定目录下的文件一致性#!/bin/bash  ######################################  检测两台服务器指定目录下的文件一致性  #####################################  #通过对比两台服务器上文件的md5值，达到检测一致性的目的  dir=/data/web  b_ip=192.168.88.10  #将指定目录下的文件全部遍历出来并作为md5sum命令的参数，进而得到所有文件的md5值，并写入到指定文件中  find $dir -type f|xargs md5sum &gt; /tmp/md5_a.txt  ssh $b_ip &quot;find $dir -type f|xargs md5sum &gt; /tmp/md5_b.txt&quot;  scp $b_ip:/tmp/md5_b.txt /tmp  #将文件名作为遍历对象进行一一比对  for f in `awk &#x27;&#123;print 2&#125; /tmp/md5_a.txt&#x27;`do  #以a机器为标 ...</div></div></div><nav id="pagination"><div class="pagination"><span class="page-number current">1</span><a class="page-number" href="/page/2/#content-inner">2</a><span class="space">&hellip;</span><a class="page-number" href="/page/11/#content-inner">11</a><a class="extend next" rel="next" href="/page/2/#content-inner"><i class="fas fa-chevron-right fa-fw"></i></a></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="/img/theme/avatar.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">ZhangYuhan</div><div class="author-info__description">(o゜▽゜)o☆[BINGO!]</div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">201</div></a><a href="/tags/"><div class="headline">Tags</div><div class="length-num">262</div></a><a href="/categories/"><div class="headline">Categories</div><div class="length-num">65</div></a></div><a id="card-info-btn" target="_blank" rel="noopener external nofollow noreferrer" href="https://twitter.com/ayanamiichi"><i class="fa-brands fa-twitter"></i><span>Follow Me</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/zhangyuhannerv" rel="external nofollow noreferrer" target="_blank" title="Github"><i class="fab fa-github"></i></a><a class="social-icon" href="mailto:zhangyuhannerv@gmail.com" rel="external nofollow noreferrer" target="_blank" title="Email"><i class="fas fa-envelope"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>Announcement</span></div><div class="announcement_content">Welcome to my blog, here is a summary of my daily study and life collected and organized, I hope it can be helpful to you ^_^</div></div><div class="sticky_layout"><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>Info</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">Article :</div><div class="item-count">201</div></div><div class="webinfo-item"><div class="item-name">Run time :</div><div class="item-count" id="runtimeshow" data-publishDate="2023-01-31T16:00:00.000Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">UV :</div><div class="item-count" id="busuanzi_value_site_uv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">PV :</div><div class="item-count" id="busuanzi_value_site_pv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">Last Push :</div><div class="item-count" id="last-push-date" data-lastPushDate="2024-06-06T05:56:50.572Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2023 - 2024 By ZhangYuhan</div><div class="footer_custom_text">Hi, welcome to my blog</a>!</div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="translateLink" type="button" title="Switch Between Traditional Chinese And Simplified Chinese">繁</button><button id="darkmode" type="button" title="Switch Between Light And Dark Mode"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="Toggle between single-column and double-column"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="Setting"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="Back To Top"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/tw_cn.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.min.js"></script><div class="js-pjax"><script>window.typedJSFn = {
-  init: (str) => {
-    window.typed = new Typed('#subtitle', Object.assign({
-      strings: str,
-      startDelay: 300,
-      typeSpeed: 150,
-      loop: true,
-      backSpeed: 50,
-    }, null))
-  },
-  run: (subtitleType) => {
-    if (true) {
-      if (typeof Typed === 'function') {
-        subtitleType()
-      } else {
-        getScript('https://cdn.jsdelivr.net/npm/typed.js/lib/typed.min.js').then(subtitleType)
-      }
-    } else {
-      subtitleType()
-    }
-  }
-}
-</script><script>function subtitleType () {
-  if (true) {
-    typedJSFn.init(["涩涩是人类进步的阶梯  ——沃兹基硕德"])
-  } else {
-    document.getElementById("subtitle").innerHTML = '涩涩是人类进步的阶梯  ——沃兹基硕德'
-  }
-}
-typedJSFn.run(subtitleType)</script></div><canvas id="universe"></canvas><script defer src="/js/universe.js"></script><script type="text/javascript" src="https://cdn1.tianli0.top/npm/jquery@latest/dist/jquery.min.js"></script><script type="text/javascript" src="/js/rightmenu.js"></script><script type="text/javascript" src="/js/dynamicBg.js"></script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div><div class="js-pjax" id="rightMenu"><div class="rightMenu-group rightMenu-small"><a class="rightMenu-item" href="javascript:window.history.back();" rel="external nofollow noreferrer"><i class="fa fa-arrow-left"></i></a><a class="rightMenu-item" href="javascript:window.history.forward();" rel="external nofollow noreferrer"><i class="fa fa-arrow-right"></i></a><a class="rightMenu-item" href="javascript:window.location.reload();" rel="external nofollow noreferrer"><i class="fa fa-refresh"></i></a><a class="rightMenu-item" href="javascript:rmf.scrollToTop();" rel="external nofollow noreferrer"><i class="fa fa-arrow-up"></i></a></div><div class="rightMenu-group rightMenu-line hide" id="menu-text"><a class="rightMenu-item" href="javascript:rmf.copySelect();" rel="external nofollow noreferrer"><i class="fa fa-copy"></i><span>复制</span></a><a class="rightMenu-item" href="javascript:window.open(&quot;https://www.baidu.com/s?wd=&quot;+window.getSelection().toString());window.location.reload();" rel="external nofollow noreferrer"><i class="fa fa-search"></i><span>百度搜索</span></a></div><div class="rightMenu-group rightMenu-line hide" id="menu-too"><a class="rightMenu-item" href="javascript:window.open(window.getSelection().toString());window.location.reload();" rel="external nofollow noreferrer"><i class="fa fa-link"></i><span>转到链接</span></a></div><div class="rightMenu-group rightMenu-line hide" id="menu-paste"><a class="rightMenu-item" href="javascript:rmf.paste()" rel="external nofollow noreferrer"><i class="fa fa-copy"></i><span>粘贴</span></a></div><div class="rightMenu-group rightMenu-line hide" id="menu-post"><a class="rightMenu-item" href="#post-comment"><i class="fas fa-comment"></i><span>空降评论</span></a><a class="rightMenu-item" href="javascript:rmf.copyWordsLink()" rel="external nofollow noreferrer"><i class="fa fa-link"></i><span>复制本文地址</span></a></div><div class="rightMenu-group rightMenu-line hide" id="menu-to"><a class="rightMenu-item" href="javascript:rmf.openWithNewTab()" rel="external nofollow noreferrer"><i class="fa fa-window-restore"></i><span>新窗口打开</span></a><a class="rightMenu-item" id="menu-too" href="javascript:rmf.open()" rel="external nofollow noreferrer"><i class="fa fa-link"></i><span>转到链接</span></a><a class="rightMenu-item" href="javascript:rmf.copyLink()" rel="external nofollow noreferrer"><i class="fa fa-copy"></i><span>复制链接</span></a></div><div class="rightMenu-group rightMenu-line hide" id="menu-img"><a class="rightMenu-item" href="javascript:rmf.saveAs()" rel="external nofollow noreferrer"><i class="fa fa-download"></i><span>保存图片</span></a><a class="rightMenu-item" href="javascript:rmf.openWithNewTab()" rel="external nofollow noreferrer"><i class="fa fa-window-restore"></i><span>在新窗口打开</span></a><a class="rightMenu-item" href="javascript:rmf.copyLink()" rel="external nofollow noreferrer"><i class="fa fa-copy"></i><span>复制图片链接</span></a></div><div class="rightMenu-group rightMenu-line"><a class="rightMenu-item" href="javascript:randomPost()" rel="external nofollow noreferrer"><i class="fa fa-paper-plane"></i><span>随便逛逛</span></a><a class="rightMenu-item" href="javascript:switchNightMode();" rel="external nofollow noreferrer"><i class="fa fa-moon"></i><span>昼夜切换</span></a><a class="rightMenu-item" href="/personal/about/"><i class="fa fa-info-circle"></i><span>关于博客</span></a><a class="rightMenu-item" href="javascript:toggleWinbox();" rel="external nofollow noreferrer"><i class="fas fa-cog"></i><span>美化设置</span></a><a class="rightMenu-item" href="javascript:rmf.fullScreen();" rel="external nofollow noreferrer"><i class="fas fa-expand"></i><span>切换全屏</span></a><a class="rightMenu-item" href="javascript:window.print();" rel="external nofollow noreferrer"><i class="fa-solid fa-print"></i><span>打印页面</span></a></div></div><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">Search</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="is-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  Loading the Database</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="Search for Posts" type="text"/></div></div><hr/><div id="local-search-results"></div></div></div><div id="search-mask"></div><script src="/js/search/local-search.js"></script></div></body></html>
+</head><body><div class="loading" style="opacity: 0;"><div class="loadingBar left"></div><div class="loadingBar right"></div></div><main><header class="closed"><div class="navBtn"><i class="navBtnIcon"><span class="navBtnIconBar"></span><span class="navBtnIconBar"></span><span class="navBtnIconBar"></span></i></div><nav><div class="navItem" id="search-header"><span class="navItemTitle"><input autocomplete="off" autocorrect="off" autocapitalize="none" placeholder="Search" spellcheck="false" maxlength="50" type="text" id="search-input"></span></div><div class="navItem" id="search-holder"></div><div class="search-popup" tabindex="0"><div id="search-result"></div></div><ol class="navContent"><li class="navItem"><a class="navBlock" href="/"><span class="navItemTitle">Home</span></a></li><li class="navItem" matchdata="categories,tags"><a class="navBlock" href="/archives/"><span class="navItemTitle">Archives</span></a></li><li class="navItem"><a class="navBlock" href="/mypage/"><span class="navItemTitle">MyPage</span></a></li></ol></nav></header><article><div class="posts"><a class="recent-post" href="/posts/64251.html"><object><div class="recent-info"><span class="categories"><object><a href="/categories/Dev/">Dev</a></object><object><a href="/categories/Dev/Java/">Java</a></object><object><a href="/categories/Dev/Java/studyEveryday/">studyEveryday</a></object></span><span class="tags"><object><a href="/tags/Dev/">Dev</a></object><object><a href="/tags/Java/">Java</a></object><object><a href="/tags/studyEveryday/">studyEveryday</a></object><object><a href="/tags/java-split-%E6%96%B9%E6%B3%95%E8%BE%93%E5%87%BA%E7%A4%BA%E4%BE%8B/">java split()方法输出示例</a></object></span><time datetime="2024-06-06T02:12:24.000Z">2024-06-06</time></div><h1 class="recent-title">java split()方法输出示例</h1><div class="recent-excerpt"></div><span class="read-more">READ MORE +</span></object></a><a class="recent-post" href="/posts/62002.html"><object><div class="recent-info"><span class="categories"><object><a href="/categories/Ops/">Ops</a></object><object><a href="/categories/Ops/nginx/">nginx</a></object></span><span class="tags"><object><a href="/tags/Ops/">Ops</a></object><object><a href="/tags/nginx/">nginx</a></object><object><a href="/tags/%E9%85%8D%E7%BD%AEssl%E8%AF%81%E4%B9%A6%E7%A4%BA%E4%BE%8B/">配置ssl证书示例</a></object></span><time datetime="2024-05-10T02:38:13.000Z">2024-05-10</time></div><h1 class="recent-title">配置ssl证书示例</h1><div class="recent-excerpt"></div><span class="read-more">READ MORE +</span></object></a><a class="recent-post" href="/posts/44762.html"><object><div class="recent-info"><span class="categories"><object><a href="/categories/Dev/">Dev</a></object><object><a href="/categories/Dev/redis/">redis</a></object></span><span class="tags"><object><a href="/tags/redis/">redis</a></object><object><a href="/tags/Dev/">Dev</a></object><object><a href="/tags/docker%E5%AE%89%E8%A3%85redis/">docker安装redis</a></object></span><time datetime="2024-05-07T07:11:15.000Z">2024-05-07</time></div><h1 class="recent-title">docker安装redis</h1><div class="recent-excerpt"></div><span class="read-more">READ MORE +</span></object></a><a class="recent-post" href="/posts/56360.html"><object><div class="recent-info"><span class="categories"><object><a href="/categories/Dev/">Dev</a></object><object><a href="/categories/Dev/RabbitMq/">RabbitMq</a></object></span><span class="tags"><object><a href="/tags/Dev/">Dev</a></object><object><a href="/tags/RabbitMq/">RabbitMq</a></object><object><a href="/tags/m1-docker%E5%AE%89%E8%A3%85rabbitmq/">m1,docker安装rabbitmq</a></object></span><time datetime="2024-04-24T08:31:23.000Z">2024-04-24</time></div><h1 class="recent-title">m1,docker安装rabbitmq</h1><div class="recent-excerpt"></div><span class="read-more">READ MORE +</span></object></a><a class="recent-post" href="/posts/2459.html"><object><div class="recent-info"><span class="categories"><object><a href="/categories/Dev/">Dev</a></object><object><a href="/categories/Dev/mysql/">mysql</a></object></span><span class="tags"><object><a href="/tags/Dev/">Dev</a></object><object><a href="/tags/mysql/">mysql</a></object><object><a href="/tags/m1-docker%E5%AE%89%E8%A3%85mysql5-7/">m1,docker安装mysql5.7</a></object></span><time datetime="2024-04-24T07:19:11.000Z">2024-04-24</time></div><h1 class="recent-title">m1,docker安装mysql5.7</h1><div class="recent-excerpt"></div><span class="read-more">READ MORE +</span></object></a><a class="recent-post" href="/posts/57560.html"><object><div class="recent-info"><span class="categories"><object><a href="/categories/Ops/">Ops</a></object><object><a href="/categories/Ops/nginx/">nginx</a></object></span><span class="tags"><object><a href="/tags/Ops/">Ops</a></object><object><a href="/tags/nginx/">nginx</a></object><object><a href="/tags/docker%E5%AE%89%E8%A3%85nginx/">docker安装nginx</a></object></span><time datetime="2024-04-22T06:48:10.000Z">2024-04-22</time></div><h1 class="recent-title">docker安装nginx</h1><div class="recent-excerpt"></div><span class="read-more">READ MORE +</span></object></a><a class="recent-post" href="/posts/50662.html"><object><div class="recent-info"><span class="categories"><object><a href="/categories/Dev/">Dev</a></object><object><a href="/categories/Dev/elasticsearch/">elasticsearch</a></object></span><span class="tags"><object><a href="/tags/Dev/">Dev</a></object><object><a href="/tags/elasticsearch/">elasticsearch</a></object><object><a href="/tags/elasticsearch%E9%80%9A%E8%BF%87docker%E5%AE%89%E8%A3%85%EF%BC%88%E9%80%82%E9%85%8Dmacbook-m1%EF%BC%89/">elasticsearch通过docker安装（适配macbook m1）</a></object></span><time datetime="2024-04-10T08:53:13.000Z">2024-04-10</time></div><h1 class="recent-title">elasticsearch通过docker在mackbook m1安装</h1><div class="recent-excerpt"></div><span class="read-more">READ MORE +</span></object></a><a class="recent-post" href="/posts/30107.html"><object><div class="recent-info"><span class="categories"><object><a href="/categories/Ops/">Ops</a></object><object><a href="/categories/Ops/redis/">redis</a></object></span><span class="tags"><object><a href="/tags/Ops/">Ops</a></object><object><a href="/tags/redis/">redis</a></object><object><a href="/tags/redis%E4%B8%BB%E4%BB%8E/">redis主从</a></object><object><a href="/tags/redis%E5%93%A8%E5%85%B5/">redis哨兵</a></object><object><a href="/tags/redis%E9%9B%86%E7%BE%A4/">redis集群</a></object></span><time datetime="2024-02-29T03:28:01.000Z">2024-02-29</time></div><h1 class="recent-title">redis主从、哨兵、集群搭建</h1><div class="recent-excerpt"></div><span class="read-more">READ MORE +</span></object></a><a class="recent-post" href="/posts/2684.html"><object><div class="recent-info"><span class="categories"><object><a href="/categories/Dev/">Dev</a></object><object><a href="/categories/Dev/redis/">redis</a></object></span><span class="tags"><object><a href="/tags/redis/">redis</a></object><object><a href="/tags/Dev/">Dev</a></object><object><a href="/tags/%E5%93%A8%E5%85%B5/">哨兵</a></object><object><a href="/tags/sentinel/">sentinel</a></object></span><time datetime="2024-02-23T08:20:15.000Z">2024-02-23</time></div><h1 class="recent-title">redis哨兵模式在springboot下的配置</h1><div class="recent-excerpt"></div><span class="read-more">READ MORE +</span></object></a><a class="recent-post" href="/posts/973.html"><object><div class="recent-info"><span class="categories"><object><a href="/categories/Ops/">Ops</a></object><object><a href="/categories/Ops/linux/">linux</a></object><object><a href="/categories/Ops/linux/centos/">centos</a></object></span><span class="tags"><object><a href="/tags/Ops/">Ops</a></object><object><a href="/tags/linux/">linux</a></object><object><a href="/tags/centos/">centos</a></object><object><a href="/tags/nfs/">nfs</a></object></span><time datetime="2024-02-21T06:47:44.000Z">2024-02-21</time></div><h1 class="recent-title">公网nfs配置踩坑</h1><div class="recent-excerpt"></div><span class="read-more">READ MORE +</span></object></a></div><div id="paginator"><span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="page-number" href="/page/3/">3</a><span class="space">&hellip;</span><a class="page-number" href="/page/11/">11</a><a class="extend next" rel="next" href="/page/2/">Next</a></div><div class="bottom-btn"><div><a class="i-top" id="to-top" onClick="scrolls.scrolltop();" title="To Top" style="opacity: 0; display: none;">∧ </a></div></div></article><aside><div id="about"><a href="/" id="logo"><img src="https://ak.hypergryph.com/assets/index/images/ak/pc/faction/1.png" alt="Logo"></a><h1 id="Dr"><a href="/">ZhangYuhan</a></h1><div id="description"><p>Record the growth and learning process</p></div><div id="social-links"><a class="social" target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/zhangyuhannerv"><i class="fab fa-github" alt="GitHub"></i></a><a class="social" href="mailto:zhangyuhannerv@gmail.com" rel="external nofollow noreferrer"><i class="fa fa-envelope" alt="E-Mail"></i></a></div></div><div id="aside-block"><section id="total"><a id="total-archives" href="/archives"><span class="total-title">Archives Total:</span><span class="total-number">201</span></a><div id="total-tags"><span class="total-title">Tags:</span><span class="total-number">262</span></div><div id="total-categories"><span class="total-title">Categories:</span><span class="total-number">65</span></div><br><div id="total-view"><span class="total-title" id="busuanzi_container_site_pv">Site View: <span class="total-number" id="busuanzi_value_site_pv">loading...</span></span><br><span class="total-title" id="busuanzi_container_site_uv">Visitor: <span class="total-number" id="busuanzi_value_site_uv">loading...</span></span></div></section></div><footer><nobr><span class="icp-title">copyright</span><a class="icp-content" target="_blank" rel="noopener external nofollow noreferrer" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">CC BY-NC-SA 4.0</a></nobr><br><nobr>Published with <a target="_blank" rel="noopener external nofollow noreferrer" href="http://hexo.io">Hexo</a></nobr><wbr><nobr> Theme <a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/Yue-plus/hexo-theme-arknights">Arknights</a></nobr><wbr><nobr> by <a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/Yue-plus">Yue_plus</a></nobr></footer></aside></main><canvas id="canvas-dust"></canvas></body></html>
