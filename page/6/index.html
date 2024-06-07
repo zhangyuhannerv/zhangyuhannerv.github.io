@@ -1,80 +1,271 @@
-<!DOCTYPE html><html lang="en" theme-mode="dark-only"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>ZhangYuhanのblog</title><link rel="icon" type="image/x-icon" href="/img/theme/favicon.ico"><link rel="preload" as="font" crossorigin="anonymous" href="/font/Bender.ttf"><link rel="preload" as="font" crossorigin="anonymous" href="/font/BenderLight.ttf"><link rel="preload" as="font" crossorigin="anonymous" href="/font/JetBrainsMono-Regular.woff2"><link rel="stylesheet" href="/css/arknights.css"><style>@font-face {
-  font-family: Bender;
-  src: local('Bender'), url("/font/Bender.ttf"), url("/font/Bender.otf");
-}
-@font-face {
-  font-family: BenderLight;
-  src: local('BenderLight'), url("/font/BenderLight.ttf");
-}
-@font-face {
-  font-family: 'JetBrains Mono';
-  src: local('JetBrains Mono'), url('/font/JetBrainsMono-Regular.woff2') format('woff2');
-}
-</style><script>var config = {"root":"/","search":{"preload":false,"activeHolder":"Enter here","blurHolder":"Search","noResult":"Data \"$0\" not found"},"code":{"codeInfo":"$0 - $1 lines","copy":"copy"}}</script><link type="text/css" rel="stylesheet" href="/lib/encrypt/hbe.style.css"><script src="//unpkg.com/mermaid@10.5.0/dist/mermaid.min.js"></script><link type="text/css" rel="stylesheet" href="//unpkg.com/lightgallery@2.7.1/css/lightgallery.css"><link type="text/css" rel="stylesheet" href="//unpkg.com/lightgallery@2.7.1/css/lg-zoom.css"><link type="text/css" rel="stylesheet" href="//unpkg.com/lightgallery@2.7.1/css/lg-thumbnail.css"><link type="text/css" rel="stylesheet" href="/lib/fontawesome/css/all.min.css"><script>if (window.localStorage.getItem('theme-mode') === 'light')
- document.documentElement.setAttribute('theme-mode', 'light')
-if (window.localStorage.getItem('theme-mode') === 'dark')
- document.documentElement.setAttribute('theme-mode', 'dark')</script><style>@font-face {
- font-family: BenderLight;
- src: local('Bender'), url("/font/BenderLight.woff2") format('woff2');
-}
-@font-face {
- font-family: 'JetBrains Mono';
- src: local('JetBrains Mono'), url('/font/JetBrainsMono-Regular.woff2') format('woff2');
-}</style><style>:root {
- --dark-background: url('/img/theme/banner1.jpg');
- --light-background: url('/img/bk.jpg');
- --theme-encrypt-confirm: 'confirm'
-}</style><script defer src="/js/arknights.js"></script><script defer src="/js/search.js"></script><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><script async src="//unpkg.com/valine/dist/Valine.min.js"></script><script defer type="module">import mermaid from '//unpkg.com/mermaid@10.5.0/dist/mermaid.esm.mjs';
-window.mermaid = mermaid;
-code.paintMermaid();
-</script><script async src="//unpkg.com/lightgallery@2.7.1/lightgallery.min.js"></script><script async src="//unpkg.com/lightgallery@2.7.1/plugins/zoom/lg-zoom.min.js"></script><script async src="//unpkg.com/lightgallery@2.7.1/plugins/thumbnail/lg-thumbnail.min.js"></script><script async src="/lib/encrypt/hbe.js"></script><script async src="/js/pjax.js"></script><script class="pjax-js">reset= () => {new Valine({
- el: '#valine'
- , appId: 'JkudL31UMA3LTrugX1MyaDSI-MdYXbMMI'
- , appKey: 'G7H3CF0evPfzlwg7MCAK3ZJY', serverURLs: 'https://jkudl31u.api.lncldglobal.com' , placeholder: 'This comment is sent by Penguin Logistics.'
- , path: window.location.pathname
-});document.querySelector('.lg-container')?.remove()
-lightGallery(document.getElementById('post-bg'), {
-  plugins: [lgZoom,lgThumbnail],
-  selector: '.item-img'})}</script><script>window.addEventListener("load",() => {pjax = new Pjax({
- cacheBust: false,
- selectors: ['title','article','#aside-block','.pjax-js','data-pjax','.busuanzi'],
- switches: {'article': Pjax.switches.sideBySide},
- switchesOptions: {
-   'article': {
-     classNames: {
-       remove: "pjax-out",
-       add: "pjax-in"
-     }
-   }
- }
-});
-document.addEventListener("pjax:complete", reset);document.addEventListener('pjax:success', _ => bszCaller.fetch(
- "//busuanzi.ibruce.info/busuanzi?jsonpCallback=BusuanziCallback", a => {
-  bszTag.texts(a),
-  bszTag.shows()
-}));reset()})</script><script class="pjax-js">reset= () => {new Valine({
- el: '#valine'
- , appId: 'JkudL31UMA3LTrugX1MyaDSI-MdYXbMMI'
- , appKey: 'G7H3CF0evPfzlwg7MCAK3ZJY', serverURLs: 'https://jkudl31u.api.lncldglobal.com' , placeholder: 'This comment is sent by Penguin Logistics.'
- , path: window.location.pathname
-});document.querySelector('.lg-container')?.remove()
-lightGallery(document.getElementById('post-bg'), {
-  plugins: [lgZoom,lgThumbnail],
-  selector: '.item-img'})}</script><script>window.addEventListener("load",() => {pjax = new Pjax({
- cacheBust: false,
- selectors: ['title','article','#aside-block','.pjax-js'],
- switches: {'article': Pjax.switches.sideBySide},
- switchesOptions: {
-   'article': {
-     classNames: {
-       remove: "pjax-out",
-       add: "pjax-in"
-     }
-   }
- }
-});
-document.addEventListener("pjax:complete", reset);reset()})</script><!-- hexo injector head_end start --><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Zfour/Butterfly-double-row-display@1.00/cardlistpost.min.css"/>
+<!DOCTYPE html><html lang="en" data-theme="dark"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"><title>ZhangYuhanのblog</title><meta name="author" content="ZhangYuhan"><meta name="copyright" content="ZhangYuhan"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#0d0d0d"><meta name="description" content="Record the growth and learning process">
+<meta property="og:type" content="website">
+<meta property="og:title" content="ZhangYuhanのblog">
+<meta property="og:url" content="https://zhangyuhan.netlify.app/page/6/index.html">
+<meta property="og:site_name" content="ZhangYuhanのblog">
+<meta property="og:description" content="Record the growth and learning process">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://zhangyuhan.netlify.app/img/theme/avatar.jpg">
+<meta property="article:author" content="ZhangYuhan">
+<meta property="article:tag" content="blog,java,js,日本语">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://zhangyuhan.netlify.app/img/theme/avatar.jpg"><link rel="shortcut icon" href="/img/theme/favicon.ico"><link rel="canonical" href="https://zhangyuhan.netlify.app/page/6/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"/search.xml","preload":false,"languages":{"hits_empty":"We didn't find any results for the search: ${query}"}},
+  translate: {"defaultEncoding":2,"translateDelay":0,"msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"簡"},
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: 'Copy successfully',
+    error: 'Copy error',
+    noSupport: 'The browser does not support'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: 'days',
+  date_suffix: {
+    just: 'Just',
+    min: 'minutes ago',
+    hour: 'hours ago',
+    day: 'days ago',
+    month: 'months ago'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: true,
+  }
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'ZhangYuhanのblog',
+  isPost: false,
+  isHome: true,
+  isHighlightShrink: false,
+  isToc: false,
+  postUpdate: '2024-06-07 09:04:15'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+    win.getCSS = (url,id = false) => new Promise((resolve, reject) => {
+      const link = document.createElement('link')
+      link.rel = 'stylesheet'
+      link.href = url
+      if (id) link.id = id
+      link.onerror = reject
+      link.onload = link.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        link.onload = link.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(link)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const detectApple = () => {
+      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><link rel="stylesheet" href="/css/font.css"><link rel="stylesheet" href="/css/modify.css"><link rel="stylesheet" href="/css/universe.css"><link rel="stylesheet" href="/css/mouse.css"><link rel="stylesheet" href="/css/card.css"><link rel="stylesheet" href="/css/custom.css"><!-- hexo injector head_end start --><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Zfour/Butterfly-double-row-display@1.00/cardlistpost.min.css"/>
 <style>#recent-posts > .recent-post-item >.recent-post-info > .article-meta-wrap > .tags:before {content:"\A";
   white-space: pre;}#recent-posts > .recent-post-item >.recent-post-info > .article-meta-wrap > .tags > .article-meta__separator{display:none}</style>
 <!-- hexo injector head_end end --><meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title="ZhangYuhanのblog" type="application/atom+xml">
-</head><body><div class="loading" style="opacity: 0;"><div class="loadingBar left"></div><div class="loadingBar right"></div></div><main><header class="closed"><div class="navBtn"><i class="navBtnIcon"><span class="navBtnIconBar"></span><span class="navBtnIconBar"></span><span class="navBtnIconBar"></span></i></div><nav><div class="navItem" id="search-header"><span class="navItemTitle"><input autocomplete="off" autocorrect="off" autocapitalize="none" placeholder="Search" spellcheck="false" maxlength="50" type="text" id="search-input"></span></div><div class="navItem" id="search-holder"></div><div class="search-popup" tabindex="0"><div id="search-result"></div></div><ol class="navContent"><li class="navItem"><a class="navBlock" href="/"><span class="navItemTitle">Home</span></a></li><li class="navItem" matchdata="categories,tags"><a class="navBlock" href="/archives/"><span class="navItemTitle">Archives</span></a></li><li class="navItem"><a class="navBlock" href="/mypage/"><span class="navItemTitle">MyPage</span></a></li></ol></nav></header><article><div class="posts"><a class="recent-post" href="/posts/64112.html"><object><div class="recent-info"><span class="categories"><object><a href="/categories/Dev/">Dev</a></object><object><a href="/categories/Dev/SpringBoot/">SpringBoot</a></object></span><span class="tags"><object><a href="/tags/Dev/">Dev</a></object><object><a href="/tags/SpringBoot/">SpringBoot</a></object><object><a href="/tags/%E8%8E%B7%E5%8F%96resouces%E4%B8%8B%E7%9A%84%E6%96%87%E4%BB%B6%E7%9A%84%E8%BE%93%E5%85%A5%E6%B5%81InputStream/">获取resouces下的文件的输入流InputStream</a></object></span><time datetime="2023-03-06T07:47:44.000Z">2023-03-06</time></div><h1 class="recent-title">获取resouces下的文件的输入流InputStream</h1><div class="recent-excerpt"></div><span class="read-more">READ MORE +</span></object></a><a class="recent-post" href="/posts/25743.html"><object><div class="recent-info"><span class="categories"><object><a href="/categories/Arc/">Arc</a></object><object><a href="/categories/Arc/git/">git</a></object><object><a href="/categories/Arc/git/general/">general</a></object></span><span class="tags"><object><a href="/tags/Arc/">Arc</a></object><object><a href="/tags/git/">git</a></object><object><a href="/tags/general/">general</a></object><object><a href="/tags/%E5%9C%A8-gitignore%E4%B8%AD%E6%B7%BB%E5%8A%A0%E6%96%B0%E7%9A%84%E8%A7%84%E5%88%99%E5%AF%B9%E5%B7%B2%E7%BB%8F%E8%A2%ABgit%E7%AE%A1%E7%90%86%E4%BA%86%E7%9A%84%E6%96%87%E4%BB%B6%E4%B8%8D%E7%94%9F%E6%95%88%E7%9A%84%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/">在.gitignore中添加新的规则对已经被git管理了的文件不生效的解决办法</a></object></span><time datetime="2023-03-06T07:47:44.000Z">2023-03-06</time></div><h1 class="recent-title">在.gitignore中添加新的规则对已经被git管理了的文件不生效的解决办法</h1><div class="recent-excerpt"></div><span class="read-more">READ MORE +</span></object></a><a class="recent-post" href="/posts/56030.html"><object><div class="recent-info"><span class="categories"><object><a href="/categories/Arc/">Arc</a></object><object><a href="/categories/Arc/git/">git</a></object><object><a href="/categories/Arc/git/github/">github</a></object></span><span class="tags"><object><a href="/tags/Arc/">Arc</a></object><object><a href="/tags/git/">git</a></object><object><a href="/tags/github/">github</a></object><object><a href="/tags/github%E9%AB%98%E7%BA%A7%E6%90%9C%E7%B4%A2/">github高级搜索</a></object></span><time datetime="2023-03-06T07:47:44.000Z">2023-03-06</time></div><h1 class="recent-title">github高级搜索</h1><div class="recent-excerpt"></div><span class="read-more">READ MORE +</span></object></a><a class="recent-post" href="/posts/7685.html"><object><div class="recent-info"><span class="categories"><object><a href="/categories/Dev/">Dev</a></object><object><a href="/categories/Dev/SpringBoot/">SpringBoot</a></object></span><span class="tags"><object><a href="/tags/Dev/">Dev</a></object><object><a href="/tags/SpringBoot/">SpringBoot</a></object><object><a href="/tags/%E8%8E%B7%E5%8F%96%E7%9B%B8%E5%AF%B9%E8%B7%AF%E5%BE%84%E4%B8%8B%E7%9A%84%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%E4%BF%A1%E6%81%AF/">获取相对路径下的配置文件信息</a></object></span><time datetime="2023-03-06T07:47:44.000Z">2023-03-06</time></div><h1 class="recent-title">获取相对路径下的配置文件信息</h1><div class="recent-excerpt"></div><span class="read-more">READ MORE +</span></object></a><a class="recent-post" href="/posts/14935.html"><object><div class="recent-info"><span class="categories"><object><a href="/categories/Arc/">Arc</a></object><object><a href="/categories/Arc/git/">git</a></object><object><a href="/categories/Arc/git/gitlab/">gitlab</a></object></span><span class="tags"><object><a href="/tags/Arc/">Arc</a></object><object><a href="/tags/git/">git</a></object><object><a href="/tags/gitlab/">gitlab</a></object><object><a href="/tags/Gitlab%E5%9C%A8%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%B8%8A%E7%9A%84%E5%AE%89%E8%A3%85/">Gitlab在服务器上的安装</a></object></span><time datetime="2023-03-06T07:47:44.000Z">2023-03-06</time></div><h1 class="recent-title">Gitlab在服务器上的安装</h1><div class="recent-excerpt"></div><span class="read-more">READ MORE +</span></object></a><a class="recent-post" href="/posts/22256.html"><object><div class="recent-info"><span class="categories"><object><a href="/categories/Ops/">Ops</a></object><object><a href="/categories/Ops/linux/">linux</a></object><object><a href="/categories/Ops/linux/general/">general</a></object></span><span class="tags"><object><a href="/tags/Ops/">Ops</a></object><object><a href="/tags/general/">general</a></object><object><a href="/tags/linux/">linux</a></object><object><a href="/tags/%E5%88%9B%E5%BB%BAshell%E8%84%9A%E6%9C%AC%E5%B9%B6%E4%B8%94%E8%BF%90%E8%A1%8C/">创建shell脚本并且运行</a></object></span><time datetime="2023-03-06T07:47:44.000Z">2023-03-06</time></div><h1 class="recent-title">创建shell脚本并且运行</h1><div class="recent-excerpt"></div><span class="read-more">READ MORE +</span></object></a><a class="recent-post" href="/posts/60780.html"><object><div class="recent-info"><span class="categories"><object><a href="/categories/Ops/">Ops</a></object><object><a href="/categories/Ops/linux/">linux</a></object><object><a href="/categories/Ops/linux/general/">general</a></object></span><span class="tags"><object><a href="/tags/Ops/">Ops</a></object><object><a href="/tags/general/">general</a></object><object><a href="/tags/linux/">linux</a></object><object><a href="/tags/%E5%90%8E%E5%8F%B0%E8%BF%90%E8%A1%8C%E5%91%BD%E4%BB%A4/">后台运行命令</a></object></span><time datetime="2023-03-06T07:47:44.000Z">2023-03-06</time></div><h1 class="recent-title">后台运行命令</h1><div class="recent-excerpt"></div><span class="read-more">READ MORE +</span></object></a><a class="recent-post" href="/posts/1698.html"><object><div class="recent-info"><span class="categories"><object><a href="/categories/Ops/">Ops</a></object><object><a href="/categories/Ops/linux/">linux</a></object><object><a href="/categories/Ops/linux/general/">general</a></object></span><span class="tags"><object><a href="/tags/Ops/">Ops</a></object><object><a href="/tags/general/">general</a></object><object><a href="/tags/linux/">linux</a></object><object><a href="/tags/%E6%9F%A5%E7%9C%8Bcpu%E6%A0%B8%E5%BF%83%E6%95%B0/">查看cpu核心数</a></object></span><time datetime="2023-03-06T07:47:44.000Z">2023-03-06</time></div><h1 class="recent-title">查看cpu核心数</h1><div class="recent-excerpt"></div><span class="read-more">READ MORE +</span></object></a><a class="recent-post" href="/posts/50313.html"><object><div class="recent-info"><span class="categories"><object><a href="/categories/Ops/">Ops</a></object><object><a href="/categories/Ops/linux/">linux</a></object><object><a href="/categories/Ops/linux/general/">general</a></object></span><span class="tags"><object><a href="/tags/Ops/">Ops</a></object><object><a href="/tags/general/">general</a></object><object><a href="/tags/linux/">linux</a></object><object><a href="/tags/%E6%9F%A5%E7%9C%8B%E5%91%BD%E4%BB%A4%E6%89%80%E5%9C%A8%E6%BA%90%E6%96%87%E4%BB%B6%E7%9A%84%E4%BD%8D%E7%BD%AE/">查看命令所在源文件的位置</a></object></span><time datetime="2023-03-06T07:47:44.000Z">2023-03-06</time></div><h1 class="recent-title">查看命令所在源文件的位置</h1><div class="recent-excerpt"></div><span class="read-more">READ MORE +</span></object></a><a class="recent-post" href="/posts/50070.html"><object><div class="recent-info"><span class="categories"><object><a href="/categories/Ops/">Ops</a></object><object><a href="/categories/Ops/linux/">linux</a></object><object><a href="/categories/Ops/linux/general/">general</a></object></span><span class="tags"><object><a href="/tags/Ops/">Ops</a></object><object><a href="/tags/general/">general</a></object><object><a href="/tags/linux/">linux</a></object><object><a href="/tags/%E6%A0%B9%E6%8D%AE%E7%AB%AF%E5%8F%A3%E5%8F%B7%E6%9F%A5%E8%AF%A2%E5%8D%A0%E7%94%A8pid/">根据端口号查询占用pid</a></object></span><time datetime="2023-03-06T07:47:44.000Z">2023-03-06</time></div><h1 class="recent-title">根据端口号查询占用pid</h1><div class="recent-excerpt"></div><span class="read-more">READ MORE +</span></object></a></div><div id="paginator"><a class="extend prev" rel="prev" href="/page/5/">Prev</a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/4/">4</a><a class="page-number" href="/page/5/">5</a><span class="page-number current">6</span><a class="page-number" href="/page/7/">7</a><a class="page-number" href="/page/8/">8</a><span class="space">&hellip;</span><a class="page-number" href="/page/11/">11</a><a class="extend next" rel="next" href="/page/7/">Next</a></div><div class="bottom-btn"><div><a class="i-top" id="to-top" onClick="scrolls.scrolltop();" title="To Top" style="opacity: 0; display: none;">∧ </a></div></div></article><aside><div id="about"><a href="/" id="logo"><img src="https://ak.hypergryph.com/assets/index/images/ak/pc/faction/1.png" alt="Logo"></a><h1 id="Dr"><a href="/">ZhangYuhan</a></h1><div id="description"><p>Record the growth and learning process</p></div><div id="social-links"><a class="social" target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/zhangyuhannerv"><i class="fab fa-github" alt="GitHub"></i></a><a class="social" href="mailto:zhangyuhannerv@gmail.com" rel="external nofollow noreferrer"><i class="fa fa-envelope" alt="E-Mail"></i></a></div></div><div id="aside-block"><section id="total"><a id="total-archives" href="/archives"><span class="total-title">Archives Total:</span><span class="total-number">201</span></a><div id="total-tags"><span class="total-title">Tags:</span><span class="total-number">262</span></div><div id="total-categories"><span class="total-title">Categories:</span><span class="total-number">65</span></div><br><div id="total-view"><span class="total-title" id="busuanzi_container_site_pv">Site View: <span class="total-number" id="busuanzi_value_site_pv">loading...</span></span><br><span class="total-title" id="busuanzi_container_site_uv">Visitor: <span class="total-number" id="busuanzi_value_site_uv">loading...</span></span></div></section></div><footer><nobr><span class="icp-title">copyright</span><a class="icp-content" target="_blank" rel="noopener external nofollow noreferrer" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">CC BY-NC-SA 4.0</a></nobr><br><nobr>Published with <a target="_blank" rel="noopener external nofollow noreferrer" href="http://hexo.io">Hexo</a></nobr><wbr><nobr> Theme <a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/Yue-plus/hexo-theme-arknights">Arknights</a></nobr><wbr><nobr> by <a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/Yue-plus">Yue_plus</a></nobr></footer></aside></main><canvas id="canvas-dust"></canvas></body></html>
+</head><body><div id="web_bg"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/img/theme/avatar.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">201</div></a><a href="/tags/"><div class="headline">Tags</div><div class="length-num">262</div></a><a href="/categories/"><div class="headline">Categories</div><div class="length-num">65</div></a></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> Archives</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> Categories</span></a></div></div></div></div><div class="page" id="body-wrap"><header class="full_page" id="page-header"><nav id="nav"><span id="blog-info"><a href="/" title="ZhangYuhanのblog"><img class="site-icon" src="/img/theme/logo.png"/></a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search" href="javascript:void(0);" rel="external nofollow noreferrer"><i class="fas fa-search fa-fw"></i><span> Search</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> Archives</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> Categories</span></a></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);" rel="external nofollow noreferrer"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="site-info"><h1 id="site-title">ZhangYuhanのblog</h1><div id="site-subtitle"><span id="subtitle"></span></div><div id="site_social_icons"><a class="social-icon" href="https://github.com/zhangyuhannerv" rel="external nofollow noreferrer" target="_blank" title="Github"><i class="fab fa-github"></i></a><a class="social-icon" href="mailto:zhangyuhannerv@gmail.com" rel="external nofollow noreferrer" target="_blank" title="Email"><i class="fas fa-envelope"></i></a></div></div><div id="scroll-down"><i class="fas fa-angle-down scroll-down-effects"></i></div></header><main class="layout" id="content-inner"><div class="recent-posts" id="recent-posts"><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/posts/30134.html" title="toSee">toSee</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2023-03-06T07:47:44.000Z" title="Created 2023-03-06 15:47:44">2023-03-06</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Life/">Life</a><i class="fas fa-angle-right article-meta-link"></i><a class="article-meta__categories" href="/categories/Life/todo/">todo</a></span></div><div class="content">
+  0783c7a821e71906579a5c8fae0b5765f7d19a65d5d7adf1d9fc89456874fb34f858a876b23a627e2727fe73d1bef0a9153a8fe8f680893be708c51b4e5c3cda6ad26904979e981dcd28750d599ea9765d2ef7ea6874f633d8d6d070435ad3abc7c93ad533f91f32ddd0908fe9f9e86e806cda345e17bb0b68f552c2f45c8588c85740d62a1c4aec84968aa8bb9ff2e7a3411e4db1db143146ef615b81987fe1ac2047835e45f92db384dd285a0276a3959b1cd6ad38b49e5071d152de734e5aa004117f78cfd630ea84fbc56659f859c0842cefbbe03cf3063d0835d33bca09d9e0f930422e433f9e124f9c8c74139b8841a4b9136a789fc ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/posts/49496.html" title="toDo">toDo</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2023-03-06T07:47:44.000Z" title="Created 2023-03-06 15:47:44">2023-03-06</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Life/">Life</a><i class="fas fa-angle-right article-meta-link"></i><a class="article-meta__categories" href="/categories/Life/todo/">todo</a></span></div><div class="content">
+  0783c7a821e71906579a5c8fae0b5765f7d19a65d5d7adf1d9fc89456874fb345fd45bf6a59111d263a347903155debee7cf4fc37800f9d5814590dea63ef1bb41e2b6a18a5bab40295246dd893a49fad09f72ba83632a8a1bfd512dfa78fa84c8c9813e2006ea100c4895893d762f7821f5d4eb833ef1326e0a05a1f75e5eb4fb8076ac8f7210734a5b790a10925098a69bdf3c1b18f30a3f9aada1d8fc1b4695eb717463ca334b7a389099c9530a971370f57c4a097a14653d105b9d7c87c026b144ae1b8025bd34abe0839f5c84aae438eced4f5f22bc40648d0b1a85db96490ad2f425c5331fb41eb94c9952c5225dde89da276c4945b ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/posts/59400.html" title="存储zset的写法">存储zset的写法</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2023-03-06T07:47:44.000Z" title="Created 2023-03-06 15:47:44">2023-03-06</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Dev/">Dev</a><i class="fas fa-angle-right article-meta-link"></i><a class="article-meta__categories" href="/categories/Dev/redis/">redis</a><i class="fas fa-angle-right article-meta-link"></i><a class="article-meta__categories" href="/categories/Dev/redis/ResidTemplate/">ResidTemplate</a></span></div><div class="content">ZSetOperations zSetOperations = redisTemplate.opsForZSet();Set&lt;ZSetOperations.TypedTuple&lt;Map&lt;String, Double&gt;&gt;&gt; tuples = new HashSet&lt;&gt;();int cycleNum = dataShowMapper.getTrackDynamicGeometryDataNum(csrwId, xb) / 10000 + 1;// 循环次数CountDownLatch countDownLanch = new CountDownLatch(cycleNum);ExecutorService executor = Executors.newFixedThreadPool(cycleNum &gt; 4 ? 4 : cycleNum);for (int i = 0; i &lt; cycleNum; i++) &#123;  int start = i * 10000;  int num = 10000;  executor.ex ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/posts/50126.html" title="常用api总结">常用api总结</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2023-03-06T07:47:44.000Z" title="Created 2023-03-06 15:47:44">2023-03-06</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Dev/">Dev</a><i class="fas fa-angle-right article-meta-link"></i><a class="article-meta__categories" href="/categories/Dev/redis/">redis</a><i class="fas fa-angle-right article-meta-link"></i><a class="article-meta__categories" href="/categories/Dev/redis/ResidTemplate/">ResidTemplate</a></span></div><div class="content">XXXTemplate 是 Spring 的一大设计特色，其中，RedisTemplate 功能是提供对 Redis 的支持。
+RedisTemplate 是 Spring Boot 访问 Redis 的核心组件，是 SpringBoot 集成 Redis 的客户端方式。它的底层通过 RedisConnectionFactory 对多种 Redis 驱动进行集成，上层通过 XXXOperations 提供丰富的 API，并结合 Spring 基于泛型的 bean 注入，未开发提供了极大的便利。
+一、Redis 常用的数据类型String：字符串类型，可以存储多种类型，如：字符串，JSON 串，二进制，序列化对象等；Hash：key-value 结构，就像 Java 里的 Map，特别适合存储对象；List：双端链表的结构，即可以作为栈，又可以作为队列，可以进行集合的头部或者尾部添加删除元素；Set：Set 集合是 String 类型的无序集合，通过 hashtable 实现，可以对集合取交集，并集，差集；Sorted set：是 String 类型的有序集合，并且，每个元素都会关联一个 ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/posts/38173.html" title="关于消费的同步异步问题，以及多个方法监听同一个topic">关于消费的同步异步问题，以及多个方法监听同一个topic</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2023-03-06T07:47:44.000Z" title="Created 2023-03-06 15:47:44">2023-03-06</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Dev/">Dev</a><i class="fas fa-angle-right article-meta-link"></i><a class="article-meta__categories" href="/categories/Dev/kafka/">kafka</a><i class="fas fa-angle-right article-meta-link"></i><a class="article-meta__categories" href="/categories/Dev/kafka/%E4%B8%8Espringboot%E7%9A%84%E6%95%B4%E5%90%88/">与springboot的整合</a></span></div><div class="content">@KafkaListener(topics = &quot;test&quot;)public void consumerTest1(String msg) throws InterruptedException &#123;    log.info(&quot;收到消息1：&quot; + msg);    TimeUnit.MILLISECONDS.sleep(10);&#125;@KafkaListener(topics = &quot;test&quot;)public void consumerTest2(String msg) throws InterruptedException &#123;    log.info(&quot;收到消息2：&quot; + msg);    TimeUnit.MILLISECONDS.sleep(10);&#125;
+
+如上所示多个方法消费同一个 topic那么，只会在一个方法中消费，不会两个方法都消费消息，即不会重复消费
+同时当只有consumerTest1()方法时，如果手动阻塞线程，那么消息的消费也会变慢即如果向 test 发送  ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/posts/60348.html" title="Kafka生产者、消费者的消息可靠性方案实现">Kafka生产者、消费者的消息可靠性方案实现</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2023-03-06T07:47:44.000Z" title="Created 2023-03-06 15:47:44">2023-03-06</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Dev/">Dev</a><i class="fas fa-angle-right article-meta-link"></i><a class="article-meta__categories" href="/categories/Dev/kafka/">kafka</a><i class="fas fa-angle-right article-meta-link"></i><a class="article-meta__categories" href="/categories/Dev/kafka/%E4%B8%8Espringboot%E7%9A%84%E6%95%B4%E5%90%88/">与springboot的整合</a></span></div><div class="content">以下代码基于 SpringKafka 2.3.13.RELEASE + Boot 2.2.9.RELEASE 实现
+Producer 消息的可靠性实现方案：ack 模式调整 + 重试机制 + 规避重试机制下带来的问题
+spring.kafka:	producer:      #这个参数可以是任意字符串，它是broker用来识别消息是来自哪个客户端的。在broker进行打印日志、衡量指标或者配额限制时会用到。      clientId: $&#123;spring.application.name&#125; #方便kafkaserver打印日志定位请求来源      bootstrap-servers: 127.0.0.1:8080 #kafka服务器地址，多个以逗号隔开      #acks=0：生产者把消息发送到broker即认为成功，不等待broker的处理结果。这种方式的吞吐最高，但也是最容易丢失消息的。      #acks=1：生产者会在该分区的leader写入消息并返回成功后，认为消息发送成功。如果群首写入消息失败，生产者会收到错误响应并进行重试。这种方式能够一定程度避 ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/posts/11739.html" title="批量删除特定前缀key">批量删除特定前缀key</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2023-03-06T07:47:44.000Z" title="Created 2023-03-06 15:47:44">2023-03-06</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Dev/">Dev</a><i class="fas fa-angle-right article-meta-link"></i><a class="article-meta__categories" href="/categories/Dev/redis/">redis</a><i class="fas fa-angle-right article-meta-link"></i><a class="article-meta__categories" href="/categories/Dev/redis/redis-cli/">redis-cli</a></span></div><div class="content">redis-cli --scan --pattern &quot;ops-coffee-*&quot; | xargs -L 2000 redis-cli del
+
+其中 xargs -L 指令表示 xargs 一次读取的行数，也就是每次删除的 key 数量，一次读取太多 xargs 会报错
+</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/posts/17422.html" title="SpringBoot中使用Quartz执行任务对象（job）中无法注入bean的问题">SpringBoot中使用Quartz执行任务对象（job）中无法注入bean的问题</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2023-03-06T07:47:44.000Z" title="Created 2023-03-06 15:47:44">2023-03-06</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Dev/">Dev</a><i class="fas fa-angle-right article-meta-link"></i><a class="article-meta__categories" href="/categories/Dev/quartz/">quartz</a><i class="fas fa-angle-right article-meta-link"></i><a class="article-meta__categories" href="/categories/Dev/quartz/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/">常见问题</a></span></div><div class="content">一、问题描述SpringBoot 整合  Quartz  进行定时任务开发时，job 中注入业务 Service，使用 @Autowired 注解获取对象为 null ，执行时报空指针异常
+二、分析Spring 容器可以管理 Bean，但是 Quartz 的 job 是自己管理的，job 无法被容器识别，即使在自定义的 job 上面加上@Component 注解，依然无效，原因是  job 对象在 spring 容器加载的时候，能够注入 bean，但是在调度时，job 对象会重新创建，此时就导致了已经注入的对象丢失，因此报空指针异常。
+三、解决办法
+3.1 采用自定义静态工具类的方式，创建 AppContextUtil 类，实现 ApplicationContextAware 接口，此工具类会在 spring 容器启动后，自动加载，使用其提供的 Bean 方法获取想要的 bean 即可，代码如下：
+import lombok.extern.slf4j.Slf4j;import org.springframework.beans.BeansException;import org.spr ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/posts/24216.html" title="业务开发时，接口不能对外暴露的解决办法">业务开发时，接口不能对外暴露的解决办法</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2023-03-06T07:47:44.000Z" title="Created 2023-03-06 15:47:44">2023-03-06</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Dev/">Dev</a><i class="fas fa-angle-right article-meta-link"></i><a class="article-meta__categories" href="/categories/Dev/Java/">Java</a><i class="fas fa-angle-right article-meta-link"></i><a class="article-meta__categories" href="/categories/Dev/Java/studyEveryday/">studyEveryday</a></span></div><div class="content">业务开发时，接口不能对外暴露怎么办？内外网接口微服务隔离
+
+网关 + redis 实现白名单机制
+方案三 网关 + AOP
+具体实操
+
+
+在业务开发的时候，经常会遇到某一个接口不能对外暴露，只能内网服务间调用的实际需求。面对这样的情况，我们该如何实现呢？今天，我们就来理一理这个问题，从几个可行的方案中，挑选一个来实现。
+1. 内外网接口微服务隔离将对外暴露的接口和对内暴露的接口分别放到两个微服务上，一个服务里所有的接口均对外暴露，另一个服务的接口只能内网服务间调用。
+该方案需要额外编写一个只对内部暴露接口的微服务，将所有只能对内暴露的业务接口聚合到这个微服务里，通过这个聚合的微服务，分别去各个业务侧获取资源。
+该方案，新增一个微服务做请求转发，增加了系统的复杂性，增大了调用耗时以及后期的维护成本。
+2. 网关 + redis 实现白名单机制在 redis 里维护一套接口白名单列表，外部请求到达网关时，从 redis 获取接口白名单，在白名单内的接口放行，反之拒绝掉。
+该方案的好处是，对业务代码零侵入，只需要维护好白名单列表即可；
+不足之处在于，白名单的维护是一个持续性投入的工作，在很多 ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/posts/9998.html" title="以特定的编码读取文件，以特定的编码写入文件">以特定的编码读取文件，以特定的编码写入文件</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2023-03-06T07:47:44.000Z" title="Created 2023-03-06 15:47:44">2023-03-06</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Dev/">Dev</a><i class="fas fa-angle-right article-meta-link"></i><a class="article-meta__categories" href="/categories/Dev/Java/">Java</a><i class="fas fa-angle-right article-meta-link"></i><a class="article-meta__categories" href="/categories/Dev/Java/studyEveryday/">studyEveryday</a></span></div><div class="content">以下代码是针对 BufferedReader 和 BufferedWriter 的
+BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(new FileInputStream(inF),&quot;GB2312&quot;));// 以GB2312的编码读文件BufferedWriter bufferedWriter = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(outFile), StandardCharsets.UTF_8));// 以utf-8写文件</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/posts/27719.html" title="判断访问设备的方法">判断访问设备的方法</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2023-03-06T07:47:44.000Z" title="Created 2023-03-06 15:47:44">2023-03-06</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Dev/">Dev</a><i class="fas fa-angle-right article-meta-link"></i><a class="article-meta__categories" href="/categories/Dev/Java/">Java</a><i class="fas fa-angle-right article-meta-link"></i><a class="article-meta__categories" href="/categories/Dev/Java/studyEveryday/">studyEveryday</a></span></div><div class="content">java 版// \b 是单词边界(连着的两个(字母字符 与 非字母字符) 之间的逻辑上的间隔),// 字符串在编译时会被转码一次,所以是 &quot;\\b&quot;// \B 是单词内部逻辑间隔(连着的两个字母字符之间的逻辑上的间隔)private static final String PHONE_REG = &quot;\\b(ip(hone|od)|android|opera m(ob|in)i&quot;    + &quot;|windows (phone|ce)|blackberry&quot;    + &quot;|s(ymbian|eries60|amsung)|p(laybook|alm|rofile/midp&quot;    + &quot;|laystation portable)|nokia|fennec|htc[-_]&quot;    + &quot;|mobile|up.browser|[1-4][0-9]&#123;2&#125;x[1-4][0-9]&#123;2&#125;)\\b&quot;;// 手记的正则表达式private stat ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/posts/29009.html" title="告别非空判断">告别非空判断</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2023-03-06T07:47:44.000Z" title="Created 2023-03-06 15:47:44">2023-03-06</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Dev/">Dev</a><i class="fas fa-angle-right article-meta-link"></i><a class="article-meta__categories" href="/categories/Dev/Java/">Java</a><i class="fas fa-angle-right article-meta-link"></i><a class="article-meta__categories" href="/categories/Dev/Java/studyEveryday/">studyEveryday</a></span></div><div class="content">1 Objects 工具类既然要解决空指针，自然就是提前对对象进行判空校验；通常情况下，会使用if( null != obj )进行对象校验；在 Java 7 中，专门提供工具类java.util.Objects，让对象的判空校验更加简单；
+特点
+Java 7 自带，不需要额外的依赖
+静态方法，使用简单
+仅支持对象判空
+
+示例
+Objects.isNull
+判断对象是否为空，为null返回true，否则返回false
+Object obj = null;   System.out.println(Objects.isNull(obj)); // true      obj = new Object();   System.out.println(Objects.isNull(obj)); // false   
+
+Objects.nonNull
+和Objects.isNull相反；判断对象不为空，为null返回false，否则返回true
+Object obj = null;   System.out.println(Objects.nonNull(obj)); // false    ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/posts/27144.html" title="word转pdf">word转pdf</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2023-03-06T07:47:44.000Z" title="Created 2023-03-06 15:47:44">2023-03-06</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Dev/">Dev</a><i class="fas fa-angle-right article-meta-link"></i><a class="article-meta__categories" href="/categories/Dev/Java/">Java</a><i class="fas fa-angle-right article-meta-link"></i><a class="article-meta__categories" href="/categories/Dev/Java/studyEveryday/">studyEveryday</a></span></div><div class="content">
+poi(慢，格式回出问题)
+openOffice（单线程，不支持并发)
+jacob(效果好，但是不支持 linux）
+docx4j（没试过)
+asposeword(效果好，块，但是付费)
+
+</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/posts/36582.html" title="常用的工具包">常用的工具包</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2023-03-06T07:47:44.000Z" title="Created 2023-03-06 15:47:44">2023-03-06</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Dev/">Dev</a><i class="fas fa-angle-right article-meta-link"></i><a class="article-meta__categories" href="/categories/Dev/Java/">Java</a><i class="fas fa-angle-right article-meta-link"></i><a class="article-meta__categories" href="/categories/Dev/Java/studyEveryday/">studyEveryday</a></span></div><div class="content">
+预览 word 或者 pdf 的内容：TiKa
+数学运算：joinery
+
+</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/posts/55320.html" title="执行简单的定时任务之ScheduledExecutorService">执行简单的定时任务之ScheduledExecutorService</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2023-03-06T07:47:44.000Z" title="Created 2023-03-06 15:47:44">2023-03-06</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Dev/">Dev</a><i class="fas fa-angle-right article-meta-link"></i><a class="article-meta__categories" href="/categories/Dev/Java/">Java</a><i class="fas fa-angle-right article-meta-link"></i><a class="article-meta__categories" href="/categories/Dev/Java/studyEveryday/">studyEveryday</a></span></div><div class="content">ScheduledExecutorService有线程池的特性，也可以实现任务循环执行，可以看作是一个简单地定时任务组件，因为有线程池特性，所以任务之间可以多线程并发执行，互不影响，当任务来的时候，才会真正创建线程去执行我们在做一些普通定时循环任务时可以用它，比如定时刷新字典常量，只需要不断重复执行即可，这篇文章讲解一下它的用法以及注意事项，不涉及底层原理
+注意：我们都知道，在使用线程池的时候，如果我们的任务出现异常没有捕获，那么线程会销毁被回收，不会影响其他任务继续提交并执行，但是在这里，如果你的任务出现异常没有捕获，会导致后续的任务不再执行，所以一定要try...catch
+1. 延迟不循环任务schedule方法schedule(Runnable command, long delay, TimeUnit unit)参数 1：任务参数 2：方法第一次执行的延迟时间参数 3：延迟单位说明：延迟任务，只执行一次(不会再次执行)，参数 2 为延迟时间
+案例说明：
+@Component@Slf4jpublic class MineExecutors &#123;    private f ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/posts/6824.html" title="数字处理">数字处理</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2023-03-06T07:47:44.000Z" title="Created 2023-03-06 15:47:44">2023-03-06</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Dev/">Dev</a><i class="fas fa-angle-right article-meta-link"></i><a class="article-meta__categories" href="/categories/Dev/Java/">Java</a><i class="fas fa-angle-right article-meta-link"></i><a class="article-meta__categories" href="/categories/Dev/Java/studyEveryday/">studyEveryday</a></span></div><div class="content">1.double 的向上，向下，四舍五入，以及转为 int1.向输出上取整public static void mathCeil() &#123;    Double number = 5.3;    // Double 向上取整    double ceil = Math.ceil(number);    System.out.println(&quot;number:&quot; + number);    System.out.println(&quot;ceil:&quot; + ceil);    int ceilRes = new Double(ceil).intValue();    System.out.println(&quot;ceilRes:&quot; + ceilRes);&#125;
+
+输出：
+number:5.3ceil:6.0ceilRes:6
+
+2.向下取整public static void mathFloor () &#123;    Double number = 5.9;    // Double 向下取整    double floor =  ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/posts/57711.html" title="时间日期整理">时间日期整理</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2023-03-06T07:47:44.000Z" title="Created 2023-03-06 15:47:44">2023-03-06</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Dev/">Dev</a><i class="fas fa-angle-right article-meta-link"></i><a class="article-meta__categories" href="/categories/Dev/Java/">Java</a><i class="fas fa-angle-right article-meta-link"></i><a class="article-meta__categories" href="/categories/Dev/Java/studyEveryday/">studyEveryday</a></span></div><div class="content">Java 中的 Timestamp 对应 mysql 中的 dateTime 类型比如：java 的 bean 类型是 Timestamp插入的时候这么写,这样插入完成后。mysql 数据库里就是 datatime 类型的数据了。
+setUpdateTime(new Timestamp(new Date().getTime()));
+
+也可以分开写如下：
+java.util.Date date = new java.util.Date();   // 获取一个Date对象Timestamp timeStamp = new Timestamp(date.getTime());  // 给对象赋值该值插入就行了
+
+Java：String 和 Date、Timestamp 之间的转换
+String 与 Date（java.util.Date）互转String -&gt; Date
+String dateStr = &quot;2010/05/04 12:34:23&quot;;Date date = new Date();//注意format的格式要与日期String的格式相匹配DateFo ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/posts/26054.html" title="获取当前系统的文件分隔符">获取当前系统的文件分隔符</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2023-03-06T07:47:44.000Z" title="Created 2023-03-06 15:47:44">2023-03-06</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Dev/">Dev</a><i class="fas fa-angle-right article-meta-link"></i><a class="article-meta__categories" href="/categories/Dev/Java/">Java</a><i class="fas fa-angle-right article-meta-link"></i><a class="article-meta__categories" href="/categories/Dev/Java/studyEveryday/">studyEveryday</a></span></div><div class="content">String outPath = parentFile.getCanonicalPath() + File.separator + &quot;temp-&quot; + fileName;// File.separator会根据当前的系统自动获得&#x27;/&#x27;或者&#x27;\\&#x27;</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/posts/31338.html" title="stream用法整理">stream用法整理</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2023-03-06T07:47:44.000Z" title="Created 2023-03-06 15:47:44">2023-03-06</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Dev/">Dev</a><i class="fas fa-angle-right article-meta-link"></i><a class="article-meta__categories" href="/categories/Dev/Java/">Java</a><i class="fas fa-angle-right article-meta-link"></i><a class="article-meta__categories" href="/categories/Dev/Java/stream/">stream</a></span></div><div class="content">stream 流处理将用,拼接的字符串转为 Double 集合// 将用&#x27;,&#x27;拼接的字符串转为Double集合List&lt;Double&gt; singlePoint = Arrays.asList(pointStr.split(&quot;,&quot;))                                .stream()                                .map(str -&gt; Double.parseDouble(str.trim()))                                .collect(Collectors.toList());</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/posts/40883.html" title="解决cookie跨域问题">解决cookie跨域问题</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2023-03-06T07:47:44.000Z" title="Created 2023-03-06 15:47:44">2023-03-06</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/Dev/">Dev</a><i class="fas fa-angle-right article-meta-link"></i><a class="article-meta__categories" href="/categories/Dev/Java/">Java</a><i class="fas fa-angle-right article-meta-link"></i><a class="article-meta__categories" href="/categories/Dev/Java/studyEveryday/">studyEveryday</a></span></div><div class="content">业务需求：当前网站想要访问第三方网站的页面，第三方网站的页面接口都需要使用 cookie 认证授权遇到的问题：当前网站和第三方网站不同域。在当前网站使用 iframe。跳转到第三方时。后台通过接口得到的 cookie 无法传递
+解决方式 1:nginx 反向代理，用当前网站的域代理第三方网站,然后用当前网站的域+第三方网站的接口 url 就能获取第三方网站的页面或数据示例：nginx.conf
+server &#123;        listen  19100;        #server_name  localhost;        location / &#123;            proxy_pass http://47.95.34.252:8084;        &#125;    &#125;
+
+js
+const url = &#x27;http://127.0.0.1:19100/JcjcGl/Dcztjctky/Dcztbx&#x27;function initPage() &#123;  $.ajax(&#123;    url: Hussar.ctxPa ...</div></div></div><nav id="pagination"><div class="pagination"><a class="extend prev" rel="prev" href="/page/5/#content-inner"><i class="fas fa-chevron-left fa-fw"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/5/#content-inner">5</a><span class="page-number current">6</span><a class="page-number" href="/page/7/#content-inner">7</a><span class="space">&hellip;</span><a class="page-number" href="/page/11/#content-inner">11</a><a class="extend next" rel="next" href="/page/7/#content-inner"><i class="fas fa-chevron-right fa-fw"></i></a></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="/img/theme/avatar.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">ZhangYuhan</div><div class="author-info__description">(o゜▽゜)o☆[BINGO!]</div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">201</div></a><a href="/tags/"><div class="headline">Tags</div><div class="length-num">262</div></a><a href="/categories/"><div class="headline">Categories</div><div class="length-num">65</div></a></div><a id="card-info-btn" target="_blank" rel="noopener external nofollow noreferrer" href="https://twitter.com/ayanamiichi"><i class="fa-brands fa-twitter"></i><span>Follow Me</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/zhangyuhannerv" rel="external nofollow noreferrer" target="_blank" title="Github"><i class="fab fa-github"></i></a><a class="social-icon" href="mailto:zhangyuhannerv@gmail.com" rel="external nofollow noreferrer" target="_blank" title="Email"><i class="fas fa-envelope"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>Announcement</span></div><div class="announcement_content">Welcome to my blog, here is a summary of my daily study and life collected and organized, I hope it can be helpful to you ^_^</div></div><div class="sticky_layout"><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>Info</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">Article :</div><div class="item-count">201</div></div><div class="webinfo-item"><div class="item-name">Run time :</div><div class="item-count" id="runtimeshow" data-publishDate="2023-01-31T16:00:00.000Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">UV :</div><div class="item-count" id="busuanzi_value_site_uv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">PV :</div><div class="item-count" id="busuanzi_value_site_pv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">Last Push :</div><div class="item-count" id="last-push-date" data-lastPushDate="2024-06-07T01:04:15.532Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2023 - 2024 By ZhangYuhan</div><div class="footer_custom_text">Hi, welcome to my blog</a>!</div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="translateLink" type="button" title="Switch Between Traditional Chinese And Simplified Chinese">繁</button><button id="darkmode" type="button" title="Switch Between Light And Dark Mode"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="Toggle between single-column and double-column"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="Setting"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="Back To Top"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/tw_cn.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.min.js"></script><div class="js-pjax"><script>window.typedJSFn = {
+  init: (str) => {
+    window.typed = new Typed('#subtitle', Object.assign({
+      strings: str,
+      startDelay: 300,
+      typeSpeed: 150,
+      loop: true,
+      backSpeed: 50,
+    }, null))
+  },
+  run: (subtitleType) => {
+    if (true) {
+      if (typeof Typed === 'function') {
+        subtitleType()
+      } else {
+        getScript('https://cdn.jsdelivr.net/npm/typed.js/lib/typed.min.js').then(subtitleType)
+      }
+    } else {
+      subtitleType()
+    }
+  }
+}
+</script><script>function subtitleType () {
+  if (true) {
+    typedJSFn.init(["涩涩是人类进步的阶梯  ——沃兹基硕德"])
+  } else {
+    document.getElementById("subtitle").innerHTML = '涩涩是人类进步的阶梯  ——沃兹基硕德'
+  }
+}
+typedJSFn.run(subtitleType)</script></div><canvas id="universe"></canvas><script defer src="/js/universe.js"></script><script type="text/javascript" src="https://cdn1.tianli0.top/npm/jquery@latest/dist/jquery.min.js"></script><script type="text/javascript" src="/js/rightmenu.js"></script><script type="text/javascript" src="/js/dynamicBg.js"></script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">Search</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="is-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  Loading the Database</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="Search for Posts" type="text"/></div></div><hr/><div id="local-search-results"></div></div></div><div id="search-mask"></div><script src="/js/search/local-search.js"></script></div></body></html>
