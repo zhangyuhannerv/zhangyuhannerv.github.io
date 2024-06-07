@@ -107,9 +107,9 @@
     <category term="redis" scheme="https://zhangyuhan.netlify.app/categories/Dev/redis/"/>
     
     
-    <category term="redis" scheme="https://zhangyuhan.netlify.app/tags/redis/"/>
-    
     <category term="Dev" scheme="https://zhangyuhan.netlify.app/tags/Dev/"/>
+    
+    <category term="redis" scheme="https://zhangyuhan.netlify.app/tags/redis/"/>
     
     <category term="docker安装redis" scheme="https://zhangyuhan.netlify.app/tags/docker%E5%AE%89%E8%A3%85redis/"/>
     
@@ -300,9 +300,9 @@
     <category term="redis" scheme="https://zhangyuhan.netlify.app/categories/Dev/redis/"/>
     
     
-    <category term="redis" scheme="https://zhangyuhan.netlify.app/tags/redis/"/>
-    
     <category term="Dev" scheme="https://zhangyuhan.netlify.app/tags/Dev/"/>
+    
+    <category term="redis" scheme="https://zhangyuhan.netlify.app/tags/redis/"/>
     
     <category term="哨兵" scheme="https://zhangyuhan.netlify.app/tags/%E5%93%A8%E5%85%B5/"/>
     
