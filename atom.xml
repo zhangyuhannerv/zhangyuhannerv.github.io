@@ -6,7 +6,7 @@
   <link href="https://zhangyuhan.netlify.app/atom.xml" rel="self"/>
   
   <link href="https://zhangyuhan.netlify.app/"/>
-  <updated>2024-06-06T10:07:11.610Z</updated>
+  <updated>2024-06-19T06:44:16.352Z</updated>
   <id>https://zhangyuhan.netlify.app/</id>
   
   <author>
@@ -15,6 +15,42 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>java:Path与Files类</title>
+    <link href="https://zhangyuhan.netlify.app/posts/44557.html"/>
+    <id>https://zhangyuhan.netlify.app/posts/44557.html</id>
+    <published>2024-06-19T06:19:24.000Z</published>
+    <updated>2024-06-19T06:44:16.352Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;jDK1.7引入了新的IO操作类,java.nio.file包下的Path接口和Files类。然而网上的好多教程仍然用着比较老旧的File类。这里整理一下新的用法。&lt;/p&gt;
+&lt;h2 id=&quot;创建文件和目录&quot;&gt;&lt;a href=&quot;#创建文件和目录&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Dev" scheme="https://zhangyuhan.netlify.app/categories/Dev/"/>
+    
+    <category term="Java" scheme="https://zhangyuhan.netlify.app/categories/Dev/Java/"/>
+    
+    <category term="studyEveryday" scheme="https://zhangyuhan.netlify.app/categories/Dev/Java/studyEveryday/"/>
+    
+    
+    <category term="Dev" scheme="https://zhangyuhan.netlify.app/tags/Dev/"/>
+    
+    <category term="Java" scheme="https://zhangyuhan.netlify.app/tags/Java/"/>
+    
+    <category term="studyEveryday" scheme="https://zhangyuhan.netlify.app/tags/studyEveryday/"/>
+    
+    <category term="java:Path与Files类" scheme="https://zhangyuhan.netlify.app/tags/java-Path%E4%B8%8EFiles%E7%B1%BB/"/>
+    
+  </entry>
   
   <entry>
     <title>java split()方法输出示例</title>
@@ -264,9 +300,9 @@
     <category term="redis" scheme="https://zhangyuhan.netlify.app/categories/Ops/redis/"/>
     
     
-    <category term="Ops" scheme="https://zhangyuhan.netlify.app/tags/Ops/"/>
-    
     <category term="redis" scheme="https://zhangyuhan.netlify.app/tags/redis/"/>
+    
+    <category term="Ops" scheme="https://zhangyuhan.netlify.app/tags/Ops/"/>
     
     <category term="redis主从" scheme="https://zhangyuhan.netlify.app/tags/redis%E4%B8%BB%E4%BB%8E/"/>
     
@@ -642,41 +678,6 @@
     <category term="MySql" scheme="https://zhangyuhan.netlify.app/tags/MySql/"/>
     
     <category term="linux上停止mysql报错的解决办法" scheme="https://zhangyuhan.netlify.app/tags/linux%E4%B8%8A%E5%81%9C%E6%AD%A2mysql%E6%8A%A5%E9%94%99%E7%9A%84%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>linux的常用脚本</title>
-    <link href="https://zhangyuhan.netlify.app/posts/20615.html"/>
-    <id>https://zhangyuhan.netlify.app/posts/20615.html</id>
-    <published>2023-07-24T01:38:21.000Z</published>
-    <updated>2023-07-24T02:01:56.415Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;检测两台服务器指定目录下的文件一致性&quot;&gt;&lt;a href=&quot;#检测两台服务器指定目录下的文件一致性&quot; class=&quot;headerlink&quot; title=&quot;检测两台服务器指定目录下的文件一致性&quot;&gt;&lt;/a&gt;检测两台服务器指定目录下的文件一致性&lt;/h2&gt;&lt;figure</summary>
-        
-      
-    
-    
-    
-    <category term="Ops" scheme="https://zhangyuhan.netlify.app/categories/Ops/"/>
-    
-    <category term="linux" scheme="https://zhangyuhan.netlify.app/categories/Ops/linux/"/>
-    
-    <category term="general" scheme="https://zhangyuhan.netlify.app/categories/Ops/linux/general/"/>
-    
-    
-    <category term="Ops" scheme="https://zhangyuhan.netlify.app/tags/Ops/"/>
-    
-    <category term="linux" scheme="https://zhangyuhan.netlify.app/tags/linux/"/>
-    
-    <category term="general" scheme="https://zhangyuhan.netlify.app/tags/general/"/>
-    
-    <category term="常用脚本" scheme="https://zhangyuhan.netlify.app/tags/%E5%B8%B8%E7%94%A8%E8%84%9A%E6%9C%AC/"/>
     
   </entry>
   
