@@ -6,7 +6,7 @@
   <link href="https://zhangyuhan.netlify.app/atom.xml" rel="self"/>
   
   <link href="https://zhangyuhan.netlify.app/"/>
-  <updated>2024-06-19T06:44:16.352Z</updated>
+  <updated>2024-07-08T03:21:49.795Z</updated>
   <id>https://zhangyuhan.netlify.app/</id>
   
   <author>
@@ -15,6 +15,38 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>docker安装minio</title>
+    <link href="https://zhangyuhan.netlify.app/posts/63341.html"/>
+    <id>https://zhangyuhan.netlify.app/posts/63341.html</id>
+    <published>2024-07-08T03:12:13.000Z</published>
+    <updated>2024-07-08T03:21:49.795Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;项目调试需要本地搭建一个minio，记录一下docker命令&lt;/p&gt;
+&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;docker run -d -p</summary>
+        
+      
+    
+    
+    
+    <category term="Dev" scheme="https://zhangyuhan.netlify.app/categories/Dev/"/>
+    
+    <category term="minio" scheme="https://zhangyuhan.netlify.app/categories/Dev/minio/"/>
+    
+    
+    <category term="Dev" scheme="https://zhangyuhan.netlify.app/tags/Dev/"/>
+    
+    <category term="minio" scheme="https://zhangyuhan.netlify.app/tags/minio/"/>
+    
+    <category term="docker安装minio" scheme="https://zhangyuhan.netlify.app/tags/docker%E5%AE%89%E8%A3%85minio/"/>
+    
+  </entry>
   
   <entry>
     <title>java:Path与Files类</title>
@@ -300,9 +332,9 @@
     <category term="redis" scheme="https://zhangyuhan.netlify.app/categories/Ops/redis/"/>
     
     
-    <category term="Ops" scheme="https://zhangyuhan.netlify.app/tags/Ops/"/>
-    
     <category term="redis" scheme="https://zhangyuhan.netlify.app/tags/redis/"/>
+    
+    <category term="Ops" scheme="https://zhangyuhan.netlify.app/tags/Ops/"/>
     
     <category term="redis主从" scheme="https://zhangyuhan.netlify.app/tags/redis%E4%B8%BB%E4%BB%8E/"/>
     
@@ -647,37 +679,6 @@
     <category term="mysql" scheme="https://zhangyuhan.netlify.app/tags/mysql/"/>
     
     <category term="递归查询demo" scheme="https://zhangyuhan.netlify.app/tags/%E9%80%92%E5%BD%92%E6%9F%A5%E8%AF%A2demo/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>linux上停止mysql报错的解决办法</title>
-    <link href="https://zhangyuhan.netlify.app/posts/8695.html"/>
-    <id>https://zhangyuhan.netlify.app/posts/8695.html</id>
-    <published>2023-07-28T06:29:14.000Z</published>
-    <updated>2023-07-28T06:44:51.162Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;linux上停止mysql报错，解决办法有：1、检查错误消息，根据信息提示解决问题；2、查看日志文件，找到导致停止失败的具体错误并解决；3、使用强制停止命令，终止所有与MySQL相关的进程；4、使用kill命令手动杀死MySQL进程；5、确保MySQL相关文件和目录的权限设</summary>
-        
-      
-    
-    
-    
-    <category term="Ops" scheme="https://zhangyuhan.netlify.app/categories/Ops/"/>
-    
-    <category term="MySql" scheme="https://zhangyuhan.netlify.app/categories/Ops/MySql/"/>
-    
-    
-    <category term="Ops" scheme="https://zhangyuhan.netlify.app/tags/Ops/"/>
-    
-    <category term="MySql" scheme="https://zhangyuhan.netlify.app/tags/MySql/"/>
-    
-    <category term="linux上停止mysql报错的解决办法" scheme="https://zhangyuhan.netlify.app/tags/linux%E4%B8%8A%E5%81%9C%E6%AD%A2mysql%E6%8A%A5%E9%94%99%E7%9A%84%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/"/>
     
   </entry>
   
