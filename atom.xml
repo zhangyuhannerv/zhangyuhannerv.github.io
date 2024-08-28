@@ -1,0 +1,685 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>ZhangYuhanのblog</title>
+  <icon>https://zhangyuhan.netlify.app/icon.png</icon>
+  <subtitle>ಠ_ಠ</subtitle>
+  <link href="https://zhangyuhan.netlify.app/atom.xml" rel="self"/>
+  
+  <link href="https://zhangyuhan.netlify.app/"/>
+  <updated>2024-08-28T02:39:12.294Z</updated>
+  <id>https://zhangyuhan.netlify.app/</id>
+  
+  <author>
+    <name>ZhangYuhan</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>docker安装minio</title>
+    <link href="https://zhangyuhan.netlify.app/posts/63341.html"/>
+    <id>https://zhangyuhan.netlify.app/posts/63341.html</id>
+    <published>2024-07-08T03:12:13.000Z</published>
+    <updated>2024-08-28T02:39:12.294Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;项目调试需要本地搭建一个minio，记录一下docker命令&lt;/p&gt;
+&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;docker run -d -p</summary>
+        
+      
+    
+    
+    
+    <category term="Dev" scheme="https://zhangyuhan.netlify.app/categories/Dev/"/>
+    
+    <category term="minio" scheme="https://zhangyuhan.netlify.app/categories/Dev/minio/"/>
+    
+    
+    <category term="Dev" scheme="https://zhangyuhan.netlify.app/tags/Dev/"/>
+    
+    <category term="minio" scheme="https://zhangyuhan.netlify.app/tags/minio/"/>
+    
+    <category term="docker安装minio" scheme="https://zhangyuhan.netlify.app/tags/docker%E5%AE%89%E8%A3%85minio/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>java:Path与Files类</title>
+    <link href="https://zhangyuhan.netlify.app/posts/44557.html"/>
+    <id>https://zhangyuhan.netlify.app/posts/44557.html</id>
+    <published>2024-06-19T06:19:24.000Z</published>
+    <updated>2024-08-28T02:28:58.557Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;jDK1.7引入了新的IO操作类,java.nio.file包下的Path接口和Files类。然而网上的好多教程仍然用着比较老旧的File类。这里整理一下新的用法。&lt;/p&gt;
+&lt;h2 id=&quot;创建文件和目录&quot;&gt;&lt;a href=&quot;#创建文件和目录&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Dev" scheme="https://zhangyuhan.netlify.app/categories/Dev/"/>
+    
+    <category term="Java" scheme="https://zhangyuhan.netlify.app/categories/Dev/Java/"/>
+    
+    <category term="studyEveryday" scheme="https://zhangyuhan.netlify.app/categories/Dev/Java/studyEveryday/"/>
+    
+    
+    <category term="Dev" scheme="https://zhangyuhan.netlify.app/tags/Dev/"/>
+    
+    <category term="Java" scheme="https://zhangyuhan.netlify.app/tags/Java/"/>
+    
+    <category term="studyEveryday" scheme="https://zhangyuhan.netlify.app/tags/studyEveryday/"/>
+    
+    <category term="java:Path与Files类" scheme="https://zhangyuhan.netlify.app/tags/java-Path%E4%B8%8EFiles%E7%B1%BB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>java split()方法输出示例</title>
+    <link href="https://zhangyuhan.netlify.app/posts/64251.html"/>
+    <id>https://zhangyuhan.netlify.app/posts/64251.html</id>
+    <published>2024-06-06T02:12:24.000Z</published>
+    <updated>2024-08-28T02:28:58.557Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;在java里，split()方法如果只传入分割字符，那么会自动去除结尾的空字符串。&lt;/p&gt;
+&lt;p&gt;以前一直不知道，到底写了多少隐藏的bug，ヽ（゜ロ゜；）ノ&lt;/p&gt;
+&lt;h2 id=&quot;情况1&quot;&gt;&lt;a href=&quot;#情况1&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Dev" scheme="https://zhangyuhan.netlify.app/categories/Dev/"/>
+    
+    <category term="Java" scheme="https://zhangyuhan.netlify.app/categories/Dev/Java/"/>
+    
+    <category term="studyEveryday" scheme="https://zhangyuhan.netlify.app/categories/Dev/Java/studyEveryday/"/>
+    
+    
+    <category term="Dev" scheme="https://zhangyuhan.netlify.app/tags/Dev/"/>
+    
+    <category term="Java" scheme="https://zhangyuhan.netlify.app/tags/Java/"/>
+    
+    <category term="studyEveryday" scheme="https://zhangyuhan.netlify.app/tags/studyEveryday/"/>
+    
+    <category term="java split()方法输出示例" scheme="https://zhangyuhan.netlify.app/tags/java-split-%E6%96%B9%E6%B3%95%E8%BE%93%E5%87%BA%E7%A4%BA%E4%BE%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>配置ssl证书示例</title>
+    <link href="https://zhangyuhan.netlify.app/posts/62002.html"/>
+    <id>https://zhangyuhan.netlify.app/posts/62002.html</id>
+    <published>2024-05-10T02:38:13.000Z</published>
+    <updated>2024-08-28T02:28:58.591Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;server &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;   </summary>
+        
+      
+    
+    
+    
+    <category term="Ops" scheme="https://zhangyuhan.netlify.app/categories/Ops/"/>
+    
+    <category term="nginx" scheme="https://zhangyuhan.netlify.app/categories/Ops/nginx/"/>
+    
+    
+    <category term="Ops" scheme="https://zhangyuhan.netlify.app/tags/Ops/"/>
+    
+    <category term="nginx" scheme="https://zhangyuhan.netlify.app/tags/nginx/"/>
+    
+    <category term="配置ssl证书示例" scheme="https://zhangyuhan.netlify.app/tags/%E9%85%8D%E7%BD%AEssl%E8%AF%81%E4%B9%A6%E7%A4%BA%E4%BE%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>docker安装redis</title>
+    <link href="https://zhangyuhan.netlify.app/posts/44762.html"/>
+    <id>https://zhangyuhan.netlify.app/posts/44762.html</id>
+    <published>2024-05-07T07:11:15.000Z</published>
+    <updated>2024-08-28T02:28:58.545Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;docker pull redis:7.2&lt;/span&gt;&lt;br&gt;&lt;span</summary>
+        
+      
+    
+    
+    
+    <category term="Dev" scheme="https://zhangyuhan.netlify.app/categories/Dev/"/>
+    
+    <category term="redis" scheme="https://zhangyuhan.netlify.app/categories/Dev/redis/"/>
+    
+    
+    <category term="Dev" scheme="https://zhangyuhan.netlify.app/tags/Dev/"/>
+    
+    <category term="redis" scheme="https://zhangyuhan.netlify.app/tags/redis/"/>
+    
+    <category term="docker安装redis" scheme="https://zhangyuhan.netlify.app/tags/docker%E5%AE%89%E8%A3%85redis/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>m1,docker安装rabbitmq</title>
+    <link href="https://zhangyuhan.netlify.app/posts/56360.html"/>
+    <id>https://zhangyuhan.netlify.app/posts/56360.html</id>
+    <published>2024-04-24T08:31:23.000Z</published>
+    <updated>2024-08-28T02:36:53.049Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;基本安装&quot;&gt;&lt;a href=&quot;#基本安装&quot; class=&quot;headerlink&quot; title=&quot;基本安装&quot;&gt;&lt;/a&gt;基本安装&lt;/h2&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td</summary>
+        
+      
+    
+    
+    
+    <category term="Dev" scheme="https://zhangyuhan.netlify.app/categories/Dev/"/>
+    
+    <category term="RabbitMq" scheme="https://zhangyuhan.netlify.app/categories/Dev/RabbitMq/"/>
+    
+    
+    <category term="Dev" scheme="https://zhangyuhan.netlify.app/tags/Dev/"/>
+    
+    <category term="RabbitMq" scheme="https://zhangyuhan.netlify.app/tags/RabbitMq/"/>
+    
+    <category term="m1,docker安装rabbitmq" scheme="https://zhangyuhan.netlify.app/tags/m1-docker%E5%AE%89%E8%A3%85rabbitmq/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>m1,docker安装mysql5.7</title>
+    <link href="https://zhangyuhan.netlify.app/posts/2459.html"/>
+    <id>https://zhangyuhan.netlify.app/posts/2459.html</id>
+    <published>2024-04-24T07:19:11.000Z</published>
+    <updated>2024-08-28T02:28:58.547Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;mysql5.7版本没有适合arm架构的docker镜像&lt;br&gt;但是网上大佬说x86镜像的mysql5.7一样能在macbook m1上运行&lt;br&gt;自己试验了，果然可以。整理一下&lt;/p&gt;
+&lt;figure class=&quot;highlight</summary>
+        
+      
+    
+    
+    
+    <category term="Dev" scheme="https://zhangyuhan.netlify.app/categories/Dev/"/>
+    
+    <category term="mysql" scheme="https://zhangyuhan.netlify.app/categories/Dev/mysql/"/>
+    
+    
+    <category term="Dev" scheme="https://zhangyuhan.netlify.app/tags/Dev/"/>
+    
+    <category term="mysql" scheme="https://zhangyuhan.netlify.app/tags/mysql/"/>
+    
+    <category term="m1,docker安装mysql5.7" scheme="https://zhangyuhan.netlify.app/tags/m1-docker%E5%AE%89%E8%A3%85mysql5-7/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>docker安装nginx</title>
+    <link href="https://zhangyuhan.netlify.app/posts/57560.html"/>
+    <id>https://zhangyuhan.netlify.app/posts/57560.html</id>
+    <published>2024-04-22T06:48:10.000Z</published>
+    <updated>2024-08-28T02:28:58.590Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;# 拉取镜像&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span</summary>
+        
+      
+    
+    
+    
+    <category term="Ops" scheme="https://zhangyuhan.netlify.app/categories/Ops/"/>
+    
+    <category term="nginx" scheme="https://zhangyuhan.netlify.app/categories/Ops/nginx/"/>
+    
+    
+    <category term="Ops" scheme="https://zhangyuhan.netlify.app/tags/Ops/"/>
+    
+    <category term="nginx" scheme="https://zhangyuhan.netlify.app/tags/nginx/"/>
+    
+    <category term="docker安装nginx" scheme="https://zhangyuhan.netlify.app/tags/docker%E5%AE%89%E8%A3%85nginx/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>elasticsearch通过docker在mackbook m1安装</title>
+    <link href="https://zhangyuhan.netlify.app/posts/50662.html"/>
+    <id>https://zhangyuhan.netlify.app/posts/50662.html</id>
+    <published>2024-04-10T08:53:13.000Z</published>
+    <updated>2024-08-28T02:28:58.564Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;主要目的：安装elasticsearch和kibana，解决kibana无法连接elasticsearch导致server is not ready yet的问题&lt;/p&gt;
+&lt;h2 id=&quot;建立docker网络els&quot;&gt;&lt;a href=&quot;#建立docker网络els&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Dev" scheme="https://zhangyuhan.netlify.app/categories/Dev/"/>
+    
+    <category term="elasticsearch" scheme="https://zhangyuhan.netlify.app/categories/Dev/elasticsearch/"/>
+    
+    
+    <category term="Dev" scheme="https://zhangyuhan.netlify.app/tags/Dev/"/>
+    
+    <category term="elasticsearch" scheme="https://zhangyuhan.netlify.app/tags/elasticsearch/"/>
+    
+    <category term="elasticsearch通过docker安装（适配macbook m1）" scheme="https://zhangyuhan.netlify.app/tags/elasticsearch%E9%80%9A%E8%BF%87docker%E5%AE%89%E8%A3%85%EF%BC%88%E9%80%82%E9%85%8Dmacbook-m1%EF%BC%89/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>redis主从、哨兵、集群搭建</title>
+    <link href="https://zhangyuhan.netlify.app/posts/30107.html"/>
+    <id>https://zhangyuhan.netlify.app/posts/30107.html</id>
+    <published>2024-02-29T03:28:01.000Z</published>
+    <updated>2024-08-28T02:28:58.593Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="Ops" scheme="https://zhangyuhan.netlify.app/categories/Ops/"/>
+    
+    <category term="redis" scheme="https://zhangyuhan.netlify.app/categories/Ops/redis/"/>
+    
+    
+    <category term="redis" scheme="https://zhangyuhan.netlify.app/tags/redis/"/>
+    
+    <category term="Ops" scheme="https://zhangyuhan.netlify.app/tags/Ops/"/>
+    
+    <category term="redis主从" scheme="https://zhangyuhan.netlify.app/tags/redis%E4%B8%BB%E4%BB%8E/"/>
+    
+    <category term="redis哨兵" scheme="https://zhangyuhan.netlify.app/tags/redis%E5%93%A8%E5%85%B5/"/>
+    
+    <category term="redis集群" scheme="https://zhangyuhan.netlify.app/tags/redis%E9%9B%86%E7%BE%A4/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>redis哨兵模式在springboot下的配置</title>
+    <link href="https://zhangyuhan.netlify.app/posts/2684.html"/>
+    <id>https://zhangyuhan.netlify.app/posts/2684.html</id>
+    <published>2024-02-23T08:20:15.000Z</published>
+    <updated>2024-08-28T02:28:58.545Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;springboot连接单体的redis配置如下&lt;/p&gt;
+&lt;figure class=&quot;highlight yml&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span</summary>
+        
+      
+    
+    
+    
+    <category term="Dev" scheme="https://zhangyuhan.netlify.app/categories/Dev/"/>
+    
+    <category term="redis" scheme="https://zhangyuhan.netlify.app/categories/Dev/redis/"/>
+    
+    
+    <category term="Dev" scheme="https://zhangyuhan.netlify.app/tags/Dev/"/>
+    
+    <category term="redis" scheme="https://zhangyuhan.netlify.app/tags/redis/"/>
+    
+    <category term="哨兵" scheme="https://zhangyuhan.netlify.app/tags/%E5%93%A8%E5%85%B5/"/>
+    
+    <category term="sentinel" scheme="https://zhangyuhan.netlify.app/tags/sentinel/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>公网nfs配置踩坑</title>
+    <link href="https://zhangyuhan.netlify.app/posts/973.html"/>
+    <id>https://zhangyuhan.netlify.app/posts/973.html</id>
+    <published>2024-02-21T06:47:44.000Z</published>
+    <updated>2024-08-28T02:28:58.587Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;背景&quot;&gt;&lt;a href=&quot;#背景&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Ops" scheme="https://zhangyuhan.netlify.app/categories/Ops/"/>
+    
+    <category term="linux" scheme="https://zhangyuhan.netlify.app/categories/Ops/linux/"/>
+    
+    <category term="centos" scheme="https://zhangyuhan.netlify.app/categories/Ops/linux/centos/"/>
+    
+    
+    <category term="Ops" scheme="https://zhangyuhan.netlify.app/tags/Ops/"/>
+    
+    <category term="linux" scheme="https://zhangyuhan.netlify.app/tags/linux/"/>
+    
+    <category term="centos" scheme="https://zhangyuhan.netlify.app/tags/centos/"/>
+    
+    <category term="nfs" scheme="https://zhangyuhan.netlify.app/tags/nfs/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>mysqldump定时备份</title>
+    <link href="https://zhangyuhan.netlify.app/posts/29320.html"/>
+    <id>https://zhangyuhan.netlify.app/posts/29320.html</id>
+    <published>2023-11-21T03:42:01.000Z</published>
+    <updated>2024-08-28T02:28:58.593Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;创建脚本&quot;&gt;&lt;a href=&quot;#创建脚本&quot; class=&quot;headerlink&quot; title=&quot;创建脚本&quot;&gt;&lt;/a&gt;创建脚本&lt;/h2&gt;&lt;p&gt;创建一个新的Shell脚本文件，比如backup_mysql.sh&lt;/p&gt;
+&lt;figure</summary>
+        
+      
+    
+    
+    
+    <category term="Ops" scheme="https://zhangyuhan.netlify.app/categories/Ops/"/>
+    
+    <category term="MySql" scheme="https://zhangyuhan.netlify.app/categories/Ops/MySql/"/>
+    
+    
+    <category term="Ops" scheme="https://zhangyuhan.netlify.app/tags/Ops/"/>
+    
+    <category term="MySql" scheme="https://zhangyuhan.netlify.app/tags/MySql/"/>
+    
+    <category term="mysqldump定时备份" scheme="https://zhangyuhan.netlify.app/tags/mysqldump%E5%AE%9A%E6%97%B6%E5%A4%87%E4%BB%BD/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>js获取当前页面的地址</title>
+    <link href="https://zhangyuhan.netlify.app/posts/15931.html"/>
+    <id>https://zhangyuhan.netlify.app/posts/15931.html</id>
+    <published>2023-10-25T06:42:13.000Z</published>
+    <updated>2024-08-28T02:28:58.565Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;例1&lt;/p&gt;
+&lt;figure class=&quot;highlight js&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;//</summary>
+        
+      
+    
+    
+    
+    <category term="Dev" scheme="https://zhangyuhan.netlify.app/categories/Dev/"/>
+    
+    <category term="JavaScript" scheme="https://zhangyuhan.netlify.app/categories/Dev/JavaScript/"/>
+    
+    <category term="studyEveryday" scheme="https://zhangyuhan.netlify.app/categories/Dev/JavaScript/studyEveryday/"/>
+    
+    
+    <category term="Dev" scheme="https://zhangyuhan.netlify.app/tags/Dev/"/>
+    
+    <category term="studyEveryday" scheme="https://zhangyuhan.netlify.app/tags/studyEveryday/"/>
+    
+    <category term="JavaScript" scheme="https://zhangyuhan.netlify.app/tags/JavaScript/"/>
+    
+    <category term="js获取当前页面的地址" scheme="https://zhangyuhan.netlify.app/tags/js%E8%8E%B7%E5%8F%96%E5%BD%93%E5%89%8D%E9%A1%B5%E9%9D%A2%E7%9A%84%E5%9C%B0%E5%9D%80/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>动态sql常用总结</title>
+    <link href="https://zhangyuhan.netlify.app/posts/13227.html"/>
+    <id>https://zhangyuhan.netlify.app/posts/13227.html</id>
+    <published>2023-09-20T09:18:02.000Z</published>
+    <updated>2024-08-28T02:28:58.552Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;动态 SQL 是 MyBatis 的强大特性之一。在 JDBC 或其它类似的框架中，开发人员通常需要手动拼接 SQL 语句。根据不同的条件拼接 SQL 语句是一件极其痛苦的工作。例如，拼接时要确保添加了必要的空格，还要注意去掉列表最后一个列名的逗号。而动态 SQL</summary>
+        
+      
+    
+    
+    
+    <category term="Dev" scheme="https://zhangyuhan.netlify.app/categories/Dev/"/>
+    
+    <category term="mybatis" scheme="https://zhangyuhan.netlify.app/categories/Dev/mybatis/"/>
+    
+    
+    <category term="Dev" scheme="https://zhangyuhan.netlify.app/tags/Dev/"/>
+    
+    <category term="mybatis" scheme="https://zhangyuhan.netlify.app/tags/mybatis/"/>
+    
+    <category term="动态sql常用总结" scheme="https://zhangyuhan.netlify.app/tags/%E5%8A%A8%E6%80%81sql%E5%B8%B8%E7%94%A8%E6%80%BB%E7%BB%93/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>event.path过期</title>
+    <link href="https://zhangyuhan.netlify.app/posts/65131.html"/>
+    <id>https://zhangyuhan.netlify.app/posts/65131.html</id>
+    <published>2023-09-13T02:41:01.000Z</published>
+    <updated>2024-08-28T02:28:58.575Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;起因是 chromium 开发团队认为 Event.path 属于非标准 API，会导致 Firefox 等其他浏览器的兼容性问题，于是他们决定将其删除。&lt;br&gt;目前这个变更在 chrome 108 属于灰度阶段，在chrome 109 上会全面应用，webview</summary>
+        
+      
+    
+    
+    
+    <category term="Dev" scheme="https://zhangyuhan.netlify.app/categories/Dev/"/>
+    
+    <category term="JavaScript" scheme="https://zhangyuhan.netlify.app/categories/Dev/JavaScript/"/>
+    
+    <category term="browseAPI" scheme="https://zhangyuhan.netlify.app/categories/Dev/JavaScript/browseAPI/"/>
+    
+    
+    <category term="Dev" scheme="https://zhangyuhan.netlify.app/tags/Dev/"/>
+    
+    <category term="JavaScript" scheme="https://zhangyuhan.netlify.app/tags/JavaScript/"/>
+    
+    <category term="browseAPI" scheme="https://zhangyuhan.netlify.app/tags/browseAPI/"/>
+    
+    <category term="event.path过期" scheme="https://zhangyuhan.netlify.app/tags/event-path%E8%BF%87%E6%9C%9F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>GROUP_CONCAT()函数的说明</title>
+    <link href="https://zhangyuhan.netlify.app/posts/4112.html"/>
+    <id>https://zhangyuhan.netlify.app/posts/4112.html</id>
+    <published>2023-09-08T07:33:11.000Z</published>
+    <updated>2024-08-28T02:28:58.547Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;首先我们来建立一个测试的表和数据，代码如下&lt;/p&gt;
+&lt;figure class=&quot;highlight sql&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span</summary>
+        
+      
+    
+    
+    
+    <category term="Dev" scheme="https://zhangyuhan.netlify.app/categories/Dev/"/>
+    
+    <category term="mysql" scheme="https://zhangyuhan.netlify.app/categories/Dev/mysql/"/>
+    
+    
+    <category term="Dev" scheme="https://zhangyuhan.netlify.app/tags/Dev/"/>
+    
+    <category term="mysql" scheme="https://zhangyuhan.netlify.app/tags/mysql/"/>
+    
+    <category term="GROUP_CONCAT()" scheme="https://zhangyuhan.netlify.app/tags/GROUP-CONCAT/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>jQuery选择器赋值与取值</title>
+    <link href="https://zhangyuhan.netlify.app/posts/13486.html"/>
+    <id>https://zhangyuhan.netlify.app/posts/13486.html</id>
+    <published>2023-08-25T07:02:19.000Z</published>
+    <updated>2024-08-28T02:28:58.572Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;单选框radio&quot;&gt;&lt;a href=&quot;#单选框radio&quot; class=&quot;headerlink&quot; title=&quot;单选框radio&quot;&gt;&lt;/a&gt;单选框radio&lt;/h2&gt;&lt;figure class=&quot;highlight html&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td</summary>
+        
+      
+    
+    
+    
+    <category term="Dev" scheme="https://zhangyuhan.netlify.app/categories/Dev/"/>
+    
+    <category term="JavaScript" scheme="https://zhangyuhan.netlify.app/categories/Dev/JavaScript/"/>
+    
+    <category term="jQuery" scheme="https://zhangyuhan.netlify.app/categories/Dev/JavaScript/jQuery/"/>
+    
+    
+    <category term="Dev" scheme="https://zhangyuhan.netlify.app/tags/Dev/"/>
+    
+    <category term="JavaScript" scheme="https://zhangyuhan.netlify.app/tags/JavaScript/"/>
+    
+    <category term="jQuery" scheme="https://zhangyuhan.netlify.app/tags/jQuery/"/>
+    
+    <category term="jQuery选择器赋值与取值" scheme="https://zhangyuhan.netlify.app/tags/jQuery%E9%80%89%E6%8B%A9%E5%99%A8%E8%B5%8B%E5%80%BC%E4%B8%8E%E5%8F%96%E5%80%BC/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>table动态纵向合并单元格</title>
+    <link href="https://zhangyuhan.netlify.app/posts/14116.html"/>
+    <id>https://zhangyuhan.netlify.app/posts/14116.html</id>
+    <published>2023-08-25T06:30:11.000Z</published>
+    <updated>2024-08-28T02:28:58.570Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;需求：点击layui动态表格的某一行，给这行添加一个背景颜色，用来标识行已被点击&lt;/p&gt;
+&lt;figure class=&quot;highlight css&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span</summary>
+        
+      
+    
+    
+    
+    <category term="Dev" scheme="https://zhangyuhan.netlify.app/categories/Dev/"/>
+    
+    <category term="JavaScript" scheme="https://zhangyuhan.netlify.app/categories/Dev/JavaScript/"/>
+    
+    <category term="layui" scheme="https://zhangyuhan.netlify.app/categories/Dev/JavaScript/layui/"/>
+    
+    
+    <category term="Dev" scheme="https://zhangyuhan.netlify.app/tags/Dev/"/>
+    
+    <category term="JavaScript" scheme="https://zhangyuhan.netlify.app/tags/JavaScript/"/>
+    
+    <category term="layui" scheme="https://zhangyuhan.netlify.app/tags/layui/"/>
+    
+    <category term="table动态纵向合并单元格" scheme="https://zhangyuhan.netlify.app/tags/table%E5%8A%A8%E6%80%81%E7%BA%B5%E5%90%91%E5%90%88%E5%B9%B6%E5%8D%95%E5%85%83%E6%A0%BC/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>mysql的递归查询</title>
+    <link href="https://zhangyuhan.netlify.app/posts/669.html"/>
+    <id>https://zhangyuhan.netlify.app/posts/669.html</id>
+    <published>2023-08-16T03:35:22.000Z</published>
+    <updated>2024-08-28T02:28:58.548Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;本篇博客的目的旨在不用写存储过程，不用建数据库函数，一段sql实现递归查询功能&lt;/p&gt;
+&lt;h2 id=&quot;查询某个父节点下的所有层级的子节点&quot;&gt;&lt;a href=&quot;#查询某个父节点下的所有层级的子节点&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Dev" scheme="https://zhangyuhan.netlify.app/categories/Dev/"/>
+    
+    <category term="mysql" scheme="https://zhangyuhan.netlify.app/categories/Dev/mysql/"/>
+    
+    
+    <category term="Dev" scheme="https://zhangyuhan.netlify.app/tags/Dev/"/>
+    
+    <category term="mysql" scheme="https://zhangyuhan.netlify.app/tags/mysql/"/>
+    
+    <category term="递归查询demo" scheme="https://zhangyuhan.netlify.app/tags/%E9%80%92%E5%BD%92%E6%9F%A5%E8%AF%A2demo/"/>
+    
+  </entry>
+  
+</feed>
