@@ -6,7 +6,7 @@
   <link href="https://zhangyuhan.netlify.app/atom.xml" rel="self"/>
   
   <link href="https://zhangyuhan.netlify.app/"/>
-  <updated>2024-08-28T02:39:12.294Z</updated>
+  <updated>2024-10-22T08:34:36.774Z</updated>
   <id>https://zhangyuhan.netlify.app/</id>
   
   <author>
@@ -17,11 +17,115 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>接口定义常量的方式</title>
+    <link href="https://zhangyuhan.netlify.app/posts/15701.html"/>
+    <id>https://zhangyuhan.netlify.app/posts/15701.html</id>
+    <published>2024-10-22T08:27:14.000Z</published>
+    <updated>2024-10-22T08:34:36.774Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;常见的在java下定义常量的方式有静态变量或者枚举。今天看到别人的代码，还有用接口来定义常量的，分享一下。&lt;/p&gt;
+&lt;p&gt;静态常量&lt;/p&gt;
+&lt;figure class=&quot;highlight java&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td</summary>
+        
+      
+    
+    
+    
+    <category term="Dev" scheme="https://zhangyuhan.netlify.app/categories/Dev/"/>
+    
+    <category term="Java" scheme="https://zhangyuhan.netlify.app/categories/Dev/Java/"/>
+    
+    <category term="studyEveryday" scheme="https://zhangyuhan.netlify.app/categories/Dev/Java/studyEveryday/"/>
+    
+    
+    <category term="Dev" scheme="https://zhangyuhan.netlify.app/tags/Dev/"/>
+    
+    <category term="Java" scheme="https://zhangyuhan.netlify.app/tags/Java/"/>
+    
+    <category term="studyEveryday" scheme="https://zhangyuhan.netlify.app/tags/studyEveryday/"/>
+    
+    <category term="接口定义常量的方式" scheme="https://zhangyuhan.netlify.app/tags/%E6%8E%A5%E5%8F%A3%E5%AE%9A%E4%B9%89%E5%B8%B8%E9%87%8F%E7%9A%84%E6%96%B9%E5%BC%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>@JsonFormat和@DateTimeFormat</title>
+    <link href="https://zhangyuhan.netlify.app/posts/24020.html"/>
+    <id>https://zhangyuhan.netlify.app/posts/24020.html</id>
+    <published>2024-10-20T05:40:07.000Z</published>
+    <updated>2024-10-22T09:28:25.386Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;JsonFormat-注解&quot;&gt;&lt;a href=&quot;#JsonFormat-注解&quot; class=&quot;headerlink&quot; title=&quot;@JsonFormat 注解&quot;&gt;&lt;/a&gt;@JsonFormat 注解&lt;/h2&gt;&lt;p&gt;@JsonFormat 注解来自于</summary>
+        
+      
+    
+    
+    
+    <category term="Dev" scheme="https://zhangyuhan.netlify.app/categories/Dev/"/>
+    
+    <category term="Java" scheme="https://zhangyuhan.netlify.app/categories/Dev/Java/"/>
+    
+    <category term="studyEveryday" scheme="https://zhangyuhan.netlify.app/categories/Dev/Java/studyEveryday/"/>
+    
+    
+    <category term="Dev" scheme="https://zhangyuhan.netlify.app/tags/Dev/"/>
+    
+    <category term="Java" scheme="https://zhangyuhan.netlify.app/tags/Java/"/>
+    
+    <category term="studyEveryday" scheme="https://zhangyuhan.netlify.app/tags/studyEveryday/"/>
+    
+    <category term="@JsonFormat和@DateTimeFormat" scheme="https://zhangyuhan.netlify.app/tags/JsonFormat%E5%92%8C-DateTimeFormat/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>SpringBoot下的反射</title>
+    <link href="https://zhangyuhan.netlify.app/posts/18526.html"/>
+    <id>https://zhangyuhan.netlify.app/posts/18526.html</id>
+    <published>2024-09-09T02:20:00.000Z</published>
+    <updated>2024-09-09T03:03:29.983Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;普通的java反射调用一个方法的例子如下&lt;/p&gt;
+&lt;figure class=&quot;highlight java&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span</summary>
+        
+      
+    
+    
+    
+    <category term="Dev" scheme="https://zhangyuhan.netlify.app/categories/Dev/"/>
+    
+    <category term="SpringBoot" scheme="https://zhangyuhan.netlify.app/categories/Dev/SpringBoot/"/>
+    
+    
+    <category term="Dev" scheme="https://zhangyuhan.netlify.app/tags/Dev/"/>
+    
+    <category term="SpringBoot" scheme="https://zhangyuhan.netlify.app/tags/SpringBoot/"/>
+    
+    <category term="SpringBoot下的反射" scheme="https://zhangyuhan.netlify.app/tags/SpringBoot%E4%B8%8B%E7%9A%84%E5%8F%8D%E5%B0%84/"/>
+    
+  </entry>
+  
+  <entry>
     <title>docker安装minio</title>
     <link href="https://zhangyuhan.netlify.app/posts/63341.html"/>
     <id>https://zhangyuhan.netlify.app/posts/63341.html</id>
     <published>2024-07-08T03:12:13.000Z</published>
-    <updated>2024-08-28T02:39:12.294Z</updated>
+    <updated>2024-08-28T02:43:13.635Z</updated>
     
     
       
@@ -576,109 +680,6 @@
     <category term="mysql" scheme="https://zhangyuhan.netlify.app/tags/mysql/"/>
     
     <category term="GROUP_CONCAT()" scheme="https://zhangyuhan.netlify.app/tags/GROUP-CONCAT/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>jQuery选择器赋值与取值</title>
-    <link href="https://zhangyuhan.netlify.app/posts/13486.html"/>
-    <id>https://zhangyuhan.netlify.app/posts/13486.html</id>
-    <published>2023-08-25T07:02:19.000Z</published>
-    <updated>2024-08-28T02:28:58.572Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;单选框radio&quot;&gt;&lt;a href=&quot;#单选框radio&quot; class=&quot;headerlink&quot; title=&quot;单选框radio&quot;&gt;&lt;/a&gt;单选框radio&lt;/h2&gt;&lt;figure class=&quot;highlight html&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td</summary>
-        
-      
-    
-    
-    
-    <category term="Dev" scheme="https://zhangyuhan.netlify.app/categories/Dev/"/>
-    
-    <category term="JavaScript" scheme="https://zhangyuhan.netlify.app/categories/Dev/JavaScript/"/>
-    
-    <category term="jQuery" scheme="https://zhangyuhan.netlify.app/categories/Dev/JavaScript/jQuery/"/>
-    
-    
-    <category term="Dev" scheme="https://zhangyuhan.netlify.app/tags/Dev/"/>
-    
-    <category term="JavaScript" scheme="https://zhangyuhan.netlify.app/tags/JavaScript/"/>
-    
-    <category term="jQuery" scheme="https://zhangyuhan.netlify.app/tags/jQuery/"/>
-    
-    <category term="jQuery选择器赋值与取值" scheme="https://zhangyuhan.netlify.app/tags/jQuery%E9%80%89%E6%8B%A9%E5%99%A8%E8%B5%8B%E5%80%BC%E4%B8%8E%E5%8F%96%E5%80%BC/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>table动态纵向合并单元格</title>
-    <link href="https://zhangyuhan.netlify.app/posts/14116.html"/>
-    <id>https://zhangyuhan.netlify.app/posts/14116.html</id>
-    <published>2023-08-25T06:30:11.000Z</published>
-    <updated>2024-08-28T02:28:58.570Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;需求：点击layui动态表格的某一行，给这行添加一个背景颜色，用来标识行已被点击&lt;/p&gt;
-&lt;figure class=&quot;highlight css&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span</summary>
-        
-      
-    
-    
-    
-    <category term="Dev" scheme="https://zhangyuhan.netlify.app/categories/Dev/"/>
-    
-    <category term="JavaScript" scheme="https://zhangyuhan.netlify.app/categories/Dev/JavaScript/"/>
-    
-    <category term="layui" scheme="https://zhangyuhan.netlify.app/categories/Dev/JavaScript/layui/"/>
-    
-    
-    <category term="Dev" scheme="https://zhangyuhan.netlify.app/tags/Dev/"/>
-    
-    <category term="JavaScript" scheme="https://zhangyuhan.netlify.app/tags/JavaScript/"/>
-    
-    <category term="layui" scheme="https://zhangyuhan.netlify.app/tags/layui/"/>
-    
-    <category term="table动态纵向合并单元格" scheme="https://zhangyuhan.netlify.app/tags/table%E5%8A%A8%E6%80%81%E7%BA%B5%E5%90%91%E5%90%88%E5%B9%B6%E5%8D%95%E5%85%83%E6%A0%BC/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>mysql的递归查询</title>
-    <link href="https://zhangyuhan.netlify.app/posts/669.html"/>
-    <id>https://zhangyuhan.netlify.app/posts/669.html</id>
-    <published>2023-08-16T03:35:22.000Z</published>
-    <updated>2024-08-28T02:28:58.548Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;本篇博客的目的旨在不用写存储过程，不用建数据库函数，一段sql实现递归查询功能&lt;/p&gt;
-&lt;h2 id=&quot;查询某个父节点下的所有层级的子节点&quot;&gt;&lt;a href=&quot;#查询某个父节点下的所有层级的子节点&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="Dev" scheme="https://zhangyuhan.netlify.app/categories/Dev/"/>
-    
-    <category term="mysql" scheme="https://zhangyuhan.netlify.app/categories/Dev/mysql/"/>
-    
-    
-    <category term="Dev" scheme="https://zhangyuhan.netlify.app/tags/Dev/"/>
-    
-    <category term="mysql" scheme="https://zhangyuhan.netlify.app/tags/mysql/"/>
-    
-    <category term="递归查询demo" scheme="https://zhangyuhan.netlify.app/tags/%E9%80%92%E5%BD%92%E6%9F%A5%E8%AF%A2demo/"/>
     
   </entry>
   
