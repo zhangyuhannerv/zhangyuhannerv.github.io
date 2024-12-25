@@ -6,7 +6,7 @@
   <link href="https://zhangyuhan.netlify.app/atom.xml" rel="self"/>
   
   <link href="https://zhangyuhan.netlify.app/"/>
-  <updated>2024-11-06T03:51:22.897Z</updated>
+  <updated>2024-12-25T02:44:11.474Z</updated>
   <id>https://zhangyuhan.netlify.app/</id>
   
   <author>
@@ -17,11 +17,74 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>策略模式在springboot中的应用</title>
+    <link href="https://zhangyuhan.netlify.app/posts/39086.html"/>
+    <id>https://zhangyuhan.netlify.app/posts/39086.html</id>
+    <published>2024-12-25T02:21:33.000Z</published>
+    <updated>2024-12-25T02:44:11.474Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;为什么讲策略模式&quot;&gt;&lt;a href=&quot;#为什么讲策略模式&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Dev" scheme="https://zhangyuhan.netlify.app/categories/Dev/"/>
+    
+    <category term="SpringBoot" scheme="https://zhangyuhan.netlify.app/categories/Dev/SpringBoot/"/>
+    
+    
+    <category term="Dev" scheme="https://zhangyuhan.netlify.app/tags/Dev/"/>
+    
+    <category term="SpringBoot" scheme="https://zhangyuhan.netlify.app/tags/SpringBoot/"/>
+    
+    <category term="策略模式" scheme="https://zhangyuhan.netlify.app/tags/%E7%AD%96%E7%95%A5%E6%A8%A1%E5%BC%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>在oracle里杀死进程</title>
+    <link href="https://zhangyuhan.netlify.app/posts/3157.html"/>
+    <id>https://zhangyuhan.netlify.app/posts/3157.html</id>
+    <published>2024-12-23T00:45:13.000Z</published>
+    <updated>2024-12-23T01:08:08.307Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;code&gt;ORA-00054: resource busy and acquire with NOWAIT specified or timeout expired&lt;/code&gt;错误&lt;/p&gt;
+&lt;p&gt;表示在尝试执行 SQL 语句时，目标资源正被其他会话占用，而由于</summary>
+        
+      
+    
+    
+    
+    <category term="Dev" scheme="https://zhangyuhan.netlify.app/categories/Dev/"/>
+    
+    <category term="oracle" scheme="https://zhangyuhan.netlify.app/categories/Dev/oracle/"/>
+    
+    
+    <category term="Dev" scheme="https://zhangyuhan.netlify.app/tags/Dev/"/>
+    
+    <category term="oracle" scheme="https://zhangyuhan.netlify.app/tags/oracle/"/>
+    
+    <category term="在oracle里杀死进程" scheme="https://zhangyuhan.netlify.app/tags/%E5%9C%A8oracle%E9%87%8C%E6%9D%80%E6%AD%BB%E8%BF%9B%E7%A8%8B/"/>
+    
+  </entry>
+  
+  <entry>
     <title>mybatisPlus关联查询分页插件的坑</title>
     <link href="https://zhangyuhan.netlify.app/posts/52315.html"/>
     <id>https://zhangyuhan.netlify.app/posts/52315.html</id>
     <published>2024-11-06T03:23:41.000Z</published>
-    <updated>2024-11-06T03:51:22.897Z</updated>
+    <updated>2024-11-06T05:47:19.700Z</updated>
     
     
       
@@ -613,72 +676,6 @@
     <category term="JavaScript" scheme="https://zhangyuhan.netlify.app/tags/JavaScript/"/>
     
     <category term="js获取当前页面的地址" scheme="https://zhangyuhan.netlify.app/tags/js%E8%8E%B7%E5%8F%96%E5%BD%93%E5%89%8D%E9%A1%B5%E9%9D%A2%E7%9A%84%E5%9C%B0%E5%9D%80/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>动态sql常用总结</title>
-    <link href="https://zhangyuhan.netlify.app/posts/13227.html"/>
-    <id>https://zhangyuhan.netlify.app/posts/13227.html</id>
-    <published>2023-09-20T09:18:02.000Z</published>
-    <updated>2024-11-06T03:52:15.555Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;动态 SQL 是 MyBatis 的强大特性之一。在 JDBC 或其它类似的框架中，开发人员通常需要手动拼接 SQL 语句。根据不同的条件拼接 SQL 语句是一件极其痛苦的工作。例如，拼接时要确保添加了必要的空格，还要注意去掉列表最后一个列名的逗号。而动态 SQL</summary>
-        
-      
-    
-    
-    
-    <category term="Dev" scheme="https://zhangyuhan.netlify.app/categories/Dev/"/>
-    
-    <category term="mybatis" scheme="https://zhangyuhan.netlify.app/categories/Dev/mybatis/"/>
-    
-    
-    <category term="Dev" scheme="https://zhangyuhan.netlify.app/tags/Dev/"/>
-    
-    <category term="mybatis" scheme="https://zhangyuhan.netlify.app/tags/mybatis/"/>
-    
-    <category term="动态sql常用总结" scheme="https://zhangyuhan.netlify.app/tags/%E5%8A%A8%E6%80%81sql%E5%B8%B8%E7%94%A8%E6%80%BB%E7%BB%93/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>event.path过期</title>
-    <link href="https://zhangyuhan.netlify.app/posts/65131.html"/>
-    <id>https://zhangyuhan.netlify.app/posts/65131.html</id>
-    <published>2023-09-13T02:41:01.000Z</published>
-    <updated>2024-11-06T03:52:15.587Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;起因是 chromium 开发团队认为 Event.path 属于非标准 API，会导致 Firefox 等其他浏览器的兼容性问题，于是他们决定将其删除。&lt;br&gt;目前这个变更在 chrome 108 属于灰度阶段，在chrome 109 上会全面应用，webview</summary>
-        
-      
-    
-    
-    
-    <category term="Dev" scheme="https://zhangyuhan.netlify.app/categories/Dev/"/>
-    
-    <category term="JavaScript" scheme="https://zhangyuhan.netlify.app/categories/Dev/JavaScript/"/>
-    
-    <category term="browseAPI" scheme="https://zhangyuhan.netlify.app/categories/Dev/JavaScript/browseAPI/"/>
-    
-    
-    <category term="Dev" scheme="https://zhangyuhan.netlify.app/tags/Dev/"/>
-    
-    <category term="JavaScript" scheme="https://zhangyuhan.netlify.app/tags/JavaScript/"/>
-    
-    <category term="browseAPI" scheme="https://zhangyuhan.netlify.app/tags/browseAPI/"/>
-    
-    <category term="event.path过期" scheme="https://zhangyuhan.netlify.app/tags/event-path%E8%BF%87%E6%9C%9F/"/>
     
   </entry>
   
