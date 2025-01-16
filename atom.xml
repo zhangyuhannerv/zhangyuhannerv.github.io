@@ -6,7 +6,7 @@
   <link href="https://zhangyuhan.netlify.app/atom.xml" rel="self"/>
   
   <link href="https://zhangyuhan.netlify.app/"/>
-  <updated>2024-12-25T02:44:11.474Z</updated>
+  <updated>2025-01-16T03:22:52.482Z</updated>
   <id>https://zhangyuhan.netlify.app/</id>
   
   <author>
@@ -17,11 +17,42 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>策略模式在springboot中的应用</title>
-    <link href="https://zhangyuhan.netlify.app/posts/39086.html"/>
-    <id>https://zhangyuhan.netlify.app/posts/39086.html</id>
+    <title>单例模式</title>
+    <link href="https://zhangyuhan.netlify.app/posts/46132.html"/>
+    <id>https://zhangyuhan.netlify.app/posts/46132.html</id>
+    <published>2025-01-16T02:21:33.000Z</published>
+    <updated>2025-01-16T03:22:52.482Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;单例模式（Singleton Pattern）是 Java</summary>
+        
+      
+    
+    
+    
+    <category term="Dev" scheme="https://zhangyuhan.netlify.app/categories/Dev/"/>
+    
+    <category term="设计模式" scheme="https://zhangyuhan.netlify.app/categories/Dev/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
+    
+    
+    <category term="Dev" scheme="https://zhangyuhan.netlify.app/tags/Dev/"/>
+    
+    <category term="设计模式" scheme="https://zhangyuhan.netlify.app/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
+    
+    <category term="单例模式" scheme="https://zhangyuhan.netlify.app/tags/%E5%8D%95%E4%BE%8B%E6%A8%A1%E5%BC%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>策略模式</title>
+    <link href="https://zhangyuhan.netlify.app/posts/58640.html"/>
+    <id>https://zhangyuhan.netlify.app/posts/58640.html</id>
     <published>2024-12-25T02:21:33.000Z</published>
-    <updated>2024-12-25T02:44:11.474Z</updated>
+    <updated>2025-01-16T02:33:39.617Z</updated>
     
     
       
@@ -36,12 +67,12 @@
     
     <category term="Dev" scheme="https://zhangyuhan.netlify.app/categories/Dev/"/>
     
-    <category term="SpringBoot" scheme="https://zhangyuhan.netlify.app/categories/Dev/SpringBoot/"/>
+    <category term="设计模式" scheme="https://zhangyuhan.netlify.app/categories/Dev/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
     
     
     <category term="Dev" scheme="https://zhangyuhan.netlify.app/tags/Dev/"/>
     
-    <category term="SpringBoot" scheme="https://zhangyuhan.netlify.app/tags/SpringBoot/"/>
+    <category term="设计模式" scheme="https://zhangyuhan.netlify.app/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
     
     <category term="策略模式" scheme="https://zhangyuhan.netlify.app/tags/%E7%AD%96%E7%95%A5%E6%A8%A1%E5%BC%8F/"/>
     
@@ -640,42 +671,6 @@
     <category term="MySql" scheme="https://zhangyuhan.netlify.app/tags/MySql/"/>
     
     <category term="mysqldump定时备份" scheme="https://zhangyuhan.netlify.app/tags/mysqldump%E5%AE%9A%E6%97%B6%E5%A4%87%E4%BB%BD/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>js获取当前页面的地址</title>
-    <link href="https://zhangyuhan.netlify.app/posts/15931.html"/>
-    <id>https://zhangyuhan.netlify.app/posts/15931.html</id>
-    <published>2023-10-25T06:42:13.000Z</published>
-    <updated>2024-11-06T03:52:15.575Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;例1&lt;/p&gt;
-&lt;figure class=&quot;highlight js&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;//</summary>
-        
-      
-    
-    
-    
-    <category term="Dev" scheme="https://zhangyuhan.netlify.app/categories/Dev/"/>
-    
-    <category term="JavaScript" scheme="https://zhangyuhan.netlify.app/categories/Dev/JavaScript/"/>
-    
-    <category term="studyEveryday" scheme="https://zhangyuhan.netlify.app/categories/Dev/JavaScript/studyEveryday/"/>
-    
-    
-    <category term="Dev" scheme="https://zhangyuhan.netlify.app/tags/Dev/"/>
-    
-    <category term="studyEveryday" scheme="https://zhangyuhan.netlify.app/tags/studyEveryday/"/>
-    
-    <category term="JavaScript" scheme="https://zhangyuhan.netlify.app/tags/JavaScript/"/>
-    
-    <category term="js获取当前页面的地址" scheme="https://zhangyuhan.netlify.app/tags/js%E8%8E%B7%E5%8F%96%E5%BD%93%E5%89%8D%E9%A1%B5%E9%9D%A2%E7%9A%84%E5%9C%B0%E5%9D%80/"/>
     
   </entry>
   
