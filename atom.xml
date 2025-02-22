@@ -6,7 +6,7 @@
   <link href="https://zhangyuhan.netlify.app/atom.xml" rel="self"/>
   
   <link href="https://zhangyuhan.netlify.app/"/>
-  <updated>2025-01-16T03:22:52.482Z</updated>
+  <updated>2025-02-22T08:54:56.004Z</updated>
   <id>https://zhangyuhan.netlify.app/</id>
   
   <author>
@@ -15,6 +15,43 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>表格自定义单元格</title>
+    <link href="https://zhangyuhan.netlify.app/posts/48333.html"/>
+    <id>https://zhangyuhan.netlify.app/posts/48333.html</id>
+    <published>2025-02-22T08:39:34.000Z</published>
+    <updated>2025-02-22T08:54:56.004Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;ant-design-vue的a-table组件如何定义单元格内容，整理一下&lt;/p&gt;
+&lt;p&gt;版本: ant-design-vue4&lt;/p&gt;
+&lt;h2 id=&quot;方式1：bodyCell插槽&quot;&gt;&lt;a href=&quot;#方式1：bodyCell插槽&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Dev" scheme="https://zhangyuhan.netlify.app/categories/Dev/"/>
+    
+    <category term="vue" scheme="https://zhangyuhan.netlify.app/categories/Dev/vue/"/>
+    
+    <category term="ant-design-vue" scheme="https://zhangyuhan.netlify.app/categories/Dev/vue/ant-design-vue/"/>
+    
+    
+    <category term="Dev" scheme="https://zhangyuhan.netlify.app/tags/Dev/"/>
+    
+    <category term="vue" scheme="https://zhangyuhan.netlify.app/tags/vue/"/>
+    
+    <category term="ant-design-vue" scheme="https://zhangyuhan.netlify.app/tags/ant-design-vue/"/>
+    
+    <category term="Table" scheme="https://zhangyuhan.netlify.app/tags/Table/"/>
+    
+  </entry>
   
   <entry>
     <title>单例模式</title>
@@ -639,38 +676,6 @@
     <category term="centos" scheme="https://zhangyuhan.netlify.app/tags/centos/"/>
     
     <category term="nfs" scheme="https://zhangyuhan.netlify.app/tags/nfs/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>mysqldump定时备份</title>
-    <link href="https://zhangyuhan.netlify.app/posts/29320.html"/>
-    <id>https://zhangyuhan.netlify.app/posts/29320.html</id>
-    <published>2023-11-21T03:42:01.000Z</published>
-    <updated>2024-11-06T03:52:15.613Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;创建脚本&quot;&gt;&lt;a href=&quot;#创建脚本&quot; class=&quot;headerlink&quot; title=&quot;创建脚本&quot;&gt;&lt;/a&gt;创建脚本&lt;/h2&gt;&lt;p&gt;创建一个新的Shell脚本文件，比如backup_mysql.sh&lt;/p&gt;
-&lt;figure</summary>
-        
-      
-    
-    
-    
-    <category term="Ops" scheme="https://zhangyuhan.netlify.app/categories/Ops/"/>
-    
-    <category term="MySql" scheme="https://zhangyuhan.netlify.app/categories/Ops/MySql/"/>
-    
-    
-    <category term="Ops" scheme="https://zhangyuhan.netlify.app/tags/Ops/"/>
-    
-    <category term="MySql" scheme="https://zhangyuhan.netlify.app/tags/MySql/"/>
-    
-    <category term="mysqldump定时备份" scheme="https://zhangyuhan.netlify.app/tags/mysqldump%E5%AE%9A%E6%97%B6%E5%A4%87%E4%BB%BD/"/>
     
   </entry>
   
