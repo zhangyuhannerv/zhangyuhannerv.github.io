@@ -6,7 +6,7 @@
   <link href="https://zhangyuhan.netlify.app/atom.xml" rel="self"/>
   
   <link href="https://zhangyuhan.netlify.app/"/>
-  <updated>2024-10-23T12:04:42.662Z</updated>
+  <updated>2025-04-17T02:27:41.524Z</updated>
   <id>https://zhangyuhan.netlify.app/</id>
   
   <author>
@@ -15,6 +15,168 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>表格自定义单元格</title>
+    <link href="https://zhangyuhan.netlify.app/posts/48333.html"/>
+    <id>https://zhangyuhan.netlify.app/posts/48333.html</id>
+    <published>2025-02-22T08:39:34.000Z</published>
+    <updated>2025-04-17T02:27:41.524Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;ant-design-vue的a-table组件如何定义单元格内容，整理一下&lt;/p&gt;
+&lt;p&gt;版本: ant-design-vue4&lt;/p&gt;
+&lt;h2 id=&quot;方式1：bodyCell插槽&quot;&gt;&lt;a href=&quot;#方式1：bodyCell插槽&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Dev" scheme="https://zhangyuhan.netlify.app/categories/Dev/"/>
+    
+    <category term="vue" scheme="https://zhangyuhan.netlify.app/categories/Dev/vue/"/>
+    
+    <category term="ant-design-vue" scheme="https://zhangyuhan.netlify.app/categories/Dev/vue/ant-design-vue/"/>
+    
+    
+    <category term="Dev" scheme="https://zhangyuhan.netlify.app/tags/Dev/"/>
+    
+    <category term="vue" scheme="https://zhangyuhan.netlify.app/tags/vue/"/>
+    
+    <category term="ant-design-vue" scheme="https://zhangyuhan.netlify.app/tags/ant-design-vue/"/>
+    
+    <category term="Table" scheme="https://zhangyuhan.netlify.app/tags/Table/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>单例模式</title>
+    <link href="https://zhangyuhan.netlify.app/posts/46132.html"/>
+    <id>https://zhangyuhan.netlify.app/posts/46132.html</id>
+    <published>2025-01-16T02:21:33.000Z</published>
+    <updated>2025-01-23T14:56:18.138Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;单例模式（Singleton Pattern）是 Java</summary>
+        
+      
+    
+    
+    
+    <category term="Dev" scheme="https://zhangyuhan.netlify.app/categories/Dev/"/>
+    
+    <category term="设计模式" scheme="https://zhangyuhan.netlify.app/categories/Dev/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
+    
+    
+    <category term="Dev" scheme="https://zhangyuhan.netlify.app/tags/Dev/"/>
+    
+    <category term="设计模式" scheme="https://zhangyuhan.netlify.app/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
+    
+    <category term="单例模式" scheme="https://zhangyuhan.netlify.app/tags/%E5%8D%95%E4%BE%8B%E6%A8%A1%E5%BC%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>策略模式</title>
+    <link href="https://zhangyuhan.netlify.app/posts/58640.html"/>
+    <id>https://zhangyuhan.netlify.app/posts/58640.html</id>
+    <published>2024-12-25T02:21:33.000Z</published>
+    <updated>2025-01-23T14:56:18.139Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;为什么讲策略模式&quot;&gt;&lt;a href=&quot;#为什么讲策略模式&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Dev" scheme="https://zhangyuhan.netlify.app/categories/Dev/"/>
+    
+    <category term="设计模式" scheme="https://zhangyuhan.netlify.app/categories/Dev/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
+    
+    
+    <category term="Dev" scheme="https://zhangyuhan.netlify.app/tags/Dev/"/>
+    
+    <category term="设计模式" scheme="https://zhangyuhan.netlify.app/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
+    
+    <category term="策略模式" scheme="https://zhangyuhan.netlify.app/tags/%E7%AD%96%E7%95%A5%E6%A8%A1%E5%BC%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>在oracle里杀死进程</title>
+    <link href="https://zhangyuhan.netlify.app/posts/3157.html"/>
+    <id>https://zhangyuhan.netlify.app/posts/3157.html</id>
+    <published>2024-12-23T00:45:13.000Z</published>
+    <updated>2025-01-23T14:56:18.138Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;code&gt;ORA-00054: resource busy and acquire with NOWAIT specified or timeout expired&lt;/code&gt;错误&lt;/p&gt;
+&lt;p&gt;表示在尝试执行 SQL 语句时，目标资源正被其他会话占用，而由于</summary>
+        
+      
+    
+    
+    
+    <category term="Dev" scheme="https://zhangyuhan.netlify.app/categories/Dev/"/>
+    
+    <category term="oracle" scheme="https://zhangyuhan.netlify.app/categories/Dev/oracle/"/>
+    
+    
+    <category term="Dev" scheme="https://zhangyuhan.netlify.app/tags/Dev/"/>
+    
+    <category term="oracle" scheme="https://zhangyuhan.netlify.app/tags/oracle/"/>
+    
+    <category term="在oracle里杀死进程" scheme="https://zhangyuhan.netlify.app/tags/%E5%9C%A8oracle%E9%87%8C%E6%9D%80%E6%AD%BB%E8%BF%9B%E7%A8%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>mybatisPlus关联查询分页插件的坑</title>
+    <link href="https://zhangyuhan.netlify.app/posts/52315.html"/>
+    <id>https://zhangyuhan.netlify.app/posts/52315.html</id>
+    <published>2024-11-06T03:23:41.000Z</published>
+    <updated>2025-01-23T14:56:18.137Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;背景&quot;&gt;&lt;a href=&quot;#背景&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Dev" scheme="https://zhangyuhan.netlify.app/categories/Dev/"/>
+    
+    <category term="mybatisPlus" scheme="https://zhangyuhan.netlify.app/categories/Dev/mybatisPlus/"/>
+    
+    
+    <category term="Dev" scheme="https://zhangyuhan.netlify.app/tags/Dev/"/>
+    
+    <category term="mybatisPlus" scheme="https://zhangyuhan.netlify.app/tags/mybatisPlus/"/>
+    
+    <category term="mybatisPlus关联查询分页插件的坑" scheme="https://zhangyuhan.netlify.app/tags/mybatisPlus%E5%85%B3%E8%81%94%E6%9F%A5%E8%AF%A2%E5%88%86%E9%A1%B5%E6%8F%92%E4%BB%B6%E7%9A%84%E5%9D%91/"/>
+    
+  </entry>
   
   <entry>
     <title>接口定义常量的方式</title>
@@ -279,9 +441,9 @@
     <category term="redis" scheme="https://zhangyuhan.netlify.app/categories/Dev/redis/"/>
     
     
-    <category term="redis" scheme="https://zhangyuhan.netlify.app/tags/redis/"/>
-    
     <category term="Dev" scheme="https://zhangyuhan.netlify.app/tags/Dev/"/>
+    
+    <category term="redis" scheme="https://zhangyuhan.netlify.app/tags/redis/"/>
     
     <category term="docker安装redis" scheme="https://zhangyuhan.netlify.app/tags/docker%E5%AE%89%E8%A3%85redis/"/>
     
@@ -436,9 +598,9 @@
     <category term="redis" scheme="https://zhangyuhan.netlify.app/categories/Ops/redis/"/>
     
     
-    <category term="Ops" scheme="https://zhangyuhan.netlify.app/tags/Ops/"/>
-    
     <category term="redis" scheme="https://zhangyuhan.netlify.app/tags/redis/"/>
+    
+    <category term="Ops" scheme="https://zhangyuhan.netlify.app/tags/Ops/"/>
     
     <category term="redis主从" scheme="https://zhangyuhan.netlify.app/tags/redis%E4%B8%BB%E4%BB%8E/"/>
     
@@ -472,9 +634,9 @@
     <category term="redis" scheme="https://zhangyuhan.netlify.app/categories/Dev/redis/"/>
     
     
-    <category term="redis" scheme="https://zhangyuhan.netlify.app/tags/redis/"/>
-    
     <category term="Dev" scheme="https://zhangyuhan.netlify.app/tags/Dev/"/>
+    
+    <category term="redis" scheme="https://zhangyuhan.netlify.app/tags/redis/"/>
     
     <category term="哨兵" scheme="https://zhangyuhan.netlify.app/tags/%E5%93%A8%E5%85%B5/"/>
     
@@ -514,172 +676,6 @@
     <category term="centos" scheme="https://zhangyuhan.netlify.app/tags/centos/"/>
     
     <category term="nfs" scheme="https://zhangyuhan.netlify.app/tags/nfs/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>mysqldump定时备份</title>
-    <link href="https://zhangyuhan.netlify.app/posts/29320.html"/>
-    <id>https://zhangyuhan.netlify.app/posts/29320.html</id>
-    <published>2023-11-21T03:42:01.000Z</published>
-    <updated>2024-10-23T12:04:42.799Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;创建脚本&quot;&gt;&lt;a href=&quot;#创建脚本&quot; class=&quot;headerlink&quot; title=&quot;创建脚本&quot;&gt;&lt;/a&gt;创建脚本&lt;/h2&gt;&lt;p&gt;创建一个新的Shell脚本文件，比如backup_mysql.sh&lt;/p&gt;
-&lt;figure</summary>
-        
-      
-    
-    
-    
-    <category term="Ops" scheme="https://zhangyuhan.netlify.app/categories/Ops/"/>
-    
-    <category term="MySql" scheme="https://zhangyuhan.netlify.app/categories/Ops/MySql/"/>
-    
-    
-    <category term="Ops" scheme="https://zhangyuhan.netlify.app/tags/Ops/"/>
-    
-    <category term="MySql" scheme="https://zhangyuhan.netlify.app/tags/MySql/"/>
-    
-    <category term="mysqldump定时备份" scheme="https://zhangyuhan.netlify.app/tags/mysqldump%E5%AE%9A%E6%97%B6%E5%A4%87%E4%BB%BD/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>js获取当前页面的地址</title>
-    <link href="https://zhangyuhan.netlify.app/posts/15931.html"/>
-    <id>https://zhangyuhan.netlify.app/posts/15931.html</id>
-    <published>2023-10-25T06:42:13.000Z</published>
-    <updated>2024-10-23T12:04:42.793Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;例1&lt;/p&gt;
-&lt;figure class=&quot;highlight js&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;//</summary>
-        
-      
-    
-    
-    
-    <category term="Dev" scheme="https://zhangyuhan.netlify.app/categories/Dev/"/>
-    
-    <category term="JavaScript" scheme="https://zhangyuhan.netlify.app/categories/Dev/JavaScript/"/>
-    
-    <category term="studyEveryday" scheme="https://zhangyuhan.netlify.app/categories/Dev/JavaScript/studyEveryday/"/>
-    
-    
-    <category term="Dev" scheme="https://zhangyuhan.netlify.app/tags/Dev/"/>
-    
-    <category term="studyEveryday" scheme="https://zhangyuhan.netlify.app/tags/studyEveryday/"/>
-    
-    <category term="JavaScript" scheme="https://zhangyuhan.netlify.app/tags/JavaScript/"/>
-    
-    <category term="js获取当前页面的地址" scheme="https://zhangyuhan.netlify.app/tags/js%E8%8E%B7%E5%8F%96%E5%BD%93%E5%89%8D%E9%A1%B5%E9%9D%A2%E7%9A%84%E5%9C%B0%E5%9D%80/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>动态sql常用总结</title>
-    <link href="https://zhangyuhan.netlify.app/posts/13227.html"/>
-    <id>https://zhangyuhan.netlify.app/posts/13227.html</id>
-    <published>2023-09-20T09:18:02.000Z</published>
-    <updated>2024-10-23T12:04:42.798Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;动态 SQL 是 MyBatis 的强大特性之一。在 JDBC 或其它类似的框架中，开发人员通常需要手动拼接 SQL 语句。根据不同的条件拼接 SQL 语句是一件极其痛苦的工作。例如，拼接时要确保添加了必要的空格，还要注意去掉列表最后一个列名的逗号。而动态 SQL</summary>
-        
-      
-    
-    
-    
-    <category term="Dev" scheme="https://zhangyuhan.netlify.app/categories/Dev/"/>
-    
-    <category term="mybatis" scheme="https://zhangyuhan.netlify.app/categories/Dev/mybatis/"/>
-    
-    
-    <category term="Dev" scheme="https://zhangyuhan.netlify.app/tags/Dev/"/>
-    
-    <category term="mybatis" scheme="https://zhangyuhan.netlify.app/tags/mybatis/"/>
-    
-    <category term="动态sql常用总结" scheme="https://zhangyuhan.netlify.app/tags/%E5%8A%A8%E6%80%81sql%E5%B8%B8%E7%94%A8%E6%80%BB%E7%BB%93/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>event.path过期</title>
-    <link href="https://zhangyuhan.netlify.app/posts/65131.html"/>
-    <id>https://zhangyuhan.netlify.app/posts/65131.html</id>
-    <published>2023-09-13T02:41:01.000Z</published>
-    <updated>2024-10-23T12:04:42.797Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;起因是 chromium 开发团队认为 Event.path 属于非标准 API，会导致 Firefox 等其他浏览器的兼容性问题，于是他们决定将其删除。&lt;br&gt;目前这个变更在 chrome 108 属于灰度阶段，在chrome 109 上会全面应用，webview</summary>
-        
-      
-    
-    
-    
-    <category term="Dev" scheme="https://zhangyuhan.netlify.app/categories/Dev/"/>
-    
-    <category term="JavaScript" scheme="https://zhangyuhan.netlify.app/categories/Dev/JavaScript/"/>
-    
-    <category term="browseAPI" scheme="https://zhangyuhan.netlify.app/categories/Dev/JavaScript/browseAPI/"/>
-    
-    
-    <category term="Dev" scheme="https://zhangyuhan.netlify.app/tags/Dev/"/>
-    
-    <category term="JavaScript" scheme="https://zhangyuhan.netlify.app/tags/JavaScript/"/>
-    
-    <category term="browseAPI" scheme="https://zhangyuhan.netlify.app/tags/browseAPI/"/>
-    
-    <category term="event.path过期" scheme="https://zhangyuhan.netlify.app/tags/event-path%E8%BF%87%E6%9C%9F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>GROUP_CONCAT()函数的说明</title>
-    <link href="https://zhangyuhan.netlify.app/posts/4112.html"/>
-    <id>https://zhangyuhan.netlify.app/posts/4112.html</id>
-    <published>2023-09-08T07:33:11.000Z</published>
-    <updated>2024-10-23T12:04:42.753Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;首先我们来建立一个测试的表和数据，代码如下&lt;/p&gt;
-&lt;figure class=&quot;highlight sql&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span</summary>
-        
-      
-    
-    
-    
-    <category term="Dev" scheme="https://zhangyuhan.netlify.app/categories/Dev/"/>
-    
-    <category term="mysql" scheme="https://zhangyuhan.netlify.app/categories/Dev/mysql/"/>
-    
-    
-    <category term="Dev" scheme="https://zhangyuhan.netlify.app/tags/Dev/"/>
-    
-    <category term="mysql" scheme="https://zhangyuhan.netlify.app/tags/mysql/"/>
-    
-    <category term="GROUP_CONCAT()" scheme="https://zhangyuhan.netlify.app/tags/GROUP-CONCAT/"/>
     
   </entry>
   
