@@ -6,7 +6,7 @@
   <link href="https://zhangyuhan.netlify.app/atom.xml" rel="self"/>
   
   <link href="https://zhangyuhan.netlify.app/"/>
-  <updated>2025-02-22T08:54:56.004Z</updated>
+  <updated>2025-08-09T03:19:53.837Z</updated>
   <id>https://zhangyuhan.netlify.app/</id>
   
   <author>
@@ -15,6 +15,42 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>前端自定义下载功能</title>
+    <link href="https://zhangyuhan.netlify.app/posts/15793.html"/>
+    <id>https://zhangyuhan.netlify.app/posts/15793.html</id>
+    <published>2025-08-09T03:14:44.000Z</published>
+    <updated>2025-08-09T03:19:53.837Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h4 id=&quot;2025新版&quot;&gt;&lt;a href=&quot;#2025新版&quot; class=&quot;headerlink&quot; title=&quot;2025新版&quot;&gt;&lt;/a&gt;2025新版&lt;/h4&gt;&lt;p&gt;接口定义&lt;/p&gt;
+&lt;figure class=&quot;highlight</summary>
+        
+      
+    
+    
+    
+    <category term="Dev" scheme="https://zhangyuhan.netlify.app/categories/Dev/"/>
+    
+    <category term="vue" scheme="https://zhangyuhan.netlify.app/categories/Dev/vue/"/>
+    
+    <category term="base" scheme="https://zhangyuhan.netlify.app/categories/Dev/vue/base/"/>
+    
+    
+    <category term="Dev" scheme="https://zhangyuhan.netlify.app/tags/Dev/"/>
+    
+    <category term="vue" scheme="https://zhangyuhan.netlify.app/tags/vue/"/>
+    
+    <category term="base" scheme="https://zhangyuhan.netlify.app/tags/base/"/>
+    
+    <category term="前端自定义下载功能" scheme="https://zhangyuhan.netlify.app/tags/%E5%89%8D%E7%AB%AF%E8%87%AA%E5%AE%9A%E4%B9%89%E4%B8%8B%E8%BD%BD%E5%8A%9F%E8%83%BD/"/>
+    
+  </entry>
   
   <entry>
     <title>表格自定义单元格</title>
@@ -641,41 +677,6 @@
     <category term="哨兵" scheme="https://zhangyuhan.netlify.app/tags/%E5%93%A8%E5%85%B5/"/>
     
     <category term="sentinel" scheme="https://zhangyuhan.netlify.app/tags/sentinel/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>公网nfs配置踩坑</title>
-    <link href="https://zhangyuhan.netlify.app/posts/973.html"/>
-    <id>https://zhangyuhan.netlify.app/posts/973.html</id>
-    <published>2024-02-21T06:47:44.000Z</published>
-    <updated>2024-11-06T03:52:15.605Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;背景&quot;&gt;&lt;a href=&quot;#背景&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="Ops" scheme="https://zhangyuhan.netlify.app/categories/Ops/"/>
-    
-    <category term="linux" scheme="https://zhangyuhan.netlify.app/categories/Ops/linux/"/>
-    
-    <category term="centos" scheme="https://zhangyuhan.netlify.app/categories/Ops/linux/centos/"/>
-    
-    
-    <category term="Ops" scheme="https://zhangyuhan.netlify.app/tags/Ops/"/>
-    
-    <category term="linux" scheme="https://zhangyuhan.netlify.app/tags/linux/"/>
-    
-    <category term="centos" scheme="https://zhangyuhan.netlify.app/tags/centos/"/>
-    
-    <category term="nfs" scheme="https://zhangyuhan.netlify.app/tags/nfs/"/>
     
   </entry>
   
