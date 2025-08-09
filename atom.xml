@@ -6,7 +6,7 @@
   <link href="https://zhangyuhan.netlify.app/atom.xml" rel="self"/>
   
   <link href="https://zhangyuhan.netlify.app/"/>
-  <updated>2025-08-09T03:19:53.837Z</updated>
+  <updated>2025-08-09T03:46:52.473Z</updated>
   <id>https://zhangyuhan.netlify.app/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>docker相关命令</title>
+    <link href="https://zhangyuhan.netlify.app/posts/13749.html"/>
+    <id>https://zhangyuhan.netlify.app/posts/13749.html</id>
+    <published>2025-08-09T03:22:13.000Z</published>
+    <updated>2025-08-09T03:46:52.473Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;Docker-Compose-命令大全&quot;&gt;&lt;a href=&quot;#Docker-Compose-命令大全&quot; class=&quot;headerlink&quot; title=&quot;Docker Compose 命令大全&quot;&gt;&lt;/a&gt;Docker Compose 命令大全&lt;/h2&gt;&lt;h3</summary>
+        
+      
+    
+    
+    
+    <category term="Dev" scheme="https://zhangyuhan.netlify.app/categories/Dev/"/>
+    
+    <category term="docker" scheme="https://zhangyuhan.netlify.app/categories/Dev/docker/"/>
+    
+    
+    <category term="Dev" scheme="https://zhangyuhan.netlify.app/tags/Dev/"/>
+    
+    <category term="docker" scheme="https://zhangyuhan.netlify.app/tags/docker/"/>
+    
+  </entry>
   
   <entry>
     <title>前端自定义下载功能</title>
@@ -49,6 +78,37 @@
     <category term="base" scheme="https://zhangyuhan.netlify.app/tags/base/"/>
     
     <category term="前端自定义下载功能" scheme="https://zhangyuhan.netlify.app/tags/%E5%89%8D%E7%AB%AF%E8%87%AA%E5%AE%9A%E4%B9%89%E4%B8%8B%E8%BD%BD%E5%8A%9F%E8%83%BD/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>docker安装postgresql</title>
+    <link href="https://zhangyuhan.netlify.app/posts/53211.html"/>
+    <id>https://zhangyuhan.netlify.app/posts/53211.html</id>
+    <published>2025-08-09T03:12:13.000Z</published>
+    <updated>2025-08-09T03:46:52.469Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;1-建立docker-compose-yml&quot;&gt;&lt;a href=&quot;#1-建立docker-compose-yml&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Dev" scheme="https://zhangyuhan.netlify.app/categories/Dev/"/>
+    
+    <category term="docker" scheme="https://zhangyuhan.netlify.app/categories/Dev/docker/"/>
+    
+    
+    <category term="Dev" scheme="https://zhangyuhan.netlify.app/tags/Dev/"/>
+    
+    <category term="postgresql" scheme="https://zhangyuhan.netlify.app/tags/postgresql/"/>
+    
+    <category term="docker" scheme="https://zhangyuhan.netlify.app/tags/docker/"/>
     
   </entry>
   
@@ -608,75 +668,6 @@
     <category term="elasticsearch" scheme="https://zhangyuhan.netlify.app/tags/elasticsearch/"/>
     
     <category term="elasticsearch通过docker安装（适配macbook m1）" scheme="https://zhangyuhan.netlify.app/tags/elasticsearch%E9%80%9A%E8%BF%87docker%E5%AE%89%E8%A3%85%EF%BC%88%E9%80%82%E9%85%8Dmacbook-m1%EF%BC%89/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>redis主从、哨兵、集群搭建</title>
-    <link href="https://zhangyuhan.netlify.app/posts/30107.html"/>
-    <id>https://zhangyuhan.netlify.app/posts/30107.html</id>
-    <published>2024-02-29T03:28:01.000Z</published>
-    <updated>2024-11-06T03:52:15.613Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="Ops" scheme="https://zhangyuhan.netlify.app/categories/Ops/"/>
-    
-    <category term="redis" scheme="https://zhangyuhan.netlify.app/categories/Ops/redis/"/>
-    
-    
-    <category term="redis" scheme="https://zhangyuhan.netlify.app/tags/redis/"/>
-    
-    <category term="Ops" scheme="https://zhangyuhan.netlify.app/tags/Ops/"/>
-    
-    <category term="redis主从" scheme="https://zhangyuhan.netlify.app/tags/redis%E4%B8%BB%E4%BB%8E/"/>
-    
-    <category term="redis哨兵" scheme="https://zhangyuhan.netlify.app/tags/redis%E5%93%A8%E5%85%B5/"/>
-    
-    <category term="redis集群" scheme="https://zhangyuhan.netlify.app/tags/redis%E9%9B%86%E7%BE%A4/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>redis哨兵模式在springboot下的配置</title>
-    <link href="https://zhangyuhan.netlify.app/posts/2684.html"/>
-    <id>https://zhangyuhan.netlify.app/posts/2684.html</id>
-    <published>2024-02-23T08:20:15.000Z</published>
-    <updated>2024-11-06T03:52:15.544Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;springboot连接单体的redis配置如下&lt;/p&gt;
-&lt;figure class=&quot;highlight yml&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span</summary>
-        
-      
-    
-    
-    
-    <category term="Dev" scheme="https://zhangyuhan.netlify.app/categories/Dev/"/>
-    
-    <category term="redis" scheme="https://zhangyuhan.netlify.app/categories/Dev/redis/"/>
-    
-    
-    <category term="Dev" scheme="https://zhangyuhan.netlify.app/tags/Dev/"/>
-    
-    <category term="redis" scheme="https://zhangyuhan.netlify.app/tags/redis/"/>
-    
-    <category term="哨兵" scheme="https://zhangyuhan.netlify.app/tags/%E5%93%A8%E5%85%B5/"/>
-    
-    <category term="sentinel" scheme="https://zhangyuhan.netlify.app/tags/sentinel/"/>
     
   </entry>
   

@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://zhangyuhan.netlify.app/posts/13749.html</loc>
+    
+    <lastmod>2025-08-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://zhangyuhan.netlify.app/posts/53211.html</loc>
+    
+    <lastmod>2025-08-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://zhangyuhan.netlify.app/posts/15793.html</loc>
     
     <lastmod>2025-08-09</lastmod>
@@ -1118,7 +1136,7 @@
   </url>
   
   <url>
-    <loc>https://zhangyuhan.netlify.app/posts/63341.html</loc>
+    <loc>https://zhangyuhan.netlify.app/posts/9793.html</loc>
     
     <lastmod>2024-11-06</lastmod>
     
@@ -1127,7 +1145,7 @@
   </url>
   
   <url>
-    <loc>https://zhangyuhan.netlify.app/posts/9793.html</loc>
+    <loc>https://zhangyuhan.netlify.app/posts/63341.html</loc>
     
     <lastmod>2024-11-06</lastmod>
     
@@ -3877,6 +3895,20 @@
     <priority>0.2</priority>
   </url>
   
+  <url>
+    <loc>https://zhangyuhan.netlify.app/tags/postgresql/</loc>
+    <lastmod>2025-08-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://zhangyuhan.netlify.app/tags/docker/</loc>
+    <lastmod>2025-08-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
 
   
   <url>
@@ -4357,6 +4389,13 @@
   
   <url>
     <loc>https://zhangyuhan.netlify.app/categories/Arc/git/gitlab/</loc>
+    <lastmod>2025-08-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://zhangyuhan.netlify.app/categories/Dev/docker/</loc>
     <lastmod>2025-08-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

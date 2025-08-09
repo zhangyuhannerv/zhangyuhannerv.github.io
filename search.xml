@@ -4,6 +4,35 @@
   
     
     <entry>
+      <title>docker相关命令</title>
+      <link href="/posts/13749.html"/>
+      <url>/posts/13749.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="Docker-Compose-命令大全"><a href="#Docker-Compose-命令大全" class="headerlink" title="Docker Compose 命令大全"></a>Docker Compose 命令大全</h2><h3 id="基础命令"><a href="#基础命令" class="headerlink" title="基础命令"></a>基础命令</h3><div class="table-container"><table><thead><tr><th>命令</th><th>说明</th></tr></thead><tbody><tr><td><code>docker-compose up</code></td><td>创建并启动所有服务（前台运行）</td></tr><tr><td><code>docker-compose up -d</code></td><td>后台启动服务</td></tr><tr><td><code>docker-compose down</code></td><td>停止并移除容器、网络、卷</td></tr><tr><td><code>docker-compose ps</code></td><td>查看服务运行状态</td></tr><tr><td><code>docker-compose logs</code></td><td>查看所有服务日志</td></tr><tr><td><code>docker-compose logs -f &lt;service&gt;</code></td><td>实时追踪指定服务日志</td></tr></tbody></table></div><h3 id="服务管理"><a href="#服务管理" class="headerlink" title="服务管理"></a>服务管理</h3><div class="table-container"><table><thead><tr><th>命令</th><th>说明</th></tr></thead><tbody><tr><td><code>docker-compose start &lt;service&gt;</code></td><td>启动已存在的服务容器</td></tr><tr><td><code>docker-compose stop &lt;service&gt;</code></td><td>停止服务容器</td></tr><tr><td><code>docker-compose restart &lt;service&gt;</code></td><td>重启服务</td></tr><tr><td><code>docker-compose pause/unpause &lt;service&gt;</code></td><td>暂停/恢复服务</td></tr><tr><td><code>docker-compose stats</code></td><td>查看服务资源使用</td></tr></tbody></table></div><h3 id="开发调试"><a href="#开发调试" class="headerlink" title="开发调试"></a>开发调试</h3><div class="table-container"><table><thead><tr><th>命令</th><th>说明</th></tr></thead><tbody><tr><td><code>docker-compose build</code></td><td>重建所有服务的镜像</td></tr><tr><td><code>docker-compose build --no-cache &lt;service&gt;</code></td><td>不带缓存构建指定服务</td></tr><tr><td><code>docker-compose exec &lt;service&gt; &lt;command&gt;</code></td><td>在运行中的容器执行命令<br><code>例：docker-compose exec app bash</code></td></tr><tr><td><code>docker-compose run --rm &lt;service&gt; &lt;command&gt;</code></td><td>一次性运行服务命令并自动清理</td></tr><tr><td><code>docker-compose up -d --build --force-recreate</code></td><td>强制重建服务（开发常用）</td></tr></tbody></table></div><h3 id="配置检查"><a href="#配置检查" class="headerlink" title="配置检查"></a>配置检查</h3><div class="table-container"><table><thead><tr><th>命令</th><th>说明</th></tr></thead><tbody><tr><td><code>docker-compose config</code></td><td>验证 compose 文件语法</td></tr><tr><td><code>docker-compose images</code></td><td>列出服务使用的镜像</td></tr><tr><td><code>docker-compose top</code></td><td>显示容器内运行的进程</td></tr><tr><td><code>docker-compose port &lt;service&gt; &lt;private-port&gt;</code></td><td>查看端口映射关系</td></tr></tbody></table></div><h3 id="高级操作"><a href="#高级操作" class="headerlink" title="高级操作"></a>高级操作</h3><div class="table-container"><table><thead><tr><th>命令</th><th>说明</th></tr></thead><tbody><tr><td><code>docker-compose pull</code></td><td>拉取服务依赖的镜像</td></tr><tr><td><code>docker-compose push</code></td><td>推送服务镜像到仓库</td></tr><tr><td><code>docker-compose scale &lt;service&gt;=&lt;num&gt;</code></td><td>扩展服务实例数量</td></tr><tr><td><code>docker-compose events</code></td><td>实时查看容器事件</td></tr></tbody></table></div><h3 id="资源清理"><a href="#资源清理" class="headerlink" title="资源清理"></a>资源清理</h3><div class="table-container"><table><thead><tr><th>命令</th><th>说明</th></tr></thead><tbody><tr><td><code>docker-compose down -v</code></td><td>同时删除数据卷</td></tr><tr><td><code>docker-compose down --rmi all</code></td><td>同时删除所有镜像</td></tr><tr><td><code>docker-compose down --remove-orphans</code></td><td>删除未在配置中定义的容器</td></tr></tbody></table></div><h3 id="多环境控制"><a href="#多环境控制" class="headerlink" title="多环境控制"></a>多环境控制</h3><div class="table-container"><table><thead><tr><th>命令</th><th>说明</th></tr></thead><tbody><tr><td><code>docker-compose -f docker-compose.prod.yml up</code></td><td>指定配置文件启动</td></tr><tr><td><code>docker-compose --env-file .env.prod up</code></td><td>指定环境变量文件</td></tr></tbody></table></div><h2 id="实用组合命令"><a href="#实用组合命令" class="headerlink" title="实用组合命令"></a>实用组合命令</h2>]]></content>
+      
+      
+      <categories>
+          
+          <category> Dev </category>
+          
+          <category> docker </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Dev </tag>
+            
+            <tag> docker </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>前端自定义下载功能</title>
       <link href="/posts/15793.html"/>
       <url>/posts/15793.html</url>
@@ -31,6 +60,37 @@
             <tag> base </tag>
             
             <tag> 前端自定义下载功能 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>docker安装postgresql</title>
+      <link href="/posts/53211.html"/>
+      <url>/posts/53211.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="1-建立docker-compose-yml"><a href="#1-建立docker-compose-yml" class="headerlink" title="1.建立docker-compose.yml"></a>1.建立docker-compose.yml</h2><figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">version:</span> <span class="string">&#x27;3.8&#x27;</span></span><br><span class="line"><span class="attr">services:</span></span><br><span class="line">  <span class="attr">postgres:</span></span><br><span class="line">    <span class="attr">image:</span> <span class="number">192.168</span><span class="number">.80</span><span class="number">.226</span><span class="string">:8080/template/postgres:15</span></span><br><span class="line">    <span class="attr">container_name:</span> <span class="string">postgres</span></span><br><span class="line">    <span class="attr">restart:</span> <span class="string">always</span></span><br><span class="line">    <span class="attr">environment:</span></span><br><span class="line">      <span class="attr">POSTGRES_USER:</span> <span class="string">intco</span></span><br><span class="line">      <span class="attr">POSTGRES_PASSWORD:</span> <span class="string">Yingke@2025</span></span><br><span class="line">      <span class="attr">POSTGRES_DB:</span> <span class="string">intco_dev</span></span><br><span class="line">    <span class="attr">ports:</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">&quot;5432:5432&quot;</span></span><br><span class="line">    <span class="attr">volumes:</span></span><br><span class="line">      <span class="bullet">-</span> <span class="string">/home/docker/postgresql/postgresql-data:/var/lib/postgresql/data</span></span><br></pre></td></tr></table></figure><h2 id="启动"><a href="#启动" class="headerlink" title="启动"></a>启动</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"></span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> Dev </category>
+          
+          <category> docker </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Dev </tag>
+            
+            <tag> postgresql </tag>
+            
+            <tag> docker </tag>
             
         </tags>
       
