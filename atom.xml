@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>ZhangYuhanのblog</title>
+  <title>Yuhanのblog</title>
   <icon>https://zhangyuhan.netlify.app/icon.png</icon>
   <subtitle>ಠ_ಠ</subtitle>
   <link href="https://zhangyuhan.netlify.app/atom.xml" rel="self"/>
   
   <link href="https://zhangyuhan.netlify.app/"/>
-  <updated>2025-08-09T03:46:52.473Z</updated>
+  <updated>2025-09-18T02:26:22.098Z</updated>
   <id>https://zhangyuhan.netlify.app/</id>
   
   <author>
@@ -17,11 +17,42 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>docker安装nexus</title>
+    <link href="https://zhangyuhan.netlify.app/posts/27330.html"/>
+    <id>https://zhangyuhan.netlify.app/posts/27330.html</id>
+    <published>2025-09-18T02:18:13.000Z</published>
+    <updated>2025-09-18T02:26:22.098Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;1-建立-env&quot;&gt;&lt;a href=&quot;#1-建立-env&quot; class=&quot;headerlink&quot; title=&quot;1.建立.env&quot;&gt;&lt;/a&gt;1.建立.env&lt;/h2&gt;&lt;figure class=&quot;highlight text&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td</summary>
+        
+      
+    
+    
+    
+    <category term="Dev" scheme="https://zhangyuhan.netlify.app/categories/Dev/"/>
+    
+    <category term="docker" scheme="https://zhangyuhan.netlify.app/categories/Dev/docker/"/>
+    
+    
+    <category term="Dev" scheme="https://zhangyuhan.netlify.app/tags/Dev/"/>
+    
+    <category term="docker" scheme="https://zhangyuhan.netlify.app/tags/docker/"/>
+    
+    <category term="nexus" scheme="https://zhangyuhan.netlify.app/tags/nexus/"/>
+    
+  </entry>
+  
+  <entry>
     <title>docker相关命令</title>
     <link href="https://zhangyuhan.netlify.app/posts/13749.html"/>
     <id>https://zhangyuhan.netlify.app/posts/13749.html</id>
     <published>2025-08-09T03:22:13.000Z</published>
-    <updated>2025-08-09T03:46:52.473Z</updated>
+    <updated>2025-09-18T02:27:00.303Z</updated>
     
     
       
@@ -86,7 +117,7 @@
     <link href="https://zhangyuhan.netlify.app/posts/53211.html"/>
     <id>https://zhangyuhan.netlify.app/posts/53211.html</id>
     <published>2025-08-09T03:12:13.000Z</published>
-    <updated>2025-08-09T03:46:52.469Z</updated>
+    <updated>2025-09-18T02:26:02.654Z</updated>
     
     
       
@@ -636,38 +667,6 @@
     <category term="nginx" scheme="https://zhangyuhan.netlify.app/tags/nginx/"/>
     
     <category term="docker安装nginx" scheme="https://zhangyuhan.netlify.app/tags/docker%E5%AE%89%E8%A3%85nginx/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>elasticsearch通过docker在mackbook m1安装</title>
-    <link href="https://zhangyuhan.netlify.app/posts/50662.html"/>
-    <id>https://zhangyuhan.netlify.app/posts/50662.html</id>
-    <published>2024-04-10T08:53:13.000Z</published>
-    <updated>2024-11-06T03:52:15.573Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;主要目的：安装elasticsearch和kibana，解决kibana无法连接elasticsearch导致server is not ready yet的问题&lt;/p&gt;
-&lt;h2 id=&quot;建立docker网络els&quot;&gt;&lt;a href=&quot;#建立docker网络els&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="Dev" scheme="https://zhangyuhan.netlify.app/categories/Dev/"/>
-    
-    <category term="elasticsearch" scheme="https://zhangyuhan.netlify.app/categories/Dev/elasticsearch/"/>
-    
-    
-    <category term="Dev" scheme="https://zhangyuhan.netlify.app/tags/Dev/"/>
-    
-    <category term="elasticsearch" scheme="https://zhangyuhan.netlify.app/tags/elasticsearch/"/>
-    
-    <category term="elasticsearch通过docker安装（适配macbook m1）" scheme="https://zhangyuhan.netlify.app/tags/elasticsearch%E9%80%9A%E8%BF%87docker%E5%AE%89%E8%A3%85%EF%BC%88%E9%80%82%E9%85%8Dmacbook-m1%EF%BC%89/"/>
     
   </entry>
   
